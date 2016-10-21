@@ -47,7 +47,7 @@ body {
 #banner {
 	width: 100%;
 	z-index: -1;
-	background-image: url(banner_copy.jpg);
+	background-image: url(images/banner.jpg);
 	font-family: 'Josefin Slab', serif;
 }
 
@@ -241,7 +241,7 @@ body {
 
 #pageEpisodes {
 	text-align: center;
-	background-image: url(studio.jpg);
+	background-image: url(images/studio.jpg);
 	background-attachment: fixed;
 	background-repeat: repeat;
 	background-size: contain;
