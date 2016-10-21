@@ -1,0 +1,50 @@
+[
+  {
+    "image": "book1.jpg",
+    "title": "The Violent Bear It Away",
+    "author": "Flannery O'Connor",
+    "year": "1960",
+    "teaser": "From the days of John the Baptist until now, the kingdom of heaven suffereth violence, and the violent bear it away.",
+    "reviewer": "Brendan Brown",
+    "review_title": "Flannery and Her Gothic Flapjacks: A Case Study",
+    "has_podcast": false,
+    "created": "Thu Sep 01 2016 00:00:00 GMT-0400 (EDT)",
+    "template": "review.html"
+  },
+  {
+    "image": "book2.jpg",
+    "title": "The Left Hand of Darkness",
+    "author": "Ursula K. Le Guin",
+    "year": "1969",
+    "teaser": "Light is the left hand of darkness, and darkness the right hand of light. Two are one, life and death.",
+    "reviewer": "Alex Johnson",
+    "review_title": "Kemmering and Shitting Your Pants: A Lefthanded Guide",
+    "has_podcast": true,
+    "created": "Thu Sep 01 2016 00:00:00 GMT-0400 (EDT)",
+    "template": "review.html"
+  },
+  {
+    "image": "book3.jpg",
+    "title": "Between the World and Me",
+    "author": "Ta-Nehisi Coates",
+    "year": "2015",
+    "teaser": "You must always remember that the sociology, the history, the economics, the graphs, the charts, the regressions all land, with great violence, upon the body.",
+    "reviewer": "Jake Wezker",
+    "review_title": "Just Because You're Between Two Buns Doesn't Mean You're a Sandwich",
+    "has_podcast": true,
+    "created": "Thu Sep 01 2016 00:00:00 GMT-0400 (EDT)",
+    "template": "review.html"
+  },
+  {
+    "image": "book4.jpg",
+    "title": "The Power and the Glory",
+    "author": "Graham Greene",
+    "year": "1940",
+    "teaser": "For thine is the kingdom, the power, and the glory, forever and ever, amen.",
+    "reviewer": "Clay Oppenheizer",
+    "review_title": "Graham Greene's Fascinating Peak Through a Guatemalan Gloryhole",
+    "has_podcast": true,
+    "created": "Thu Sep 01 2016 00:00:00 GMT-0400 (EDT)",
+    "template": "review.html"
+  }
+]

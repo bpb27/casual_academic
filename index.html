@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>The Casual Academic</title>
+		<!-- <meta name="description" content="All 25,000+ of Trump's tweets, instantly searchable"> -->
+		<!-- <meta name="Keywords" content="donald trump, twitter, tweets, archive, all tweets, realDonaldTrump, politics, hillary clinton, barack obama, president, presidential race, GOP, republican, democrat"/> -->
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Lora" rel="stylesheet">
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
+	</head>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.js"></script>
+	<script src="app.js"></script>
+	<body ng-app="myApp" >
+		<div id="navbar">
+			<div id="navbar-left">
+				<a ng-href="#/">The Casual Academic</a>
+			</div>
+			<div id="navbar-right">
+				<a>Authors</a>
+				<a href="#/episodes">Podcast</a>
+				<a>About</a>
+			</div>
+		</div>
+		<div ng-view class="view-frame"></div>
+	</body>
+</html>

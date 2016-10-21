@@ -1,0 +1,35 @@
+<div ng-controller="homeCtrl" id="page-home" class="page">
+  <div id="banner">
+    <div class="typewriter">
+      <h1>The Casual Academic</h1>
+    </div>
+  </div>
+  <div id="bookshelf">
+      <div ng-repeat="book in data" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false, $event)" ng-click="goTo(book)">
+        <!-- <img ng-if="book.has_podcast" src="headphones.png" class="podcast-icon"> -->
+        <div class="flipside" ng-show="book.flip">
+          <div class="review-title">{{book.review_title}}</div>
+          <div class="review-reviewer">by {{book.reviewer}} ({{book.created | date : 'mediumDate' }})</div>
+          <div class="review-teaser">{{book.teaser}}</div>
+        </div>
+        <img ng-src="{{book.image}}" class="bookcover">
+      </div>
+  </div>
+  <div id="home-links">
+    <a>Podcast Episodes</a>
+    <a>Book Reviews</a>
+    <a>Episodes + Reviews</a>
+  </div>
+  <div id="about">Literature podcast for the casual academic. Based in Madrid, Spain. We dive deeper into the books we read, and provide a literary discussion that won't cost you $60,000 and lifelong, soul-crushing debt. That being said, we take no responsibility for your education...</div>
+  <div id="events">
+    <h1>Up next...</h1>
+    <div class="event">
+      <div class="event-date">October 31st, 2016</div>
+      <div class="event-cover"><img src="book5.png" class="shadow"/></div>
+    </div>
+    <div class="event">
+      <div class="event-date">October 15th, 2016</div>
+      <div class="event-cover"><img src="book6.jpg" class="shadow" /></div>
+    </div>
+  </div>
+</div>
