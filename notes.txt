@@ -1,0 +1,13 @@
+Questions for the group:
+  - General presentation
+  - Should we have the reviews at the forefront, with a badge to show whether it's also a podcast?
+
+Things to include in the future:
+  - Programmatic textual analysis?
+  - Vocabulary of the day
+  - Some kind of author nexus
+
+For the reviews:
+  - Opening quote?
+  - Handful of images?
+  - Other cool features?

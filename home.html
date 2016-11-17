@@ -5,18 +5,18 @@
     </div>
   </div>
   <div id="bookshelf">
-      <div ng-repeat="book in data" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false, $event)" ng-click="goTo(book)">
+      <div ng-repeat="book in data track by $index" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false, $index)" ng-click="goTo(book)">
         <!-- <img ng-if="book.has_podcast" src="headphones.png" class="podcast-icon"> -->
-        <div class="flipside" ng-show="book.flip">
+        <div id="bookcover{{$index}}" class="flipside" ng-show="book.flip">
           <div class="review-title">{{book.review_title}}</div>
           <div class="review-reviewer">by {{book.reviewer}} ({{book.created | date : 'mediumDate' }})</div>
           <div class="review-teaser">{{book.teaser}}</div>
         </div>
-        <img ng-src="/images/{{book.image}}" class="bookcover">
+        <img ng-src="/images/{{book.cover_image}}" class="bookcover">
       </div>
   </div>
   <div id="home-links">
-    <a>Podcast Episodes</a>
+    <a href="#/episodes">Podcast Episodes</a>
     <a>Book Reviews</a>
     <a>Episodes + Reviews</a>
   </div>
@@ -25,11 +25,11 @@
     <h1>Up next...</h1>
     <div class="event">
       <div class="event-date">October 31st, 2016</div>
-      <div class="event-cover"><img src="/images/book5.png" class="shadow"/></div>
+      <div class="event-cover"><img src="/images/ficciones.jpg" class="shadow"/></div>
     </div>
     <div class="event">
       <div class="event-date">October 15th, 2016</div>
-      <div class="event-cover"><img src="/images/book6.jpg" class="shadow" /></div>
+      <div class="event-cover"><img src="/images/the_name_of_the_rose.jpg" class="shadow" /></div>
     </div>
   </div>
 </div>

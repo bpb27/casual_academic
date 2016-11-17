@@ -6,12 +6,19 @@
     <a href="https://soundcloud.com/thecasualacademic" target="_blank">Soundcloud</a>
   </div>
   <div id="soundcloud-player" ng-bind-html="embed"></div>
-  <div id ="listen-episodes">
-    <div class="shadow episode-list">
-      <div class="episode-list-header">Full Episodes</div>
-      <div ng-repeat="item in episodes">
-        <div><span class="play-button" ng-click="play(item.soundcloud)">&#9658</span> Episode {{item.episode}} - {{item.title}}</div>
-      </div>
+  <div id="soundcloud-close" ng-show="embed">
+    <span ng-click="close()">close</span>
+  </div>
+  <div id="episode-list">
+    <div ng-repeat="item in episodes | orderBy:'-'" class="episode">
+        <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
+        <div class="episode-info">
+          <div class="episode-topline">
+            <span class="play-button" ng-click="play(item.soundcloud)">&#9658</span>
+            <span class="episode-number">Episode {{item.episode}}</span>
+          </div>
+          <div class="episode-title">{{item.title}}</div>
+        </div>
     </div>
   </div>
 </div>

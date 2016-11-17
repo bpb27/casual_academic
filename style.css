@@ -18,6 +18,7 @@ body {
 	z-index: 1;
   font-size: 17px;
 	font-family: 'Josefin Slab', serif;
+	border-top: 2px solid rgb(105, 105, 105);
 }
 
 #navbar a {
@@ -235,29 +236,23 @@ body {
 	color: rgba(0, 0, 0, 0.85);
 }
 
-
-
-
-
 #pageEpisodes {
-	text-align: center;
-	background-image: url(images/studio.jpg);
-	background-attachment: fixed;
-	background-repeat: repeat;
-	background-size: contain;
-	height: 100vh;
+
 }
 
 #listen-links {
 	background-color: #353535;
 	padding: 30px;
 	border-bottom: 3px solid #ff5500;
+	text-align: center;
 	position: fixed;
 	width: 100%;
+	min-width: 700px;
 	top: 0;
 }
 
 #listen-links a {
+	transition: color 0.7s ease;
 	text-decoration: none;
 	margin: 0 20px;
 	font-size: 20px;
@@ -274,34 +269,64 @@ body {
 	margin-top: 80px;
 }
 
-.episode-list {
-	background-color: rgba(255, 255, 255, 0.86);
-	text-align: left;
-	display: inline-block;
-	padding: 30px;
-	margin-top: 30px;
-}
-
-.episode-list-header {
-	font-size: 2em;
+#soundcloud-close {
 	text-align: center;
-	margin-bottom: 20px;
-	border-bottom: 2px solid black;
-	padding-bottom: 5px;
 }
 
-.episode-list .ng-scope {
-	margin-bottom: 10px;
-}
-
-.episode-list .play-button {
-	background: rgba(255, 85, 0, 0.5);
-	padding: 3px 5px 3px 7px;
-	border-radius: 20px;
-	font-size: 15px;
-	display: inline-block;
-	margin-right: 10px;
+#soundcloud-close span {
+	background: #d64d4d;
+	padding: 1px 10px;
+	font-size: 14px;
+	color: #fde6e6;
+	letter-spacing: 3px;
+	border-radius: 3px;
 	cursor: pointer;
+}
+
+#episode-list {
+	padding: 20px;
+	text-align: center;
+	min-width: 700px;
+}
+
+.episode {
+	margin-bottom: 20px;
+}
+
+.episode-bookcover {
+	height: 300px;
+}
+
+.episode-topline {
+    font-size: 30px;
+    font-family: "Josefin Slab", serif;
+}
+
+.episode-topline .play-button {
+		transition: color 0.7s ease;
+		padding: 10px;
+		cursor: pointer;
+}
+
+.episode-topline .play-button:hover {
+    color: #ff5500;
+}
+
+.episode-info {
+		display: inline-block;
+		vertical-align: top;
+		width: 350px;
+		margin-left: 20px;
+		text-align: left;
+		margin-top: 60px;
+}
+
+.episode-title {
+    margin-top: 20px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    font-family: "Josefin Slab";
+		line-height: 28px;
 }
 
 .shadow {

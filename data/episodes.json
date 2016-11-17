@@ -1,56 +1,67 @@
 [
   {
     "episode": 1,
+    "cover_image": "death_in_venice.png",
     "soundcloud": 251522402,
     "title": "The Apollonian & Dionysian in Thomas Mann's \"Death In Venice\""
   },
   {
     "episode": 2,
+    "cover_image": "short_stories_franz_kafka.png",
     "soundcloud": 252613786,
     "title": "An Assortment of Franz Kafka"
   },
   {
     "episode": 3,
+    "cover_image": "a_movable_feast.jpg",
     "soundcloud": 257095726,
     "title": "Saudade & Memory in Ernest Hemingway's \"A Moveable Feast\""
   },
   {
     "episode": 4,
+    "cover_image": "ficciones.jpg",
     "soundcloud": 258329009,
     "title": "Narrative Pathways & Alternate Histories in Jorge Luis Borges' \"Fictions\""
   },
   {
     "episode": 5,
+    "cover_image": "moscow_to_the_end_of_the_line.jpg",
     "soundcloud": 260887633,
     "title": "The Russian Post-Modern Condition in Venedikt Erofeev's Moscow to the End of the Line"
   },
   {
     "episode": 6,
+    "cover_image": "disgrace.jpg",
     "soundcloud": 263172465,
     "title": "Borderlands, Self-Other and the Failure of Language in J.M. Coetzee's \"Disgrace\""
   },
   {
     "episode": 7,
+    "cover_image": "the_power_and_the_glory.jpg",
     "soundcloud": 265824571,
     "title": "The 20th Century Catholic Writer & Paradox in Graham Greene's \"The Power and The Glory\""
   },
   {
     "episode": 8,
+    "cover_image": "the_left_hand_of_darkness.jpg",
     "soundcloud": 268803127,
     "title": "Terra Incognita, Utopia and I & Thou in Ursula K. LeGuin's \"The Left Hand of Darkness\""
   },
   {
     "episode": 9,
+    "cover_image": "the_violent_bear_it_away.jpg",
     "soundcloud": 277379095,
     "title": "The Devil, The Gothic & Ignoring the Divine in O'Connor's \"The Violent Bear It Away\""
   },
   {
     "episode": 10,
+    "cover_image": "between_the_world_and_me.jpg",
     "soundcloud": 281364008,
     "title": "Ta-Nehisi Coates, James Baldwin & Richard Wright in \"Between The World & Me\""
   },
   {
     "episode": 11,
+    "cover_image": "the_name_of_the_rose.jpg",
     "soundcloud": 285751441,
     "title": "Semiotics, Sublimation and Inter-Textuality in Umberto Eco's \"The Name of the Rose\""
   }
