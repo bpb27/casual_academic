@@ -5,12 +5,18 @@
     </div>
   </div>
   <div id="bookshelf">
-      <div ng-repeat="book in data track by $index" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false, $index)" ng-click="goTo(book)">
-        <!-- <img ng-if="book.has_podcast" src="headphones.png" class="podcast-icon"> -->
+      <div ng-repeat="book in data" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false)">
         <div id="bookcover{{$index}}" class="flipside" ng-show="book.flip">
-          <div class="review-title">{{book.review_title}}</div>
-          <div class="review-reviewer">by {{book.reviewer}} ({{book.created | date : 'mediumDate' }})</div>
-          <div class="review-teaser">{{book.teaser}}</div>
+          <div class="book-author">{{book.author}}</div>
+          <div ng-show="book.has_podcast" class="book-option" ng-click="listen(book)">
+            <div class="book-option-header">Listen to our podcast:</div>
+            <div class="book-option-title">{{book.podcast.title}}</div>
+          </div>
+          <div ng-show="book.has_review" class="book-option" ng-click="listen(book)">
+            <div class="book-option-header">Read our review:</div>
+            <div class="book-option-title">{{book.review.title}}</div>
+          </div>
+          <div class="book-liner">"{{book.liner}}"</div>
         </div>
         <img ng-src="/images/{{book.cover_image}}" class="bookcover">
       </div>
@@ -18,7 +24,6 @@
   <div id="home-links">
     <a href="#/episodes">Podcast Episodes</a>
     <a>Book Reviews</a>
-    <a>Episodes + Reviews</a>
   </div>
   <div id="about">Literature podcast for the casual academic. Based in Madrid, Spain. We dive deeper into the books we read, and provide a literary discussion that won't cost you $60,000 and lifelong, soul-crushing debt. That being said, we take no responsibility for your education...</div>
   <div id="events">

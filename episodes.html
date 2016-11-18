@@ -1,4 +1,4 @@
-<div id="pageEpisodes" class="page" ng-controller="episodeCtrl">
+<div id="pageEpisodes" class="page" ng-controller="episodesCtrl">
   <div id="listen-links">
     <a href="https://itunes.apple.com/us/podcast/the-casual-academic/id1094830669?mt=2" target="_blank">iTunes</a>
     <a href="http://www.stitcher.com/podcast/the-casual-academic-2/the-casual-academic" target="_blank">Stitcher</a>
@@ -14,11 +14,19 @@
         <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
         <div class="episode-info">
           <div class="episode-topline">
-            <span class="play-button" ng-click="play(item.soundcloud)">&#9658</span>
-            <span class="episode-number">Episode {{item.episode}}</span>
+            <a ng-href="#/episodes/{{item.podcast.soundcloud}}"><span class="play-button">&#9658</span></a>
+            <span class="episode-number">Episode {{item.podcast.episode}}</span>
           </div>
-          <div class="episode-title">{{item.title}}</div>
+          <div class="episode-title">{{item.podcast.title}}</div>
         </div>
+    </div>
+  </div>
+  <div id="aside-list">
+    <div ng-repeat="item in asides" class="aside">
+      <div class="aside-topline">
+        <div class="play-button" ng-click="play(item.soundcloud)">&#9658</div>
+        <div class="aside-number"><u>Aside {{item.episode}}:</u> {{item.title}}</div>
+      </div>
     </div>
   </div>
 </div>

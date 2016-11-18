@@ -8,6 +8,9 @@ app.config(function ($routeProvider) {
         .when("/episodes", {
             templateUrl: "episodes.html"
         })
+        .when("/episodes/:episode", {
+            templateUrl: "episode.html"
+        })
         .when("/reviews/:template", {
             templateUrl: function (urlattr) {
                 return 'reviews/' + urlattr.template;
@@ -15,7 +18,7 @@ app.config(function ($routeProvider) {
         })
 });
 
-app.controller('homeCtrl', ['$scope', '$http', '$location', '$timeout', function ($scope, $http, $location, $timeout) {
+app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', function ($scope, $location, $timeout, EntryService) {
 
     window.scrollTo(0, 0)
 
@@ -27,29 +30,48 @@ app.controller('homeCtrl', ['$scope', '$http', '$location', '$timeout', function
         }, 250)
     }
 
-    $scope.goTo = function (book) {
+    $scope.read = function (book) {
         $location.path('/reviews/' + book.template);
     }
 
-    $http.get('./data/reviews.json').then(function (results) {
-        $scope.data = results.data.map(function (item, i) {
-            item['id'] = i;
-            item['flip'] = false;
-            item['created'] = new Date(item['created']);
-            return item;
-        });
+    $scope.listen = function (book) {
+        $location.path('/episodes/' + book.podcast.soundcloud);
+    }
 
+    EntryService.getEntries(function (results) {
+        var entries = results.slice(0);
+        $scope.data = entries.map(function (item) {
+            item['flip'] = false;
+            item['created_at_date'] = new Date(item['created_at']);
+            return item;
+        }).sort(function (a, b) {
+            if (a.created_at_date < b.created_at_date) return -1;
+            if (a.created_at_date > b.created_at_date) return 1;
+            return 0;
+        }).reverse().slice(0, 4)
     });
 
 }]);
 
-app.controller('episodeCtrl', ['$scope', '$http', '$sce', function ($scope, $http, $sce) {
+app.controller('episodesCtrl', ['$scope', '$sce', '$http', 'EntryService', function ($scope, $sce, $http, EntryService) {
 
-    window.scrollTo(0, 0)
+    window.scrollTo(0, 0);
 
     $scope.embed = '';
     $scope.episodes = [];
     $scope.asides = [];
+
+    EntryService.getEntries(function (entries) {
+        $scope.episodes = entries;
+    });
+
+    $http.get('./data/asides.json').then(function (results) {
+        $scope.asides = results.data.sort(function (a, b) {
+            if (a.episode < b.episode) return -1;
+            if (a.episode > b.episode) return 1;
+            return 0;
+        }).reverse();
+    });
 
     $scope.close = function () {
         $scope.embed = '';
@@ -59,13 +81,52 @@ app.controller('episodeCtrl', ['$scope', '$http', '$sce', function ($scope, $htt
         $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
     }
 
-    $http.get('./data/episodes.json').then(function (results) {
-        $scope.episodes = results.data;
-    });
+}]);
 
-    $http.get('./data/asides.json').then(function (results) {
-        $scope.asides = results.data;
-    });
+app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
+
+    window.scrollTo(0, 0);
+
+    $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+
+    $scope.episode = {};
+
+    EntryService.getEntry($routeParams.episode).then(function (entry) {
+        console.log(entry);
+        $scope.episode = entry;
+        $scope.$apply();
+    })
+
+}]);
+
+app.service('EntryService', ['$http', function ($http) {
+
+    this.loaded = [];
+
+    this.getEntries = function (successHandler) {
+        if (this.loaded.length) {
+            var copiedList = this.loaded.slice(0);
+            successHandler(copiedList);
+        } else {
+            $http.get('./data/entries.json').then(function (results) {
+                this.loaded = results.data;
+                successHandler(results.data);
+            }.bind(this));
+        }
+    }
+
+    this.getEntry = function (soundcloudId) {
+        return new Promise(function (callback) {
+            return this.getEntries(function (entries) {
+                var result = entries.filter(function (entry) {
+                    return entry.podcast.soundcloud === parseInt(soundcloudId);
+                });
+                callback(result[0]);
+            })
+        }.bind(this), function (error) {
+            console.log(error);
+        })
+    }
 
 }]);
 

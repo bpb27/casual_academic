@@ -86,7 +86,6 @@ body {
 	margin: 0 30px;
 	font-size: 12px;
 	text-align: left;
-	cursor: pointer;
 }
 
 #bookshelf .bookcover {
@@ -98,26 +97,40 @@ body {
 	position: absolute;
 	width: 100%;
 	padding: 2px;
-	background: rgb(244, 241, 228);
+	background: rgba(244, 241, 228, 0.93);
 	min-height: 400px;
-	cursor: pointer;
-	border: 2px solid black;
 }
 
-.flipside div {
-	margin: 10px;
+.book-author {
+    text-align: center;
+    font-size: 26px;
+    font-family: "Josefin Slab";
+    padding: 20px 0;
 }
 
-.flipside .review-title {
-  font-size: 18px;
-  font-weight: bold;
-	letter-spacing: 2px;
+.book-option {
+    padding: 10px;
+    font-size: 16px;
+		cursor: pointer;
 }
 
-.flipside .review-teaser {
-	margin-top: 20px;
-	font-size: 14px;
-	line-height: 30px;
+.book-option .book-option-header {
+	margin-bottom: 10px;
+	text-decoration: underline;
+}
+
+.book-option .book-option-title {
+	font-style: italic;
+}
+
+.book-liner {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-size: 14px;
 }
 
 #home-links {
@@ -237,7 +250,7 @@ body {
 }
 
 #pageEpisodes {
-
+	font-family: 'Josefin Slab', serif;
 }
 
 #listen-links {
@@ -257,7 +270,6 @@ body {
 	margin: 0 20px;
 	font-size: 20px;
 	letter-spacing: 3px;
-	font-family: 'Josefin Slab', serif;
 	color: #e0e0d8;
 }
 
@@ -284,9 +296,12 @@ body {
 }
 
 #episode-list {
-	padding: 20px;
-	text-align: center;
-	min-width: 700px;
+  padding: 20px;
+  text-align: center;
+  width: 63%;
+	min-width: 650px;
+  margin-top: 20px;
+  display: inline-block;
 }
 
 .episode {
@@ -299,34 +314,94 @@ body {
 
 .episode-topline {
     font-size: 30px;
-    font-family: "Josefin Slab", serif;
 }
 
-.episode-topline .play-button {
+.episode-topline a {
+    text-decoration: none;
+    color: black;
+}
+
+.play-button {
 		transition: color 0.7s ease;
 		padding: 10px;
 		cursor: pointer;
 }
 
-.episode-topline .play-button:hover {
+.play-button:hover {
     color: #ff5500;
 }
 
 .episode-info {
-		display: inline-block;
-		vertical-align: top;
-		width: 350px;
-		margin-left: 20px;
-		text-align: left;
-		margin-top: 60px;
+	display: inline-block;
+	vertical-align: top;
+	width: 350px;
+	margin-left: 20px;
+	text-align: left;
+	margin-top: 60px;
 }
 
 .episode-title {
-    margin-top: 20px;
+  margin-top: 20px;
+  font-size: 20px;
+  letter-spacing: 1px;
+	line-height: 28px;
+}
+
+#aside-list {
+  display: inline-block;
+  width: 31%;
+  vertical-align: top;
+  margin-top: 40px;
+}
+
+#aside-list .aside {
+
+}
+
+#aside-list .aside-number {
+	display: inline-block;
+	width: 80%;
+	vertical-align: top;
+}
+
+#aside-list .aside-topline {
+	font-size: 23px;
+	letter-spacing: 1px;
+	margin-bottom: 50px;
+}
+
+#aside-list .aside-topline .play-button {
+	display: inline-block;
+	padding: 0;
+}
+
+#single-episode {
+	font-family: 'Josefin Slab', serif;
+}
+
+#single-episode-info {
+    width: 40%;
+		padding: 3% 3% 0 6%;
+    margin-right: 8%;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 44px;
+}
+
+#single-episode-number {
+    text-decoration: underline;
+    margin-bottom: 30px;
+}
+
+#single-episode-hosts {
+    margin-top: 30px;
     font-size: 20px;
-    letter-spacing: 1px;
-    font-family: "Josefin Slab";
-		line-height: 28px;
+}
+
+#single-episode img.shadow {
+	width: 33%;
+	margin-top: 3%;
+	margin-bottom: 100px;
 }
 
 .shadow {
