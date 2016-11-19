@@ -353,8 +353,10 @@ body {
 #aside-list {
 	display: inline-block;
   top: 83px;
+	right: 0;
   width: 20%;
-	float: right;
+	height: 100vh;
+	position: fixed;
   vertical-align: top;
   padding-left: 15px;
   font-size: 14px;
@@ -374,6 +376,7 @@ body {
 
 #aside-list .aside {
   margin-bottom: 20px;
+	font-family: Lora;
 }
 
 #aside-list .aside div {
