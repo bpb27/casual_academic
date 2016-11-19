@@ -22,12 +22,11 @@
     </div>
   </div>
   <div id="aside-list">
+    <div id="aside-header">Asides:</div>
     <div ng-repeat="item in asides" class="aside">
-      <div class="aside-topline" ng-click="play(item.soundcloud)">
-        <span class="aside-play">&#9658;</span>
-        <span class="aside-number">Aside {{item.episode}}</span>
+      <div ng-click="play(item.soundcloud)">
+        {{item.title}}
       </div>
-      <div class="aside-title">{{item.title}}</div>
     </div>
   </div>
 </div>

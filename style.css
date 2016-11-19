@@ -300,10 +300,10 @@ body {
 
 #episode-list {
 	padding: 20px;
-	width: 70%;
+	width: 67%;
 	min-width: 650px;
 	margin-top: 20px;
-	margin-left: 2%;
+	margin-left: 5%;
 	display: inline-block;
 }
 
@@ -354,39 +354,37 @@ body {
 	display: inline-block;
   top: 83px;
   width: 20%;
-	height: 100%;
 	float: right;
   vertical-align: top;
   padding-left: 15px;
   font-size: 14px;
   background: #f4f3ff;
   padding: 20px;
-  -webkit-box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
-  box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
+  -webkit-box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
+  box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
+}
+
+#aside-header {
+    text-align: center;
+    font-size: 24px;
+    text-decoration: underline;
+    margin-bottom: 30px;
 }
 
 #aside-list .aside {
   margin-bottom: 20px;
 }
 
-#aside-list .aside-topline {
+#aside-list .aside div {
 	transition: color 0.7s ease;
-	font-size: 20px;
+	font-size: 17px;
+	letter-spacing: 1px;
 	cursor: pointer;
 }
 
-#aside-list .aside-topline:hover {
+#aside-list .aside div:hover {
 	color: #ff5500;
-}
-
-#aside-list .aside-topline .play-button {
-	padding-right: 5px;
-}
-
-#aside-list .aside-title {
-	line-height: 20px;
-	margin-top: 6px;
 }
 
 #single-episode {
