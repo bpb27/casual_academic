@@ -11,11 +11,11 @@ body {
 	position: fixed;
 	bottom: 0;
 	left: 0;
+	z-index: 5;
 	background-color: #353535;
 	color: white;
 	width: 100%;
 	padding: 15px 0;
-	z-index: 1;
   font-size: 17px;
 	font-family: 'Josefin Slab', serif;
 	border-top: 2px solid rgb(105, 105, 105);
@@ -142,6 +142,9 @@ body {
 	margin: 0 4%;
   text-decoration: underline;
 	cursor: pointer;
+	font-family: 'Josefin Slab';
+  color: black;
+  letter-spacing: 1px;
 }
 
 #about {
@@ -296,12 +299,12 @@ body {
 }
 
 #episode-list {
-  padding: 20px;
-  text-align: center;
-  width: 63%;
+	padding: 20px;
+	width: 70%;
 	min-width: 650px;
-  margin-top: 20px;
-  display: inline-block;
+	margin-top: 20px;
+	margin-left: 2%;
+	display: inline-block;
 }
 
 .episode {
@@ -334,10 +337,10 @@ body {
 .episode-info {
 	display: inline-block;
 	vertical-align: top;
-	width: 350px;
-	margin-left: 20px;
+	margin-left: 6%;
 	text-align: left;
 	margin-top: 60px;
+	width: 60%;
 }
 
 .episode-title {
@@ -348,31 +351,42 @@ body {
 }
 
 #aside-list {
-  display: inline-block;
-  width: 31%;
+	display: inline-block;
+  top: 83px;
+  width: 20%;
+	height: 100%;
+	float: right;
   vertical-align: top;
-  margin-top: 40px;
+  padding-left: 15px;
+  font-size: 14px;
+  background: #f4f3ff;
+  padding: 20px;
+  -webkit-box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
+  -moz-box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
+  box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.75);
 }
 
 #aside-list .aside {
-
-}
-
-#aside-list .aside-number {
-	display: inline-block;
-	width: 80%;
-	vertical-align: top;
+  margin-bottom: 20px;
 }
 
 #aside-list .aside-topline {
-	font-size: 23px;
-	letter-spacing: 1px;
-	margin-bottom: 50px;
+	transition: color 0.7s ease;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#aside-list .aside-topline:hover {
+	color: #ff5500;
 }
 
 #aside-list .aside-topline .play-button {
-	display: inline-block;
-	padding: 0;
+	padding-right: 5px;
+}
+
+#aside-list .aside-title {
+	line-height: 20px;
+	margin-top: 6px;
 }
 
 #single-episode {

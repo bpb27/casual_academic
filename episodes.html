@@ -14,7 +14,7 @@
         <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
         <div class="episode-info">
           <div class="episode-topline">
-            <a ng-href="#/episodes/{{item.podcast.soundcloud}}"><span class="play-button">&#9658</span></a>
+            <a ng-href="#/episodes/{{item.podcast.soundcloud}}"><span class="play-button">&#9658;</span></a>
             <span class="episode-number">Episode {{item.podcast.episode}}</span>
           </div>
           <div class="episode-title">{{item.podcast.title}}</div>
@@ -23,10 +23,11 @@
   </div>
   <div id="aside-list">
     <div ng-repeat="item in asides" class="aside">
-      <div class="aside-topline">
-        <div class="play-button" ng-click="play(item.soundcloud)">&#9658</div>
-        <div class="aside-number"><u>Aside {{item.episode}}:</u> {{item.title}}</div>
+      <div class="aside-topline" ng-click="play(item.soundcloud)">
+        <span class="aside-play">&#9658;</span>
+        <span class="aside-number">Aside {{item.episode}}</span>
       </div>
+      <div class="aside-title">{{item.title}}</div>
     </div>
   </div>
 </div>
