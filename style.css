@@ -3,10 +3,40 @@ body {
 	font-family: Lora;
 }
 
+
+/* Atomic Class */
+/* ************************************************************************** */
 .page {
 	padding-bottom: 80px;
 }
 
+.red-hov {
+	transition: color 1s ease;
+	color: black;
+}
+
+.red-hov:hover {
+	color: #a60000;;
+}
+
+.center {
+	text-align: center;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.shadow {
+	-webkit-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
+}
+/* ************************************************************************** */
+
+
+/* Navbar */
+/* ************************************************************************** */
 #navbar {
 	position: fixed;
 	bottom: 0;
@@ -15,10 +45,10 @@ body {
 	background-color: #353535;
 	color: white;
 	width: 100%;
-	padding: 15px 0;
-  font-size: 17px;
 	font-family: 'Josefin Slab', serif;
-	border-top: 2px solid rgb(105, 105, 105);
+	padding: 15px 0;
+	font-size: 20px;
+  letter-spacing: 1px;
 }
 
 #navbar a {
@@ -40,166 +70,145 @@ body {
 #navbar-right a {
 	padding: 0 12px;
 }
+/* ************************************************************************** */
 
-#page-home {
-	background-color: #f4f4f4;
-}
 
+/* Typewriter */
+/* ************************************************************************** */
 #banner {
 	width: 100%;
 	z-index: -1;
-	background-image: url(images/banner.jpg);
+	background-image: url('images/banner_copy.jpg');
 	font-family: 'Josefin Slab', serif;
 }
 
 .typewriter {
 	width: 100%;
-	padding-top: 100px;
 }
 
 .typewriter h1 {
+	transition: text-align 3 ease-out;
+	text-align: center;
 	overflow: hidden;
 	border-right: .15em solid black;
 	white-space: nowrap;
 	margin: 0 0;
-	letter-spacing: .2em;
+	letter-spacing: .1em;
+	font-weight: 100;
 	width: 100%;
 	padding-top: 20px;
 	padding-bottom: 10px;
 	padding-left: 13px;
 	background-color: rgba(255, 255, 255, 0.60);
-	font-size: 58px;
+	font-size: 4.5em;
   animation:
     typing 7.5s steps(40, end),
     blink-caret .75s step-end infinite;
 }
+/* ************************************************************************** */
+
+
+/* Home Page */
+/* ************************************************************************** */
+#page-home {
+	text-align: center;
+}
 
 #bookshelf {
-  text-align: center;
-	padding: 60px 0;
+	text-align: center;
+	vertical-align: bottom;
+	margin-top: 60px;
 }
 
-#bookshelf .book {
+#bookshelf div {
+	padding-bottom: 20px;
 	display: inline-block;
+	margin-left: -5px;
+}
+
+.book-cover {
+	height: 360px;
+	cursor: pointer;
+	z-index: 1;
+}
+
+.book-cover.shadow {
+	z-index: 2;
 	position: relative;
-	height: 400px;
-	margin: 0 30px;
-	font-size: 12px;
-	text-align: left;
 }
 
-#bookshelf .bookcover {
-	max-width: 100%;
-	max-height: 100%;
-}
-
-.flipside {
-	position: absolute;
-	width: 100%;
-	padding: 2px;
-	background: rgba(244, 241, 228, 0.93);
-	min-height: 400px;
-}
-
-.book-author {
-    text-align: center;
-    font-size: 26px;
-    font-family: "Josefin Slab";
-    padding: 20px 0;
+.book-info {
+	margin-top: 20px;
 }
 
 .book-option {
-    padding: 10px;
-    font-size: 16px;
-		cursor: pointer;
-}
-
-.book-option .book-option-header {
-	margin-bottom: 10px;
-	text-decoration: underline;
-}
-
-.book-option .book-option-title {
-	font-style: italic;
-}
-
-.book-liner {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    padding-right: 10px;
-    padding-bottom: 10px;
-    text-align: center;
-    font-size: 14px;
-}
-
-#home-links {
-	text-align: center;
-	font-size: 20px;
-}
-
-#home-links a {
-	margin: 0 4%;
-  text-decoration: underline;
+	padding: 10px;
+	font-size: 24px;
+	letter-spacing: 1px;
 	cursor: pointer;
-	font-family: 'Josefin Slab';
-  color: black;
-  letter-spacing: 1px;
+	display: inline-block;
+	color: black;
 }
 
-#about {
-	font-size: 20px;
-	font-size: 20px;
-  padding: 50px 15%;
-  line-height: 37px;
-  background-color: beige;
-  margin-top: 50px;
-  margin-bottom: 100px;
-	border-top: 2px solid black;
-	border-bottom: 2px solid black;
+#featured-review {
+	background: rgba(216, 216, 216, 0.93);
+	padding: 20px;
+	margin: 80px 0;
 }
 
-#events {
-  text-align: center;
-	font-family: 'Josefin Slab', serif;
+#featured-review hr {
+	visibility: hidden;
 }
 
-#events h1 {
-	margin-bottom: 50px;
-	font-size: 49px;
+#featured-info {
+	display: inline-block;
+	vertical-align: top;
 }
 
-#events .event {
+#featured-title {
+	font-size: 34px;
+  font-family: 'Josefin Slab';
+  padding: 20px;
+  background: rgb(255, 255, 255);
   display: inline-block;
-  width: 21%;
-  margin: 0 7%;
-  text-align: left;
-  vertical-align: top;
+  cursor: pointer;
 }
 
-#events .event-date {
+#featured-teaser {
+	display: inline-block;
+	width: 50%;
+	text-align: left;
+	vertical-align: top;
+	line-height: 33px;
+	padding: 30px;
+	background: rgba(255, 255, 255, 0.65);
+}
+
+#featured-teaser a {
+	padding: 0 10px;
+}
+
+#featured-review img {
+	width: 30%;
+	margin-right: 5%;
+}
+
+#upcoming img {
+  height: 400px;
+	margin: 40px;
+}
+
+#upcoming-banner {
+  font-size: 30px;
+  font-family: 'Josefin Slab';
 	text-decoration: underline;
-  font-size: 1.8em;
-  margin-bottom: 5px;
-	letter-spacing: 2px;
-	text-align: center;
 }
-
-#events .event-cover {
-    height: 400px;
-    text-align: center;
-}
-
-#events .event-cover img {
-  max-width: 100%;
-  max-height: 100%;
-}
+/* ************************************************************************** */
 
 
-
-
-
-#pageReview {
+/* Review Page */
+/* ************************************************************************** */
+#page-review {
 	background: #f8f8f8;
 }
 
@@ -243,17 +252,32 @@ body {
 	max-height: 330px;
 }
 
-
-#pageReview #review-text {
+#review-text {
 	width: 700px;
 	margin: 0 auto;
 	line-height: 33px;
 	font-size: 1.1em;
 	color: rgba(0, 0, 0, 0.85);
 }
+/* ************************************************************************** */
 
-#pageEpisodes {
+
+/* Podcasts Page */
+/* ************************************************************************** */
+#page-episodes-image {
+  position: fixed;
+  z-index: -1;
+  width: 100%;
+  opacity: 0.2;
+}
+
+#page-episodes {
 	font-family: 'Josefin Slab', serif;
+  /*background-image: url(./images/episode_page.jpg);
+  background-size: cover;
+  background-attachment: fixed;*/
+  text-align: center;
+  width: 100%;
 }
 
 #listen-links {
@@ -299,12 +323,15 @@ body {
 }
 
 #episode-list {
-	padding: 20px;
-	width: 67%;
+	width: 80%;
 	min-width: 650px;
 	margin-top: 20px;
-	margin-left: 5%;
 	display: inline-block;
+}
+
+.white-highlight {
+	padding: 10px;
+	background: white;
 }
 
 .episode {
@@ -316,7 +343,8 @@ body {
 }
 
 .episode-topline {
-    font-size: 30px;
+	font-size: 2em;
+	display: inline-block;
 }
 
 .episode-topline a {
@@ -326,7 +354,7 @@ body {
 
 .play-button {
 		transition: color 0.7s ease;
-		padding: 10px;
+		padding-right: 10px;
 		cursor: pointer;
 }
 
@@ -337,80 +365,52 @@ body {
 .episode-info {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: 6%;
+	margin-left: 3%;
 	text-align: left;
-	margin-top: 60px;
+	padding: 30px;
+	/*background: rgba(255, 255, 255, 0.71);*/
 	width: 60%;
 }
 
 .episode-title {
   margin-top: 20px;
-  font-size: 20px;
+  font-size: 2em;
   letter-spacing: 1px;
-	line-height: 28px;
+	line-height: 40px;
 }
 
-#aside-list {
-	display: inline-block;
-  top: 83px;
-	right: 0;
-  width: 20%;
-	height: 100vh;
-	position: fixed;
-  vertical-align: top;
-  padding-left: 15px;
-  font-size: 14px;
-  background: #f4f3ff;
-  padding: 20px;
-  -webkit-box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
-  -moz-box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
-  box-shadow: 4px 1px 15px 3px rgba(0,0,0,0.75);
+.episode-hosts {
+    margin-top: 20px;
+		font-size: 1em;
+		font-family: Lora;
+		display: inline-block;
 }
+/* ************************************************************************** */
 
-#aside-header {
-    text-align: center;
-    font-size: 24px;
-    text-decoration: underline;
-    margin-bottom: 30px;
-}
 
-#aside-list .aside {
-  margin-bottom: 20px;
-	font-family: Lora;
-}
-
-#aside-list .aside div {
-	transition: color 0.7s ease;
-	font-size: 17px;
-	letter-spacing: 1px;
-	cursor: pointer;
-}
-
-#aside-list .aside div:hover {
-	color: #ff5500;
-}
-
+/* Single Podcast Page */
+/* ************************************************************************** */
 #single-episode {
 	font-family: 'Josefin Slab', serif;
 }
 
 #single-episode-info {
-    width: 40%;
-		padding: 3% 3% 0 6%;
-    margin-right: 8%;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 44px;
+  width: 40%;
+	padding: 3% 3% 0 6%;
+  margin-right: 8%;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 44px;
 }
 
 #single-episode-number {
-    text-decoration: underline;
-    margin-bottom: 30px;
+  text-decoration: underline;
+  margin-bottom: 30px;
 }
 
 #single-episode-hosts {
-    margin-top: 30px;
-    font-size: 20px;
+  margin-top: 30px;
+  font-size: 20px;
 }
 
 #single-episode img.shadow {
@@ -419,24 +419,65 @@ body {
 	margin-bottom: 100px;
 }
 
-.shadow {
-	-webkit-box-shadow: 7px 7px 21px -1px rgba(0,0,0,0.75);
-	-moz-box-shadow: 7px 7px 21px -1px rgba(0,0,0,0.75);
-	box-shadow: 7px 7px 21px -1px rgba(0,0,0,0.75);
+#single-episode-further-reading li {
+	font-size: 15px;
+	font-family: Lora;
+	padding: 10px;
+}
+/* ************************************************************************** */
+
+
+/* About Page */
+/* ************************************************************************** */
+#about-page {
+	width: 50%;
+	margin: 0 auto;
 }
 
-.center {
+#about-page img {
+	position: fixed;
+	z-index: -1;
+	width: 100%;
+	top: 0;
+	left: 0;
+}
+
+.about-name {
+	background: rgba(149, 166, 255, 0.77);
+	padding: 10px;
+	font-size: 30px;
 	text-align: center;
+	font-family: 'Josefin Slab';
+	letter-spacing: 6px;
+	margin-top: 20px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	border-bottom: 3px solid white;
 }
 
-/* when hiding the picture */
-.ng-hide-add         { animation:0.5s lightSpeedOut ease; }
+.about-desc {
+	background: rgba(255, 255, 255, 0.71);
+	margin-bottom: 40px;
+	padding: 20px;
+	line-height: 32px;
+}
 
-/* when showing the picture */
-.ng-hide-remove      { animation:1s flipInY ease; }
+
+/* Angular Class Animations */
+/* ************************************************************************** */
+/*.ng-hide-add {
+	animation: 0.5s lightSpeedOut ease;
+}
+
+.ng-hide-remove {
+	animation: 1s flipInY ease;
+}*/
+/* ************************************************************************** */
 
 
-/* ANIMATIONS (FROM ANIMATE.CSS) ======================== */
+/* CSS Animations */
+/* ************************************************************************** */
+
 /* flip in */
 @keyframes flipInY {
   0% {

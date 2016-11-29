@@ -1,6 +1,9 @@
-Questions for the group:
-  - General presentation
-  - Should we have the reviews at the forefront, with a badge to show whether it's also a podcast?
+upcoming
+  season of migration to the north (dec)
+  the rings of Saturn
+social media links (on navbar, review page, sinngle episode page)
+update about with site description
+
 
 Things to include in the future:
   - Programmatic textual analysis?

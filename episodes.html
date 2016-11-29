@@ -1,4 +1,5 @@
-<div id="pageEpisodes" class="page" ng-controller="episodesCtrl">
+<img id="page-episodes-image" src="./images/podcast_page.jpg" />
+<div id="page-episodes" class="page" ng-controller="episodesCtrl">
   <div id="listen-links">
     <a href="https://itunes.apple.com/us/podcast/the-casual-academic/id1094830669?mt=2" target="_blank">iTunes</a>
     <a href="http://www.stitcher.com/podcast/the-casual-academic-2/the-casual-academic" target="_blank">Stitcher</a>
@@ -13,20 +14,14 @@
     <div ng-repeat="item in episodes | orderBy:'-'" class="episode">
         <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
         <div class="episode-info">
-          <div class="episode-topline">
-            <a ng-href="#/episodes/{{item.podcast.soundcloud}}"><span class="play-button">&#9658;</span></a>
-            <span class="episode-number">Episode {{item.podcast.episode}}</span>
+          <div class="episode-topline white-highlight">
+            <a ng-if="item.play_on_page" ng-click="play(item.soundcloud)"><span class="play-button">&#9658;</span></a>
+            <a ng-if="!item.play_on_page" ng-href="#/episodes/{{item.podcast.soundcloud}}"><span class="play-button">&#9658;</span></a>
+            <span class="episode-number">{{item.term}} {{item.podcast.episode}}</span>
           </div>
-          <div class="episode-title">{{item.podcast.title}}</div>
+          <div class="episode-title white-highlight">{{item.podcast.title}}</div>
+          <div class="episode-hosts">with {{item.podcast.hosts}} ({{item.created_at_date | date : "mediumDate"}})</div>
         </div>
-    </div>
-  </div>
-  <div id="aside-list">
-    <div id="aside-header">Asides:</div>
-    <div ng-repeat="item in asides" class="aside">
-      <div ng-click="play(item.soundcloud)">
-         {{item.title}}
-      </div>
     </div>
   </div>
 </div>
