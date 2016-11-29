@@ -388,5 +388,39 @@
       "title": ""
     },
     "year": "1936"
+  },
+  {
+    "author": "Edgar Allan Poe, Charlotte Perkins Gilman, Algernon Blackwood, Ryunosuke Akutagawa and Kazuo Ishiguro",
+    "cover_image": "havana_notebook.png",
+    "created_at": "11-13-2016",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "Our favorite short creepy tales",
+    "podcast": {
+      "episode": 14,
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": 292893243,
+      "title": "Our Favorite Short Horror & Listener Recommendations",
+      "further_reading": [
+        "<li><a href='http://xroads.virginia.edu/~hyper/poe/cask.html'>“The Cask of Amontillado,”</a> by Edgar Allan Poe</li>",
+        "<li><a href='https://www.nlm.nih.gov/literatureofprescription/exhibitionAssets/digitalDocs/The-Yellow-Wall-Paper.pdf'>“The Yellow Wallpaper,”</a> by Charlotte Perkins Gilman</li>",
+        "<li><a href='http://algernonblackwood.org/Z-files/Willows.pdf'>“The Willows,”</a> by Algernon Blackwood</li>",
+        "<li><a href='https://archive.org/stream/RashomonAndOtherStories/RashomonAndOtherStories_djvu.txt'>“Rashomon and Other Stories,”</a> by Ryunosuke Akutagawa</li>",
+        "<li><a href='https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi9h_6suMbQAhWBahoKHY6jBaQQFggbMAA&url=http%3A%2F%2Fseas3.elte.hu%2Fcoursematerial%2FHarasztosAgnes%2FIshiguro%2C_A_Family_Supper.rtf&usg=AFQjCNEJRUV2MH_YxAPclXzuVH46bFqpAA&sig2=htRi8xeKZBN-lIInfY5L4A&bvm=bv.139782543,d.d2s'>“A Family Supper,”</a> by Kazuo Ishiguro</li>",
+        "<li>An impressive <a href='http://www.literaryhistory.com/19thC/Gilman.htm'>collection</a> of articles and books on Charlotte Perkins Gilman and her work</li>",
+        "<li>Perkins Gilman short 1913 article <a href='https://csivc.csi.cuny.edu/history/files/lavender/whyyw.html'>“Why I Wrote ‘The Yellow Wallpaper”</a></li>",
+        "<li>“Feminist Gothic in <a href='http://www.lonestar.edu/yellow-wallpaper.htm'>“The Yellow Wallpaper,”</a> Sarah L. Crowder. Lone Star College.</li>",
+        "<li>Almost <a href='http://algernonblackwood.org/'>all writings</a> by Algernon Blackwood</li>",
+        "<li>NPR rightly <a href='http://www.npr.org/2011/09/08/137295929/a-creepy-collection-of-supernatural-thrills'>recommending</a> Algernon Blackwood’s works for Halloween reads</li>",
+        "<li>Kate Mosse’s <a href='https://www.theguardian.com/books/2007/oct/27/featuresreviews.guardianreview32'>article</a> from The Guardian on why Algernon Blackwood is a neglected master of Horror fiction</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "2016"
   }
 ]
