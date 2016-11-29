@@ -2,36 +2,57 @@
   {
     "episode": 1,
     "soundcloud": 264607912,
-    "title": "A Bit About Ourselves"
+    "title": "A Bit About Ourselves",
+    "created_at": "05-17-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 2,
     "soundcloud": 266762562,
-    "title": "Sci-Fi, Ursula Le Guin, an introduction to our guest Clay Oppenhuizen"
+    "title": "Sci-Fi, Ursula Le Guin, an introduction to our guest Clay Oppenhuizen",
+    "created_at": "05-31-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 3,
     "soundcloud": 270041137,
-    "title": "Southern Gothic & Listener Questions"
+    "title": "Southern Gothic & Listener Questions",
+    "created_at": "06-20-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 4,
     "soundcloud": 271270873,
-    "title": "News and Summer Reading Preview"
+    "title": "News and Summer Reading Preview",
+    "created_at": "6-28-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 5,
     "soundcloud": 276097295,
-    "title": "Fall Reads, Speculative Fiction & Thomas Ligotti"
+    "title": "Fall Reads, Speculative Fiction & Thomas Ligotti",
+    "created_at": "07-30-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 5.2,
     "soundcloud": 277501660,
-    "title": "The Book Review Draft"
+    "title": "The Book Review Draft",
+    "created_at": "08-09-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   },
   {
     "episode": 6,
     "soundcloud": 283646898,
-    "title": "University of Chicago, Academia and Previewing Eco's \"The Name of the Rose\""
+    "title": "University of Chicago, Academia and Previewing Eco's \"The Name of the Rose\"",
+    "created_at": "09-19-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
+  },
+  {
+    "episode": 7,
+    "soundcloud": 283646898,
+    "title": "Ligotti, Lovecraft, and the Spectral History of the American Novel",
+    "created_at": "10-11-2016",
+    "hosts": "Alex Johnson and Jacob Welcker"
   }
 ]

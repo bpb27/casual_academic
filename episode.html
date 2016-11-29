@@ -1,9 +1,10 @@
-<div id="single-episode" ng-controller="singleEpisodeCtrl">
+<div id="single-episode" class="page" ng-controller="singleEpisodeCtrl">
   <div ng-bind-html="embed"></div>
   <div id="single-episode-info">
     <div id="single-episode-number">Episode {{episode.podcast.episode}}</div>
     <div id="single-episode-title">{{episode.podcast.title}}</div>
     <div id="single-episode-hosts">with {{episode.podcast.hosts}} ({{episode.created_at}})</div>
+    <ul id="single-episode-further-reading" ng-bind-html="further_reading"></ul>
   </div>
   <img ng-src="/images/{{episode.cover_image}}" class="shadow" />
 </div>

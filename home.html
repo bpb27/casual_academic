@@ -1,40 +1,29 @@
 <div ng-controller="homeCtrl" id="page-home" class="page">
   <div id="banner">
     <div class="typewriter">
-      <h1>The Casual Academic</h1>
+      <h1 ng-style="bannerStyle">The Casual Academic</h1>
     </div>
   </div>
   <div id="bookshelf">
-      <div ng-repeat="book in data" class="book shadow" ng-mouseover="flip(book, true)" ng-mouseleave="flip(book, false)">
-        <div id="bookcover{{$index}}" class="flipside" ng-show="book.flip">
-          <div class="book-author">{{book.author}}</div>
-          <div ng-show="book.has_podcast" class="book-option" ng-click="listen(book)">
-            <div class="book-option-header">Listen to our podcast:</div>
-            <div class="book-option-title">{{book.podcast.title}}</div>
-          </div>
-          <div ng-show="book.has_review" class="book-option" ng-click="listen(book)">
-            <div class="book-option-header">Read our review:</div>
-            <div class="book-option-title">{{book.review.title}}</div>
-          </div>
-          <div class="book-liner">"{{book.liner}}"</div>
-        </div>
-        <img ng-src="/images/{{book.cover_image}}" class="bookcover">
-      </div>
-  </div>
-  <div id="home-links">
-    <a href="#/episodes">Podcast Episodes</a>
-    <a>Book Reviews</a>
-  </div>
-  <div id="about">Literature podcast for the casual academic. Based in Madrid, Spain. We dive deeper into the books we read, and provide a literary discussion that won't cost you $60,000 and lifelong, soul-crushing debt. That being said, we take no responsibility for your education...</div>
-  <div id="events">
-    <h1>Up next...</h1>
-    <div class="event">
-      <div class="event-date">October 31st, 2016</div>
-      <div class="event-cover"><img src="/images/ficciones.jpg" class="shadow"/></div>
+    <div ng-repeat="item in data" ng-click="choose(item)" ng-class="{selected: item.cover_image === book.cover_image}">
+      <img ng-src="/images/{{item.cover_image}}"  class="book-cover" ng-class="{shadow: item.cover_image === book.cover_image}">
     </div>
-    <div class="event">
-      <div class="event-date">October 15th, 2016</div>
-      <div class="event-cover"><img src="/images/the_name_of_the_rose.jpg" class="shadow" /></div>
+  </div>
+  <div class="book-info">
+    <div ng-show="book.has_podcast" class="book-option red-hov" ng-click="listen(book)"><u>Listen:</u> {{book.podcast.title}}</div>
+    <div ng-show="book.has_review" class="book-option red-hov" ng-click="read(book)"><u>Read:</u> {{book.review.title}}</div>
+  </div>
+  <div id="featured-review">
+    <div id="featured-info">
+      <div id="featured-title" class="red-hov" ng-click="read(featured)">FEATURED REVIEW: {{featured.review.title}} by {{featured.review.reviewer}}</div>
+      <hr>
+      <img ng-src="/images/{{featured.review.image}}" />
+      <div id="featured-teaser">{{featured.review.teaser}}...<a href="#/reviews/{{featured.review.template}}">(read more)</a></div>
     </div>
+  </div>
+  <div id="upcoming">
+    <div id="upcoming-banner">Up Next in December:</div>
+    <a href="https://en.wikipedia.org/wiki/Season_of_Migration_to_the_North" target="_blank"><img src="./images/season_of_migration_to_the_north.jpeg" class="shadow"/></a>
+    <a href="https://en.wikipedia.org/wiki/The_Rings_of_Saturn" target="_blank"><img src="./images/the_rings_of_saturn.jpg" class="shadow"/></a>
   </div>
 </div>
