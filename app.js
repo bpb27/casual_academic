@@ -126,6 +126,7 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
 
     EntryService.getEntry($routeParams.episode).then(function (entry) {
         var links = '';
+        entry.created_at_date = new Date(entry.created_at);
         entry.podcast.further_reading.forEach(function (item) { links += item });
         $scope.episode = entry;
         $scope.further_reading = $sce.trustAsHtml(links);

@@ -1,10 +1,15 @@
 <div id="single-episode" class="page" ng-controller="singleEpisodeCtrl">
-  <div ng-bind-html="embed"></div>
+  <div id="single-episode-soundcloud" ng-bind-html="embed"></div>
   <div id="single-episode-info">
     <div id="single-episode-number">Episode {{episode.podcast.episode}}</div>
     <div id="single-episode-title">{{episode.podcast.title}}</div>
-    <div id="single-episode-hosts">with {{episode.podcast.hosts}} ({{episode.created_at}})</div>
-    <ul id="single-episode-further-reading" ng-bind-html="further_reading"></ul>
+    <div id="single-episode-hosts">{{episode.podcast.hosts}} host this episode.</div>
+    <div id="single-episode-hosts">{{episode.created_at_date | date :  "longDate"}}</div>
+    <div id="single-episode-further-reading">
+      <div>Sources and Further Reading:</div>
+      <ul ng-bind-html="further_reading"></ul>
+    </div>
+
   </div>
   <img ng-src="/images/{{episode.cover_image}}" class="shadow" />
 </div>
