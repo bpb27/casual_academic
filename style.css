@@ -16,7 +16,7 @@ body {
 }
 
 .red-hov:hover {
-	color: #a60000;;
+	color: red;
 }
 
 .center {
@@ -90,7 +90,7 @@ body {
 #banner {
 	width: 100%;
 	z-index: -1;
-	background-image: url('images/banner_copy.jpg');
+	background-image: url('images/banner.jpg');
 	font-family: 'Josefin Slab', serif;
 }
 
@@ -129,8 +129,8 @@ body {
 #bookshelf {
 	text-align: center;
 	vertical-align: bottom;
-	margin-top: 60px;
-	height: 360px;
+	margin-top: 80px;
+	height: 382px;
 	overflow-y: hidden;
 }
 
@@ -157,7 +157,9 @@ body {
 
 .book-option {
 	padding: 10px;
-	font-size: 24px;
+	margin-bottom: 5px;
+	font-size: 32px;
+	font-family: 'Josefin Slab';
 	letter-spacing: 1px;
 	cursor: pointer;
 	display: inline-block;
@@ -458,7 +460,8 @@ body {
 }
 
 .about-name {
-	background: rgba(149, 166, 255, 0.77);
+	background: rgb(53, 53, 53);
+	color: white;
 	padding: 10px;
 	font-size: 30px;
 	text-align: center;

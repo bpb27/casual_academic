@@ -54,7 +54,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
             if (a.created_at_date < b.created_at_date) return -1;
             if (a.created_at_date > b.created_at_date) return 1;
             return 0;
-        }).reverse().slice(0, 5);
+        }).reverse();
         $scope.book = $scope.data[0];
     });
 
@@ -77,7 +77,7 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', 'EntryService', funct
         $scope.episodes = entries;
         $http.get('./data/asides.json').then(function (asides) {
             asides = asides.data.map(function (item) {
-                item['cover_image'] = 'bookcover1.png';
+                item['cover_image'] = 'havana_notebook.png';
                 item['created_at_date'] = new Date(item.created_at);
                 item['term'] = 'Aside';
                 item['play_on_page'] = true;
@@ -131,6 +131,12 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
         $scope.further_reading = $sce.trustAsHtml(links);
         $scope.$apply();
     })
+
+}]);
+
+app.controller('reviewCtrl', ['$scope', function ($scope) {
+
+    window.scrollTo(0, 0);
 
 }]);
 
