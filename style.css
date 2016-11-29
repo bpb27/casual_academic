@@ -45,16 +45,11 @@ body {
 	background-color: #353535;
 	color: white;
 	width: 100%;
+	min-width: 700px;
 	font-family: 'Josefin Slab', serif;
 	padding: 15px 0;
 	font-size: 20px;
   letter-spacing: 1px;
-}
-
-@media screen and (max-width: 600px) {
-    #navbar {
-        font-size: 2em;
-    }
 }
 
 #navbar a {
@@ -65,6 +60,17 @@ body {
 #navbar-left {
 	display: inline-block;
 	margin-left: 20px;
+}
+
+#navbar-icons {
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin-left: 20px;
+}
+
+#navbar-icons img {
+	height: 42px;
 }
 
 #navbar-right {
@@ -180,6 +186,7 @@ body {
   background: rgb(255, 255, 255);
   display: inline-block;
   cursor: pointer;
+	border-bottom: 2px solid black;
 }
 
 #featured-teaser {
@@ -282,16 +289,13 @@ body {
 
 #page-episodes {
 	font-family: 'Josefin Slab', serif;
-  /*background-image: url(./images/episode_page.jpg);
-  background-size: cover;
-  background-attachment: fixed;*/
   text-align: center;
   width: 100%;
 }
 
 #listen-links {
 	background-color: #353535;
-	padding: 30px;
+	padding: 24px;
 	border-bottom: 3px solid #ff5500;
 	text-align: center;
 	position: fixed;
@@ -304,7 +308,7 @@ body {
 	transition: color 0.7s ease;
 	text-decoration: none;
 	margin: 0 20px;
-	font-size: 20px;
+	font-size: 26px;
 	letter-spacing: 3px;
 	color: #e0e0d8;
 }
@@ -357,18 +361,18 @@ body {
 }
 
 .episode-topline a {
-    text-decoration: none;
-    color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .play-button {
-		transition: color 0.7s ease;
-		padding-right: 10px;
-		cursor: pointer;
+	transition: color 0.7s ease;
+	padding-right: 10px;
+	cursor: pointer;
 }
 
 .play-button:hover {
-    color: #ff5500;
+  color: #ff5500;
 }
 
 .episode-info {
@@ -377,7 +381,6 @@ body {
 	margin-left: 3%;
 	text-align: left;
 	padding: 30px;
-	/*background: rgba(255, 255, 255, 0.71);*/
 	width: 60%;
 }
 
@@ -389,10 +392,12 @@ body {
 }
 
 .episode-hosts {
-    margin-top: 20px;
-		font-size: 1em;
-		font-family: Lora;
-		display: inline-block;
+	margin-top: 20px;
+	font-size: 20px;
+	letter-spacing: 1px;
+	display: inline-block;
+	padding: 10px;
+	background: white;
 }
 /* ************************************************************************** */
 

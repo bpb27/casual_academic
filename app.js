@@ -168,11 +168,12 @@ app.service('EntryService', ['$http', function ($http) {
 app.directive("scrollpercent", function ($window) {
     return function (scope, element, attrs) {
         angular.element($window).bind("scroll", function () {
-            var p = Math.round(100 * (scrollY / (document.getElementById('review-header').scrollHeight + document.getElementById('review-text').scrollHeight - screen.availHeight + 30)));
-            if (p < 0) p = 0;
-            if (p > 100) p = 100;
-            document.getElementById('percentage').textContent = p + '%';
-            // scope.$apply();
+            if (document.getElementById('review-header')) {
+                var p = Math.round(100 * (scrollY / (document.getElementById('review-header').scrollHeight + document.getElementById('review-text').scrollHeight - screen.availHeight + 30)));
+                if (p < 0) p = 0;
+                if (p > 100) p = 100;
+                document.getElementById('percentage').textContent = p + '%';
+            }
         });
     };
 });
