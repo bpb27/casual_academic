@@ -6,7 +6,7 @@
   </div>
   <div id="bookshelf">
     <div ng-repeat="item in data" ng-click="choose(item)" ng-class="{selected: item.cover_image === book.cover_image}">
-      <img ng-src="/images/{{item.cover_image}}"  class="book-cover" ng-class="{shadow: item.cover_image === book.cover_image}">
+      <img ng-src="/images/{{item.cover_image}}"  class="book-cover shadow-light">
     </div>
   </div>
   <div class="book-info">
