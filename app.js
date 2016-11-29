@@ -54,7 +54,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
             if (a.created_at_date < b.created_at_date) return -1;
             if (a.created_at_date > b.created_at_date) return 1;
             return 0;
-        }).reverse();
+        }).reverse().slice(0, 6);
         $scope.book = $scope.data[0];
     });
 
