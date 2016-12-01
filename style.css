@@ -297,10 +297,11 @@ body {
 /* ************************************************************************** */
 #page-episodes-image {
   position: fixed;
+	top: 0;
   z-index: -1;
   width: 100%;
   height: 100%;
-  opacity: 0.2;
+  opacity: 0.3;
 }
 
 #page-episodes {
@@ -359,8 +360,10 @@ body {
 }
 
 .white-highlight {
-	padding: 10px;
-	background: white;
+	padding: 5px 8px;
+	background: rgba(255, 255, 255, 0.96);
+	border-bottom: 3px solid rgba(0, 0, 0, 0.64);
+	border-right: 3px solid rgba(0, 0, 0, 0.64);
 }
 
 .episode {
@@ -372,23 +375,32 @@ body {
 }
 
 .episode-topline {
-	font-size: 2em;
+	font-size: 28px;
 	display: inline-block;
-}
-
-.episode-topline a {
-  text-decoration: none;
-  color: black;
+	cursor: pointer;
+	transition: color 0.7s ease;
 }
 
 .play-button {
-	transition: color 0.7s ease;
-	padding-right: 10px;
-	cursor: pointer;
+	padding-right: 5px;
+	transition: color 1.2s ease;
 }
 
-.play-button:hover {
-  color: #ff5500;
+.more-info {
+	max-width: 0px;
+  max-height: 28px;
+  display: inline-block;
+  vertical-align: bottom;
+  overflow: hidden;
+  transition: all 1.2s linear;
+}
+
+.episode-topline:hover .play-button {
+	color: #ff5500;
+}
+
+.episode-topline:hover .more-info {
+	max-width: 999px;
 }
 
 .episode-info {
@@ -402,7 +414,7 @@ body {
 
 .episode-title {
   margin-top: 20px;
-  font-size: 2em;
+  font-size: 28px;
   letter-spacing: 1px;
 	line-height: 40px;
 }
@@ -412,8 +424,6 @@ body {
 	font-size: 20px;
 	letter-spacing: 1px;
 	display: inline-block;
-	padding: 10px;
-	background: white;
 }
 /* ************************************************************************** */
 

@@ -66,7 +66,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
 
 }]);
 
-app.controller('episodesCtrl', ['$scope', '$sce', '$http', 'EntryService', function ($scope, $sce, $http, EntryService) {
+app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntryService', function ($scope, $sce, $http, $location, EntryService) {
 
     window.scrollTo(0, 0);
 
@@ -109,9 +109,13 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', 'EntryService', funct
         $scope.embed = '';
     }
 
-    $scope.play = function (id) {
-        $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
-        window.scrollTo(0, 0);
+    $scope.play = function (item) {
+        if (item.play_on_page) {
+            $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + item.soundcloud + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+            window.scrollTo(0, 0);
+        } else {
+            $location.path('/episodes/' + item.podcast.soundcloud);
+        }
     }
 
 }]);
