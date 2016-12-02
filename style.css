@@ -28,9 +28,7 @@ body {
 }
 
 .facebook-share-button {
-    width: 60px;
-    overflow-x: hidden;
-    display: inline-block;
+  display: inline-block;
 }
 
 .shadow {
