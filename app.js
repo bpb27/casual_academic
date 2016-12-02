@@ -123,9 +123,12 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
 
     window.scrollTo(0, 0);
+    document.querySelector("meta[property='og\\:title']").setAttribute('content', 'Butts4Lyfe')
 
-    $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+    $scope.autoplay = window.location.hostname !== 'localhost';
+    $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
     $scope.episode = {};
+    $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
     $scope.further_reading = '';
 
     EntryService.getEntry($routeParams.episode).then(function (entry) {
@@ -139,9 +142,10 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
 
 }]);
 
-app.controller('reviewCtrl', ['$scope', function ($scope) {
+app.controller('reviewCtrl', ['$scope', '$sce', function ($scope, $sce) {
 
     window.scrollTo(0, 0);
+    $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
 
 }]);
 

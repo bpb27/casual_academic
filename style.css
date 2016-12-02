@@ -27,6 +27,12 @@ body {
 	cursor: pointer;
 }
 
+.facebook-share-button {
+    width: 60px;
+    overflow-x: hidden;
+    display: inline-block;
+}
+
 .shadow {
 	-webkit-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
@@ -243,6 +249,11 @@ body {
 	background: #f8f8f8;
 }
 
+#page-review .facebook-share-button {
+	position: fixed;
+	padding: 10px 0 0 10px;
+}
+
 #percentage {
 	position: fixed;
 	right: 10px;
@@ -441,6 +452,10 @@ body {
   display: inline-block;
   vertical-align: top;
   font-size: 44px;
+}
+
+#single-episode-info .facebook-share-button {
+	float: right;
 }
 
 #single-episode-number {
