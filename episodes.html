@@ -14,13 +14,13 @@
     <div ng-repeat="item in episodes | orderBy:'-'" class="episode">
         <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
         <div class="episode-info">
-          <div class="episode-topline white-highlight" ng-click="play(item)">
+          <div class="episode-topline white-highlight shadow-lighter" ng-click="play(item)">
             <span class="play-button">&#9658;</span>
             <span class="episode-number">{{item.term}} {{item.podcast.episode}}</span>
             <span ng-if="!item.play_on_page" class="more-info">(plus sources and further reading)</span>
           </div>
-          <div class="episode-title white-highlight">{{item.podcast.title}}</div>
-          <div class="episode-hosts white-highlight">with {{item.podcast.hosts}} ({{item.created_at_date | date : "mediumDate"}})</div>
+          <div class="episode-title white-highlight shadow-lighter">{{item.podcast.title}}</div>
+          <div class="episode-hosts white-highlight shadow-lighter">with {{item.podcast.hosts}} ({{item.created_at_date | date : "mediumDate"}})</div>
         </div>
     </div>
   </div>

@@ -44,6 +44,14 @@ body {
 	-moz-box-shadow: 7px 7px 11px 2px rgba(0,0,0,0.75);
 	box-shadow: 7px 7px 11px 2px rgba(0,0,0,0.75);
 }
+
+.shadow-lighter {
+	-webkit-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	-moz-box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
+}
+
+
 /* ************************************************************************** */
 
 
@@ -373,8 +381,6 @@ body {
 .white-highlight {
 	padding: 5px 8px;
 	background: rgba(255, 255, 255, 0.96);
-	border-bottom: 3px solid rgba(0, 0, 0, 0.64);
-	border-right: 3px solid rgba(0, 0, 0, 0.64);
 }
 
 .episode {
