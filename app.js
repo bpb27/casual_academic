@@ -15,9 +15,7 @@ app.config(function ($routeProvider) {
             templateUrl: "episode.html"
         })
         .when("/reviews/:template", {
-            templateUrl: function (urlattr) {
-                return 'reviews/' + urlattr.template;
-            }
+            templateUrl: "review.html"
         })
 });
 
@@ -70,6 +68,7 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 
     window.scrollTo(0, 0);
 
+    $scope.autoplay = window.location.hostname !== 'localhost';
     $scope.embed = '';
     $scope.episodes = [];
 
@@ -111,7 +110,7 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 
     $scope.play = function (item) {
         if (item.play_on_page) {
-            $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + item.soundcloud + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+            $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + item.soundcloud + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
             window.scrollTo(0, 0);
         } else {
             $location.path('/episodes/' + item.podcast.soundcloud);
@@ -131,7 +130,7 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
     $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
     $scope.further_reading = '';
 
-    EntryService.getEntry($routeParams.episode).then(function (entry) {
+    EntryService.getEpisode($routeParams.episode).then(function (entry) {
         var links = '';
         entry.created_at_date = new Date(entry.created_at);
         entry.podcast.further_reading.forEach(function (item) { links += item });
@@ -142,16 +141,37 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
 
 }]);
 
-app.controller('reviewCtrl', ['$scope', '$sce', function ($scope, $sce) {
+app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
 
     window.scrollTo(0, 0);
+
     $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
+    $scope.review = {};
+
+    $scope.review = EntryService.getReview($routeParams.template).then(function (entry) {
+        $scope.review = entry.review;
+        $scope.template = '/reviews/' + entry.review.template;
+        $scope.$apply();
+    });
 
 }]);
 
 app.service('EntryService', ['$http', function ($http) {
 
     this.loaded = [];
+
+    this.get = function (prefix, identifier, variable) {
+        return new Promise(function (callback) {
+            return this.getEntries(function (entries) {
+                var result = entries.filter(function (entry) {
+                    return entry[prefix][identifier] === variable;
+                });
+                callback(result[0]);
+            })
+        }.bind(this), function (error) {
+            console.log(error);
+        })
+    }
 
     this.getEntries = function (successHandler) {
         if (this.loaded.length) {
@@ -165,17 +185,12 @@ app.service('EntryService', ['$http', function ($http) {
         }
     }
 
-    this.getEntry = function (soundcloudId) {
-        return new Promise(function (callback) {
-            return this.getEntries(function (entries) {
-                var result = entries.filter(function (entry) {
-                    return entry.podcast.soundcloud === parseInt(soundcloudId);
-                });
-                callback(result[0]);
-            })
-        }.bind(this), function (error) {
-            console.log(error);
-        })
+    this.getEpisode = function (soundcloudId) {
+        return this.get('podcast', 'soundcloud', soundcloudId);
+    }
+
+    this.getReview = function (template) {
+        return this.get('review', 'template', template);
     }
 
 }]);

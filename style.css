@@ -303,8 +303,9 @@ body {
 }
 
 #review-text {
-	width: 700px;
+	width: 50%;
 	margin: 0 auto;
+	margin-top: 70px;
 	line-height: 33px;
 	font-size: 1.1em;
 	color: rgba(0, 0, 0, 0.85);
