@@ -151,8 +151,8 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', 
 
     window.scrollTo(0, 0);
 
-    $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
     $scope.review = {};
+    $scope.url = 'thecasualacademic.com/' + window.location.pathname;
 
     $scope.review = EntryService.getReview($routeParams.template).then(function (entry) {
         $scope.review = entry.review;

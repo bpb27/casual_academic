@@ -251,7 +251,7 @@ body {
 	background: #f8f8f8;
 }
 
-#page-review .facebook-share-button {
+#review-facebook {
 	position: fixed;
 	padding: 10px 0 0 10px;
 }
@@ -458,10 +458,6 @@ body {
   display: inline-block;
   vertical-align: top;
   font-size: 44px;
-}
-
-#single-episode-info .facebook-share-button {
-	float: right;
 }
 
 #single-episode-number {
