@@ -43,7 +43,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
     }
 
     $scope.read = function (book) {
-        $location.path('/reviews/' + book.review.template);
+        $location.path('/reviews/' + book.review.template.split('.')[0]);
     }
 
     EntryService.getEntries(function (results) {
@@ -154,7 +154,7 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', 
     $scope.review = {};
     $scope.url = 'thecasualacademic.com/' + window.location.pathname;
 
-    $scope.review = EntryService.getReview($routeParams.template).then(function (entry) {
+    $scope.review = EntryService.getReview($routeParams.template + '.html').then(function (entry) {
         $scope.review = entry.review;
         $scope.template = '/reviews/' + entry.review.template;
         $scope.$apply();
