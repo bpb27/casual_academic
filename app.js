@@ -1,6 +1,6 @@
-var app = angular.module('myApp', ['ngRoute', 'ngAnimate']);
+var app = angular.module('myApp', ['ngRoute', 'ngAnimate', 'djds4rce.angular-socialshare']);
 
-app.config(function ($routeProvider) {
+app.config(function ($routeProvider, $locationProvider) {
     $routeProvider
         .when("/", {
             templateUrl: "home.html"
@@ -16,7 +16,13 @@ app.config(function ($routeProvider) {
         })
         .when("/reviews/:template", {
             templateUrl: "review.html"
-        })
+        });
+
+    $locationProvider.html5Mode(true).hashPrefix('!');
+});
+
+app.run(function ($FB) {
+    $FB.init('1785189578409909');
 });
 
 app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', function ($scope, $location, $timeout, EntryService) {
@@ -127,8 +133,8 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
     $scope.autoplay = window.location.hostname !== 'localhost';
     $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
     $scope.episode = {};
-    $scope.facebook_share = $sce.trustAsHtml('<iframe src="https://www.facebook.com/plugins/share_button.php?href=http%3A%2F%2F' + encodeURIComponent('thecasualacademic.com/' + window.location.hash) + '&layout=button_count&mobile_iframe=true&width=69&height=20&appId" width="69" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>');
     $scope.further_reading = '';
+    $scope.url = 'thecasualacademic.com/' + window.location.pathname;
 
     EntryService.getEpisode($routeParams.episode).then(function (entry) {
         var links = '';

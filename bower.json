@@ -1,0 +1,19 @@
+{
+  "name": "casual",
+  "version": "0.0.0",
+  "homepage": "https://github.com/bpb27/casual_academic",
+  "authors": [
+    "Brendan Brown <brendanbrown27@gmail.com>"
+  ],
+  "description": "books",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

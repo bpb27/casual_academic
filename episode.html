@@ -1,7 +1,7 @@
 <div id="single-episode" class="page" ng-controller="singleEpisodeCtrl">
   <div id="single-episode-soundcloud" ng-bind-html="embed"></div>
   <div id="single-episode-info">
-    <div class="facebook-share-button" ng-bind-html="facebook_share"></div>
+    <div id="single-episode-facebook"><a facebook-feed-share class="facebookShare" data-url="{{url}}" data-shares='shares', data-description="{{episode.podcast.title}}">{{ shares }}</a></div>
     <div id="single-episode-number">Episode {{episode.podcast.episode}}</div>
     <div id="single-episode-title">{{episode.podcast.title}}</div>
     <div id="single-episode-hosts">{{episode.podcast.hosts}} host this episode.</div>
