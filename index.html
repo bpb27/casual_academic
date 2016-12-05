@@ -5,28 +5,30 @@
 		<title>The Casual Academic</title>
 		<meta name="description" content="We are here to laugh at the odds and live our lives so well that Death will tremble to take us.">
 		<meta name="Keywords" content="the casual academic, literature, books, podcast, literary articles, literary reviews, novels, vocabulary"/>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<base href="/">
 
-		<!-- You can use Open Graph tags to customize link previews. Learn more: https://developers.facebook.com/docs/sharing/webmasters -->
+		<!-- Open Graph tags to customize link previews -->
 		<meta property="og:url"           content="http://www.thecasualacademic.com" />
 		<meta property="og:type"          content="website" />
 		<meta property="og:title"         content="The Casual Academic" />
 		<meta property="og:description"   content="books are our jam" />
 		<meta property="og:image"         content="http://thecasualacademic.com/images/havana_notebook.png" />
 
-		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Lora" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="style.css">
 		<link rel="icon" type="image/png" sizes="96x96" href="/favicon.png">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Slab:400,700|Lora" rel="stylesheet">
+		<link rel='stylesheet' href="bower_components/angular-socialshare/angular-socialshare.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 	</head>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 	<script src="//ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular-route.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.0/angular-animate.js"></script>
+	<script src="bower_components/angular-socialshare/angular-socialshare.min.js"></script>
 	<script src="app.js"></script>
 	<body ng-app="myApp">
 		<div id="navbar">
 			<div id="navbar-left">
-				<div class="fb-like" data-href="http://www.thecasualacademic.com" data-layout="standard" data-action="like" data-show-faces="true"></div>
-				<a ng-href="#/">The Casual Academic</a>
+				<a href="/">The Casual Academic</a>
 			</div>
 			<div id="navbar-icons">
 				<a href="https://www.facebook.com/thecasualacademic/" target="_blank"><img src="./images/icons/facebook.svg"/></a>
@@ -36,8 +38,8 @@
 				<a href="https://www.instagram.com/thecasualacademic/" target="_blank"><img src="./images/icons/instagram.svg"/></a>
 			</div>
 			<div id="navbar-right">
-				<a href="#/episodes">Episodes</a>
-				<a href="#/about">About</a>
+				<a href="/episodes">Episodes</a>
+				<a href="/about">About</a>
 			</div>
 		</div>
 		<div ng-view class="view-frame"></div>

@@ -27,12 +27,6 @@ body {
 	cursor: pointer;
 }
 
-.facebook-share-button {
-  display: inline-block;
-	width: 58px;
-	overflow-x: hidden;
-}
-
 .shadow {
 	-webkit-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 7px 7px 21px 5px rgba(0,0,0,0.75);
@@ -450,6 +444,11 @@ body {
 /* ************************************************************************** */
 #single-episode {
 	font-family: 'Josefin Slab', serif;
+}
+
+#single-episode-facebook .facebookShare {
+	font-size: initial;
+	float: right;
 }
 
 #single-episode-info {
