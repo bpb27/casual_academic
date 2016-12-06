@@ -544,6 +544,13 @@ body {
   margin-top: -5px;
 }
 
+.about-blocks .about-name {
+	font-family: 'Josefin Slab';
+  text-decoration: underline;
+  font-size: 40px;
+  letter-spacing: 2px;
+}
+
 .about-blocks span {
 	font-weight: 700;
 }
