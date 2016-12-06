@@ -14,11 +14,11 @@
     <div ng-show="book.has_review" class="book-option red-hov" ng-click="read(book)"><u>Read:</u> {{book.review.title}}</div>
   </div>
   <div id="featured-review">
-    <div id="featured-info">
-      <div id="featured-title" class="red-hov" ng-click="read(featured)">FEATURED REVIEW: {{featured.review.title}} by {{featured.review.reviewer}}</div>
-      <hr>
-      <img ng-src="/images/{{featured.review.image}}" class="shadow"/>
-      <div id="featured-teaser">{{featured.review.teaser}}...<a href="/reviews/{{featured.review.template}}">(read more)</a></div>
+    <img ng-src="/images/{{featured.review.image}}" class="shadow"/>
+    <div id="featured-info" ng-click="read(featured)">
+      <div id="featured-header">FEATURED ARTICLE:</div>
+      <div id="featured-title">{{featured.review.title}} by {{featured.review.reviewer}}</div>
+      <div id="featured-teaser">{{featured.review.teaser}}...</div>
     </div>
   </div>
   <div id="upcoming">
