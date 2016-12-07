@@ -6,7 +6,7 @@
     <div id="single-episode-title">{{episode.podcast.title}}</div>
     <div id="single-episode-hosts">{{episode.podcast.hosts}} host this episode.</div>
     <div id="single-episode-hosts">{{episode.created_at_date | date :  "longDate"}}</div>
-    <div id="single-episode-further-reading">
+    <div id="single-episode-further-reading" class="reading-text">
       <div>Sources and Further Reading:</div>
       <ul ng-bind-html="further_reading"></ul>
     </div>

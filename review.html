@@ -2,7 +2,7 @@
   <div id="review-facebook"><a facebook-feed-share class="facebookShare" data-url="{{url}}" data-shares='shares', data-description="{{review.title}}">{{ shares }}</a></div>
   <div style="width: 100%;height: 10px;"></div>
 
-  <span id="percentage">0%</span>
+  <span id="percentage" class="reading-text">0%</span>
 
   <div id="review-header" class="shadow">
     <div id="review-header-left">
@@ -14,7 +14,7 @@
     </div>
   </div>
 
-  <div ng-if="template" id="review-text">
+  <div ng-if="template" id="review-text" class="reading-text">
     <ng-include src="template"></ng-include>
   </div>
 

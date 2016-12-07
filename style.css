@@ -1,13 +1,27 @@
 body {
 	margin: 0;
-	font-family: Lora;
+	font-family: 'Josefin Slab', serif;
+	letter-spacing: 1px;
 }
 
 
 /* Atomic Class */
 /* ************************************************************************** */
+.center {
+	text-align: center;
+}
+
 .page {
 	padding-bottom: 80px;
+}
+
+.pointer {
+	cursor: pointer;
+}
+
+.reading-text {
+	font-family: Lora;
+	letter-spacing: 0px;
 }
 
 .red-hov {
@@ -17,14 +31,6 @@ body {
 
 .red-hov:hover {
 	color: red;
-}
-
-.center {
-	text-align: center;
-}
-
-.pointer {
-	cursor: pointer;
 }
 
 .shadow {
@@ -60,10 +66,8 @@ body {
 	color: white;
 	width: 100%;
 	min-width: 700px;
-	font-family: 'Josefin Slab', serif;
 	padding: 15px 0;
 	font-size: 20px;
-  letter-spacing: 1px;
 }
 
 #navbar a {
@@ -108,7 +112,6 @@ body {
 	width: 100%;
 	z-index: -1;
 	background-image: url('images/banner.jpg');
-	font-family: 'Josefin Slab', serif;
 }
 
 .typewriter {
@@ -128,7 +131,6 @@ body {
 	padding: 40px 0 40px 13px;
 	color: white;
 	font-weight: 700;
-	/*background-color: rgba(255, 255, 255, 0.60);*/
 	font-size: 7em;
   animation:
     typing 7.5s steps(40, end),
@@ -186,11 +188,6 @@ body {
 	box-shadow: 7px 7px 11px 2px rgba(0, 24, 109, 0.75);
 }
 
-.book-cover.shadow {
-	z-index: 2;
-	position: relative;
-}
-
 .book-info {
 	background: white;
 }
@@ -198,8 +195,6 @@ body {
 .book-option {
 	padding: 20px;
 	font-size: 32px;
-	font-family: 'Josefin Slab';
-	letter-spacing: 1px;
 	cursor: pointer;
 	display: inline-block;
 	color: black;
@@ -233,7 +228,6 @@ body {
 
 #featured-title {
 	font-size: 34px;
-  font-family: 'Josefin Slab';
   padding: 20px;
 	transition: color 1s ease;
 }
@@ -256,7 +250,6 @@ body {
 
 #upcoming-banner {
   font-size: 3em;
-  font-family: 'Josefin Slab';
 	text-decoration: underline;
 	padding-top: 25px;
 	background: white;
@@ -280,15 +273,12 @@ body {
 	right: 10px;
 	top: 10px;
 	font-size: 20px;
-	letter-spacing: 2px;
-	font-weight: bold;
 }
 
 #review-header {
 	margin: 40px;
 	background: white;
 	padding: 20px;
-	font-family: 'Josefin Slab', serif;
 	letter-spacing: 2px;
 }
 
@@ -342,7 +332,6 @@ body {
 }
 
 #page-episodes {
-	font-family: 'Josefin Slab', serif;
   text-align: center;
   width: 100%;
 }
@@ -466,7 +455,7 @@ body {
 /* Single Podcast Page */
 /* ************************************************************************** */
 #single-episode {
-	font-family: 'Josefin Slab', serif;
+
 }
 
 #single-episode-facebook .facebookShare {
@@ -512,7 +501,6 @@ body {
 
 #single-episode-further-reading li {
 	font-size: 15px;
-	font-family: Lora;
 	padding: 10px;
 }
 /* ************************************************************************** */
@@ -532,7 +520,6 @@ body {
 	text-align: center;
 	background: #1a1f4d;
 	color: white;
-	font-family: 'Josefin Slab';
 	margin: 0;
 	padding: 20px;
 	font-size: 46px;
@@ -549,22 +536,14 @@ body {
 }
 
 .about-blocks .about-name {
-	font-family: 'Josefin Slab';
   text-decoration: underline;
+	font-family: 'Josefin Slab', serif;
   font-size: 40px;
   letter-spacing: 2px;
 }
 
 .about-blocks span {
 	font-weight: 700;
-}
-
-.about-name {
-
-}
-
-.about-desc {
-
 }
 
 
