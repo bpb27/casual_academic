@@ -422,5 +422,29 @@
       "title": ""
     },
     "year": "2016"
+  },
+  {
+    "author": "Tayeb Salih",
+    "cover_image": "season_of_migration_to_the_north.jpg",
+    "created_at": "12-08-2016",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "Migration station",
+    "podcast": {
+      "episode": "15",
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": "296767619",
+      "title": "Ambiguity, Violence and the Postcolonial Condition in Season of Migration to the North",
+      "further_reading": [
+        "<li>Coming soon...</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "1966"
   }
 ]
