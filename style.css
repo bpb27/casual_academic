@@ -285,14 +285,17 @@ body {
 #review-header-left {
 	display: inline-block;
 	vertical-align: top;
-	width: 40%;
-	padding-left: 10%;
-	padding-top: 120px;
-	font-size: 2em;
+	width: 49%;
+	padding: 5%;
+	font-size: 1.7em;
 }
 
 #review-header-left h2, #review-header-left h5 {
 	margin: 0;
+}
+
+#review-header-left h5 {
+	margin-top: 20px;
 }
 
 #review-header-right {
@@ -302,7 +305,7 @@ body {
 }
 
 #review-header-right img {
-	max-height: 330px;
+	width: 100%;
 }
 
 #review-text {
