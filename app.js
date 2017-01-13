@@ -32,7 +32,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
-    $scope.featuredTitle = "A Primer to Borges";
+    $scope.featuredTitle = "Looking The Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\"";
 
     $scope.choose = function (item) {
         $scope.book = item;
