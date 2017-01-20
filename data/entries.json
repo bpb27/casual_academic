@@ -463,30 +463,32 @@
     "created_at": "1-20-2017",
     "has_podcast": true,
     "has_review": false,
-    "liner": "The Rings of Saturn",
+    "liner": "The Ring a Dings",
     "podcast": {
       "episode": "16",
       "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "296767619",
-      "title": "The Poetics of Suspension in \"The Rings of Saturn,\" and the greatness of W.G. Sebald",
+      "soundcloud": "303657758",
+      "title": "The Poetics of Suspension in \"The Rings of Saturn,\" and The Greatness of W.G. Sebald",
       "further_reading": [
-        "<li><a href=\"https://www.researchgate.net/publication/276836934_Moving_in_and_Out_of_Borders_Othello_Caliban_and_Conrad_in_Tayeb_Salih%27s_Season_of_Migration_to_the_North\" target=\"_blank\">“Moving in and Out of Borders: Othello, Caliban, and Conrad in Tayeb Salih’s Season of Migration to the North,”</a> Rajeev Pakte. Yale-NUS College, 2013.</li>",
-        "<li><a href=\"http://www.academicjournals.org/journal/IJEL/article-abstract/037154C3086\" target=\"_blank\">“Season of Migration to the North and the Story of the Sudanese Nation: Hopes and Impediments,”</a> Yahya Ali Abdullah Idriss. Journal of English and Literature Vol. 3, 2012.</li>",
-        "<li>“Tayeb Salih and Conrad,” Mohammad Shaheen. Comparative Literature Studies, 1985.</li>",
-        "<li><a href=\"https://journals.lib.unb.ca/index.php/IFR/article/view/14324\" target=\"_blank\">“Reinscribing Conrad: Tayeb Salih’s Season of Migration to the North,”</a> R.S. Krishnan. The International Fiction Review, 1996.</li>",
-        "<li><a href=\"http://www.academia.edu/3797850/The_Mimetic_Discourse_in_Tayeb_Salihs_Season_of_Migration_to_the_North\" target=\"_blank\">“The Mimetic Discourse in Tayeb Salih's Season of Migration to the North,”</a> W. Abdul-Jabbar. Rock Mountain Review, 2012.</li>",
-        "<li>“Cultural Hybridity and Contamination in Tayeb Salih's Mawsim al-hijra ila al-Shamal (Season of Migration to the North),” Patricia Geesey. Research in African Literatures, 1997.</li>",
-        "<li><a href=\"http://www.jasstudies.com/DergiPdfDetay.aspx?ID=2927\" target=\"_blank\">“Tayeb Salih’s Season of Migration to the North as a Postcolonial Text,”</a> Neslihan GÜNAYDIN. International Journal of Social Science, 2015.</li>",
-        "<li><a href=\"https://kuscholarworks.ku.edu/bitstream/handle/1808/16406/Caminero-SantageloB_ariel_30(4)7.pdf?sequence=1\" target=\"_blank\">“Legacies of Darkness: Neocolonialism, Joseph Conrad, and Tayeb Salih’s Season of Migration to the North,”</a> Byron Caminero-Santangelo. ARIEL, 1999.</li>",
-        "<li>“In Search of a Middle Point: The Origins of Oppression in Tayeb Salih's Season of Migration to the North,” John E. Davidson. Research in African Literatures, 1989.</li>",
-        "<li><a href=\"https://books.google.es/books/about/Planetary_Modernisms.html?id=z3AcCgAAQBAJ&redir_esc=y\" target=\"_blank\">Planetary Modernisms: Provocations on Modernity Across Time, Susan Stanford Friedman. Columbia University Press, 2016.</li>"
-  ]
-},
-"review": {
-  "reviewer": "",
-  "teaser": "",
-  "template": "",
-  "title": ""
-},
-"year": "1966"
-}
+        "<li><a href=\"http://www.newyorker.com/books/page-turner/why-you-should-read-w-g-sebald\" target=\"_blank\">“Why You Should Read W.G. Sebald,”</a> Mark O'Connell. The New Yorker, 2013.</li>",
+        "<li>“Writing at the Roche Limit: Order and Entropy in W.G. Sebald’s Die RInge des Saturn,” Richard T. Gray. The German Quarterly, 2010.</li>",
+        "<li>Michael Silverblatt’s <a href='http://www.kcrw.com/news-culture/shows/bookworm/w-g-sebald'>interview</a> with W.G. Sebald here, from KCRW’s Bookworm, 2001.</li>",
+        "<li>“‘Remembrance…Is Nothing Other than a Quotation’: The Intertextual Fictions of W.G. Sebald,” Ann Pearson. Comparative Literature Vol. 60, 2008.</li>",
+        "<li>“A Natural History of Destruction: W.G. Sebald’s ‘The Rings of Saturn,” Bianca Theisen. MLN Vol. 121, German Issue, 2006.</li>",
+        "<li>A series of interesting audio <a href='http://www.bbc.co.uk/programmes/b0180hh4'>“essays”</a> reflecting on the life and work of W.G. Sebald, provided by the BBC.</li>",
+        "<li>“An Interview with W.G. Sebald,” Sarah Kafatou. Harvard Review, 1998.</li>",
+        "<li>Susan Sontag’s wonderful <a href='http://www.coldbacon.com/writing/sontag-sebald.html'>article</a> on the greatness of W.G. Sebald, 2000.</li>",
+        "<li><a href=\"https://books.google.es/books?id=UGA0utFt7i4C&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Sir Thomas Browne: The World Proposed,</a> edited by Reid Barbour and Claire Preston. Oxford University Press, 2008.</li>",
+        "<li>A short <a href='https://www.youtube.com/watch?v=PYoIbYgcADw&feature=youtu.be'>interview</a> with W.G. Sebald and his use of photography in his works.</li>",
+        "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">-	Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
+        ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "1995"
+  }
+]
