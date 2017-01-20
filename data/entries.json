@@ -456,5 +456,37 @@
       "title": ""
     },
     "year": "1966"
-  }
-]
+  },
+  {
+    "author": "W.G. Sebald",
+    "cover_image": "the_rings_of_saturn.jpg",
+    "created_at": "1-20-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "The Rings of Saturn",
+    "podcast": {
+      "episode": "16",
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": "296767619",
+      "title": "The Poetics of Suspension in \"The Rings of Saturn,\" and the greatness of W.G. Sebald",
+      "further_reading": [
+        "<li><a href=\"https://www.researchgate.net/publication/276836934_Moving_in_and_Out_of_Borders_Othello_Caliban_and_Conrad_in_Tayeb_Salih%27s_Season_of_Migration_to_the_North\" target=\"_blank\">“Moving in and Out of Borders: Othello, Caliban, and Conrad in Tayeb Salih’s Season of Migration to the North,”</a> Rajeev Pakte. Yale-NUS College, 2013.</li>",
+        "<li><a href=\"http://www.academicjournals.org/journal/IJEL/article-abstract/037154C3086\" target=\"_blank\">“Season of Migration to the North and the Story of the Sudanese Nation: Hopes and Impediments,”</a> Yahya Ali Abdullah Idriss. Journal of English and Literature Vol. 3, 2012.</li>",
+        "<li>“Tayeb Salih and Conrad,” Mohammad Shaheen. Comparative Literature Studies, 1985.</li>",
+        "<li><a href=\"https://journals.lib.unb.ca/index.php/IFR/article/view/14324\" target=\"_blank\">“Reinscribing Conrad: Tayeb Salih’s Season of Migration to the North,”</a> R.S. Krishnan. The International Fiction Review, 1996.</li>",
+        "<li><a href=\"http://www.academia.edu/3797850/The_Mimetic_Discourse_in_Tayeb_Salihs_Season_of_Migration_to_the_North\" target=\"_blank\">“The Mimetic Discourse in Tayeb Salih's Season of Migration to the North,”</a> W. Abdul-Jabbar. Rock Mountain Review, 2012.</li>",
+        "<li>“Cultural Hybridity and Contamination in Tayeb Salih's Mawsim al-hijra ila al-Shamal (Season of Migration to the North),” Patricia Geesey. Research in African Literatures, 1997.</li>",
+        "<li><a href=\"http://www.jasstudies.com/DergiPdfDetay.aspx?ID=2927\" target=\"_blank\">“Tayeb Salih’s Season of Migration to the North as a Postcolonial Text,”</a> Neslihan GÜNAYDIN. International Journal of Social Science, 2015.</li>",
+        "<li><a href=\"https://kuscholarworks.ku.edu/bitstream/handle/1808/16406/Caminero-SantageloB_ariel_30(4)7.pdf?sequence=1\" target=\"_blank\">“Legacies of Darkness: Neocolonialism, Joseph Conrad, and Tayeb Salih’s Season of Migration to the North,”</a> Byron Caminero-Santangelo. ARIEL, 1999.</li>",
+        "<li>“In Search of a Middle Point: The Origins of Oppression in Tayeb Salih's Season of Migration to the North,” John E. Davidson. Research in African Literatures, 1989.</li>",
+        "<li><a href=\"https://books.google.es/books/about/Planetary_Modernisms.html?id=z3AcCgAAQBAJ&redir_esc=y\" target=\"_blank\">Planetary Modernisms: Provocations on Modernity Across Time, Susan Stanford Friedman. Columbia University Press, 2016.</li>"
+  ]
+},
+"review": {
+  "reviewer": "",
+  "teaser": "",
+  "template": "",
+  "title": ""
+},
+"year": "1966"
+}
