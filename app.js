@@ -166,7 +166,6 @@ app.controller('reviewsCtrl', ['$scope', '$location', 'EntryService', function (
 
     $scope.review = EntryService.getReviews(function (results) {
         $scope.reviews = results;
-        console.log(results);
     });
 
 }]);
