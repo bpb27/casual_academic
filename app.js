@@ -165,7 +165,14 @@ app.controller('reviewsCtrl', ['$scope', '$location', 'EntryService', function (
     }
 
     $scope.review = EntryService.getReviews(function (results) {
-        $scope.reviews = results;
+        $scope.reviews = results.map(function (item) {
+            item.review.created_at_date = new Date(item.review.created_at);
+            return item;
+        }).sort(function (a, b) {
+            if (a.review.created_at < b.review.created_at) return -1;
+            if (a.review.created_at > b.review.created_at) return 1;
+            return 0;
+        });
     });
 
 }]);

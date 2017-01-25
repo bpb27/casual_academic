@@ -20,9 +20,10 @@
       ]
     },
     "review": {
+      "created_at": "01-05-2017",
       "image": "review_image_death_in_venice.jpg",
       "reviewer": "A.S. Johnson",
-      "teaser": "“‘What do you charge for the ride?’ And, looking past him, the gondolier answered: ‘You will pay.’”",
+      "teaser": "As Socrates elevated the objective contemplation of beauty in his courting of dear Phaedrus ‘neath the willow tree, German philosopher Arthur Schopenhauer believed that the only way to escape this futile nightmare we call life is the release of",
       "template": "looking_beyond_the_beautiful.html",
       "title": "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\""
     },
@@ -111,6 +112,7 @@
       ]
     },
     "review": {
+      "created_at": "12-01-2016",
       "image": "review_image_borges.jpg",
       "reviewer": "Jacob Welcker",
       "teaser": "Perhaps due to the plethora of authors citing him as inspiration, or perhaps because of the infinite number of ways the world is currently baffling (i.e. Donald Trump), Jorge Luis Borges has become a permanent blinking dot on the public’s radar.  There have been pieces on Borges and Borgesian concepts",
