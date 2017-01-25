@@ -1,13 +1,15 @@
-<img id="page-episodes-image" src="./images/podcast_page.jpg" />
-<div id="page-episodes" class="page" ng-controller="reviewsCtrl">
-  <div id="episode-list">
-    <div ng-repeat="item in reviews | orderBy:'-'" class="episode">
-        <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />
-        <div class="episode-info">
-          <div class="episode-title white-highlight shadow-lighter" ng-click="read(item)">{{item.review.title}}</div>
-          <div class="episode-hosts white-highlight shadow-lighter">by {{item.review.author}} ({{item.created_at_date | date : "mediumDate"}})</div>
-          <div class="episode-hosts white-highlight shadow-lighter">{{item.review.teaser}}</div>
+
+<div id="page-reviews" class="page" ng-controller="reviewsCtrl">
+  <div class="black-line"></div>
+  <div id="reviews-list">
+    <div ng-repeat="item in reviews | orderBy:'-'" class="review-entry" ng-class-odd="'odd'" ng-class-even="'even'">
+        <img ng-src="/images/{{item.cover_image}}" class="review-bookcover bookcover-left"/>
+        <div class="review-info">
+          <div class="review-title white-highlight pointer red-hov" ng-click="read(item)">{{item.review.title}}</div>
+          <div class="review-author white-highlight">by {{item.review.reviewer}} ({{item.created_at_date | date : "mediumDate"}})</div>
+          <div class="review-teaser white-highlight shadow-lighter">{{item.review.teaser}} <span class="pointer red-hov" ng-click="read(item)">(read more...)</span></div>
         </div>
+        <img ng-src="/images/{{item.cover_image}}" class="review-bookcover bookcover-right"/>
     </div>
   </div>
 </div>
