@@ -14,6 +14,9 @@ app.config(function ($routeProvider, $locationProvider) {
         .when("/episodes/:episode", {
             templateUrl: "episode.html"
         })
+        .when("/reviews", {
+            templateUrl: "reviews.html"
+        })
         .when("/reviews/:template", {
             templateUrl: "review.html"
         });
@@ -151,6 +154,22 @@ app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntrySer
 
 }]);
 
+app.controller('reviewsCtrl', ['$scope', '$location', 'EntryService', function ($scope, $location, EntryService) {
+
+    window.scrollTo(0, 0);
+
+    $scope.reviews = [];
+
+    $scope.read = function (item) {
+        $location.path('/reviews/' + item.review.template.replace('.html', ''));
+    }
+
+    $scope.review = EntryService.getReviews(function (results) {
+        $scope.reviews = results;
+    });
+
+}]);
+
 app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
 
     window.scrollTo(0, 0);
@@ -201,6 +220,15 @@ app.service('EntryService', ['$http', function ($http) {
 
     this.getReview = function (template) {
         return this.get('review', 'template', template);
+    }
+
+    this.getReviews = function (successHandler) {
+        this.getEntries(function (results) {
+            var reviews = results.filter(function (item) {
+                return item.review.template;
+            });
+            successHandler(reviews);
+        })
     }
 
 }]);
