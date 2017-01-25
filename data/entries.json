@@ -24,7 +24,7 @@
       "reviewer": "A.S. Johnson",
       "teaser": "“‘What do you charge for the ride?’ And, looking past him, the gondolier answered: ‘You will pay.’”",
       "template": "looking_beyond_the_beautiful.html",
-      "title": "Looking The Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\""
+      "title": "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\""
     },
     "year": "1912"
   },
@@ -456,5 +456,39 @@
       "title": ""
     },
     "year": "1966"
+  },
+  {
+    "author": "W.G. Sebald",
+    "cover_image": "the_rings_of_saturn_2.jpg",
+    "created_at": "1-20-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "The Ring a Dings",
+    "podcast": {
+      "episode": "16",
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": "303657758",
+      "title": "The Poetics of Suspension in \"The Rings of Saturn\" and The Greatness of W.G. Sebald",
+      "further_reading": [
+        "<li><a href=\"http://www.newyorker.com/books/page-turner/why-you-should-read-w-g-sebald\" target=\"_blank\">“Why You Should Read W.G. Sebald,”</a> Mark O'Connell. The New Yorker, 2013.</li>",
+        "<li>“Writing at the Roche Limit: Order and Entropy in W.G. Sebald’s Die RInge des Saturn,” Richard T. Gray. The German Quarterly, 2010.</li>",
+        "<li>Michael Silverblatt’s <a href=\"http://www.kcrw.com/news-culture/shows/bookworm/w-g-sebald\" target=\"_blank\">interview</a> with W.G. Sebald here, from KCRW’s Bookworm, 2001.</li>",
+        "<li>“‘Remembrance…Is Nothing Other than a Quotation’: The Intertextual Fictions of W.G. Sebald,” Ann Pearson. Comparative Literature Vol. 60, 2008.</li>",
+        "<li>“A Natural History of Destruction: W.G. Sebald’s ‘The Rings of Saturn,” Bianca Theisen. MLN Vol. 121, German Issue, 2006.</li>",
+        "<li>A series of interesting audio <a href=\"http://www.bbc.co.uk/programmes/b0180hh4\" target=\"_blank\">“essays”</a> reflecting on the life and work of W.G. Sebald, provided by the BBC.</li>",
+        "<li>“An Interview with W.G. Sebald,” Sarah Kafatou. Harvard Review, 1998.</li>",
+        "<li>Susan Sontag’s wonderful <a href=\"http://www.coldbacon.com/writing/sontag-sebald.html\" target=\"_blank\">article</a> on the greatness of W.G. Sebald, 2000.</li>",
+        "<li><a href=\"https://books.google.es/books?id=UGA0utFt7i4C&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Sir Thomas Browne: The World Proposed,</a> edited by Reid Barbour and Claire Preston. Oxford University Press, 2008.</li>",
+        "<li>A short <a href=\"https://www.youtube.com/watch?v=PYoIbYgcADw&feature=youtu.be\" target=\"_blank\">interview</a> with W.G. Sebald and his use of photography in his works.</li>",
+        "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "1995"
   }
 ]

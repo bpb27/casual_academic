@@ -35,11 +35,15 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
-    $scope.featuredTitle = "Looking The Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\"";
+    $scope.featuredTitle = "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\"";
     // $scope.featuredTitle = "A Primer to Borges";
 
     $scope.choose = function (item) {
-        $scope.book = item;
+        if ($scope.book.created_at === item.created_at) {
+            $scope.listen(item);
+        } else {
+            $scope.book = item;
+        }
     }
 
     $scope.listen = function (book) {
@@ -132,7 +136,6 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
 
     window.scrollTo(0, 0);
-    document.querySelector("meta[property='og\\:title']").setAttribute('content', 'Butts4Lyfe')
 
     $scope.autoplay = window.location.hostname !== 'localhost';
     $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
