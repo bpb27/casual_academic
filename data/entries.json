@@ -4,7 +4,7 @@
     "cover_image": "death_in_venice.png",
     "created_at": "03-12-2016",
     "has_podcast": true,
-    "has_review": false,
+    "has_review": true,
     "liner": "Tadzio, sweet Tadzio!",
     "podcast": {
       "episode": "1",

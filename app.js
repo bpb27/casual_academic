@@ -35,7 +35,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
-    $scope.featuredTitle = "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\"";
+    $scope.featuredTitle = "Michael Chabon's Great American Novel";
     // $scope.featuredTitle = "A Primer to Borges";
 
     $scope.choose = function (item) {
