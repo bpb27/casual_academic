@@ -495,6 +495,20 @@
     "year": "1995"
   },
   {
+    "author": "Michael Chabon",
+    "cover_image": "michael_chabons_great_american_novel.jpg",
+    "created_at": "02-05-2017",
+    "has_podcast": false,
+    "has_review": true,
+    "liner": "Great Novels",
+    "podcast": {
+      "episode": "",
+      "hosts": "",
+      "soundcloud": "",
+      "title": "",
+      "further_reading": [
+      ]
+    },
     "review": {
       "created_at": "02-05-2017",
       "image": "chabon_article_image.jpg",
@@ -502,5 +516,6 @@
       "teaser": "In many ways, it is a novel that leaves nothing to be desired. And yet, while it was affecting, it was not shattering. It did not wreck anything within me or within the novel form. Because other novels have had an explosive impact on me, and these are the novels I continue to value, I have tried to figure out what could be missing from a novel so obviously perfect.",
       "template": "michael_chabons_great_american_novel.html",
       "title": "Michael Chabon's Great American Novel"
-  }
-  
+    },
+    "year": "2000"
+    }
