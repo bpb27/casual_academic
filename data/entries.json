@@ -496,7 +496,7 @@
   },
   {
     "author": "Michael Chabon",
-    "cover_image": "michael_chabons_great_american_novel.jpg",
+    "cover_image": "chabon_article_image.jpg",
     "created_at": "02-05-2017",
     "has_podcast": false,
     "has_review": true,
@@ -507,6 +507,7 @@
       "soundcloud": "",
       "title": "",
       "further_reading": [
+        ""
       ]
     },
     "review": {
@@ -518,4 +519,4 @@
       "title": "Michael Chabon's Great American Novel"
     },
     "year": "2000"
-    }
+  }
