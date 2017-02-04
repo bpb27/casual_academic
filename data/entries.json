@@ -495,21 +495,7 @@
     "year": "1995"
   },
   {
-    "author": "Michael Chabon",
-    "cover_image": "chabon_article_image.jpg",
-    "created_at": "02-05-2017",
-    "has_podcast": false,
-    "has_review": true,
-    "liner": "Great Novels",
-    "podcast": {
-      "episode": "",
-      "hosts": "",
-      "soundcloud": "",
-      "title": "",
-      "further_reading": [
-        ""
-      ]
-    },
+    
     "review": {
       "created_at": "02-05-2017",
       "image": "chabon_article_image.jpg",
@@ -520,3 +506,4 @@
     },
     "year": "2000"
   }
+]
