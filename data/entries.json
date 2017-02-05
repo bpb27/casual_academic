@@ -4,7 +4,7 @@
     "cover_image": "death_in_venice.png",
     "created_at": "03-12-2016",
     "has_podcast": true,
-    "has_review": false,
+    "has_review": true,
     "liner": "Tadzio, sweet Tadzio!",
     "podcast": {
       "episode": "1",
@@ -485,6 +485,7 @@
         "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
       ]
     },
+
     "review": {
       "reviewer": "",
       "teaser": "",
@@ -492,5 +493,17 @@
       "title": ""
     },
     "year": "1995"
+  },
+  {
+    
+    "review": {
+      "created_at": "02-05-2017",
+      "image": "chabon_article_image.jpg",
+      "reviewer": "Zak Breckenridge",
+      "teaser": "In many ways, it is a novel that leaves nothing to be desired. And yet, while it was affecting, it was not shattering. It did not wreck anything within me or within the novel form. Because other novels have had an explosive impact on me, and these are the novels I continue to value, I have tried to figure out what could be missing from a novel so obviously perfect.",
+      "template": "michael_chabons_great_american_novel.html",
+      "title": "Michael Chabon's Great American Novel"
+    },
+    "year": "2000"
   }
 ]
