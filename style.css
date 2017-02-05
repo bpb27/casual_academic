@@ -200,6 +200,38 @@ body {
 	color: black;
 }
 
+#latest-asides {
+	background: #ffffff;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#latest-asides img {
+	width: 15%;
+}
+
+#latest-aside-titles {
+	display: inline-block;
+  width: 75%;
+  vertical-align: top;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 4%;
+}
+
+#latest-aside-titles p:first-child {
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+#latest-aside-titles p.ng-binding.ng-scope {
+	padding: 10px;
+	background: rgba(214, 210, 210, 0.83);
+	display: inline-block;
+}
+
 #featured-review {
 	background: rgb(216, 216, 216);
 	padding: 80px 40px;
@@ -243,9 +275,13 @@ body {
 	padding: 0 10px;
 }
 
+#upcoming {
+	background: white;
+}
+
 #upcoming img {
-  height: 300px;
-	margin: 40px;
+	height: 400px;
+	margin: 3% 6%;
 }
 
 #upcoming-banner {
@@ -266,6 +302,11 @@ body {
 .black-line {
 	height: 10px;
 	background: black;
+}
+
+.review-list {
+	width: 80%;
+	margin: 0 auto;
 }
 
 .review-entry {

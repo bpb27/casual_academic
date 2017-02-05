@@ -28,10 +28,11 @@ app.run(function ($FB) {
     $FB.init('1785189578409909');
 });
 
-app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', function ($scope, $location, $timeout, EntryService) {
+app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', 'EntryService', function ($scope, $location, $timeout, $http, EntryService) {
 
     window.scrollTo(0, 0);
 
+    $scope.asides = [];
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
@@ -53,6 +54,11 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
     $scope.read = function (book) {
         $location.path('/reviews/' + book.review.template.split('.')[0]);
     }
+
+    $http.get('./data/asides.json').then(function (asides) {
+        console.log(asides);
+        $scope.asides = asides.data.reverse().slice(0, 3);
+    });
 
     EntryService.getEntries(function (results) {
         var entries = results.slice(0);
@@ -243,7 +249,7 @@ app.service('EntryService', ['$http', function ($http) {
 app.directive("scrollpercent", function ($window) {
     return function (scope, element, attrs) {
         angular.element($window).bind("scroll", function () {
-            if (document.getElementById('review-header')) {
+            if (document.getElementById('review-header') && document.getElementById('review-text')) {
                 var p = Math.round(100 * (scrollY / (document.getElementById('review-header').scrollHeight + document.getElementById('review-text').scrollHeight - screen.availHeight + 30)));
                 if (p < 0) p = 0;
                 if (p > 100) p = 100;
