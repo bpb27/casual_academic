@@ -62,6 +62,8 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
             item['selected'] = false;
             item['created_at_date'] = new Date(item['created_at']);
             return item;
+        }).filter(function (item) {
+            return item.has_podcast;
         }).sort(function (a, b) {
             if (a.created_at_date < b.created_at_date) return -1;
             if (a.created_at_date > b.created_at_date) return 1;

@@ -485,7 +485,6 @@
         "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
       ]
     },
-
     "review": {
       "reviewer": "",
       "teaser": "",
@@ -495,7 +494,19 @@
     "year": "1995"
   },
   {
-    
+    "author": "Michael Chabon",
+    "cover_image": "",
+    "created_at": "02-05-2017",
+    "has_podcast": false,
+    "has_review": true,
+    "liner": "",
+    "podcast": {
+      "episode": "",
+      "hosts": "",
+      "soundcloud": "",
+      "title": "",
+      "further_reading": []
+    },
     "review": {
       "created_at": "02-05-2017",
       "image": "chabon_article_image.jpg",
