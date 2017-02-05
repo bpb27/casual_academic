@@ -263,11 +263,10 @@ body {
 	background: #e1ecff;
 }
 
-.black-line {
-	height: 10px;
-	background: black;
+#reviews-list {
+	width: 80%;
+	margin: 0 auto;
 }
-
 .review-entry {
 	border-bottom: 10px solid black;
 	padding: 20px 5px;
@@ -278,7 +277,7 @@ body {
 }
 
 .review-entry.even {
-	background: rgb(233, 251, 230);
+	background: rgb(255, 237, 242);
 	text-align: right;
 }
 
@@ -292,7 +291,7 @@ body {
 
 .review-bookcover {
 	width: 20%;
-	padding: 10px;
+	margin: 10px;
 }
 
 .review-info {
@@ -303,16 +302,18 @@ body {
 }
 
 .review-info .review-title {
-	font-size: 4em;
+	font-size: 2em;
 	letter-spacing: 1px;
 	text-align: center;
 	width: 100%;
+	padding-top: 15px;
 }
 
 .review-info .review-author {
 	text-align: center;
 	font-size: 1.2em;
 	width: 100%;
+	padding-bottom: 15px;
 }
 
 .review-info .review-teaser {
@@ -333,6 +334,14 @@ body {
 
 .odd .review-info {
 	margin-left: 5%;
+}
+
+.review-entry:first-child {
+	border-top: 0;
+}
+
+.review-entry:last-child {
+	border-bottom: 0;
 }
 /* ************************************************************************** */
 
