@@ -28,10 +28,11 @@ app.run(function ($FB) {
     $FB.init('1785189578409909');
 });
 
-app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', function ($scope, $location, $timeout, EntryService) {
+app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootScope', 'EntryService', function ($scope, $location, $timeout, $http, $rootScope, EntryService) {
 
     window.scrollTo(0, 0);
 
+    $scope.asides = [];
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
@@ -50,9 +51,17 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
         $location.path('/episodes/' + book.podcast.soundcloud);
     }
 
+    $scope.play = function (id) {
+        $rootScope.$broadcast('podcast:play', id);
+    }
+
     $scope.read = function (book) {
         $location.path('/reviews/' + book.review.template.split('.')[0]);
     }
+
+    $http.get('./data/asides.json').then(function (asides) {
+        $scope.asides = asides.data.reverse().slice(0, 3);
+    });
 
     EntryService.getEntries(function (results) {
         var entries = results.slice(0);
@@ -80,12 +89,9 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', 'EntryService', f
 
 }]);
 
-app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntryService', function ($scope, $sce, $http, $location, EntryService) {
+app.controller('episodesCtrl', ['$scope', '$rootScope', '$sce', '$http', '$location', 'EntryService', function ($scope, $rootScope, $sce, $http, $location, EntryService) {
 
     window.scrollTo(0, 0);
-
-    $scope.autoplay = window.location.hostname !== 'localhost';
-    $scope.embed = '';
     $scope.episodes = [];
 
     EntryService.getEntries(function (entries) {
@@ -104,7 +110,9 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 
                 return item;
             });
-            entries = entries.map(function (item) {
+            entries = entries.filter(function (item) {
+                return item.has_podcast;
+            }).map(function (item) {
                 item['created_at_date'] = new Date(item.created_at);
                 item['term'] = 'Episode';
                 item['play_on_page'] = false;
@@ -120,14 +128,9 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
         });
     });
 
-    $scope.close = function () {
-        $scope.embed = '';
-    }
-
     $scope.play = function (item) {
         if (item.play_on_page) {
-            $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + item.soundcloud + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
-            window.scrollTo(0, 0);
+            $rootScope.$broadcast('podcast:play', item.soundcloud);
         } else {
             $location.path('/episodes/' + item.podcast.soundcloud);
         }
@@ -194,6 +197,22 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', 
 
 }]);
 
+app.controller('playerCtrl', ['$scope', '$sce', function ($scope, $sce) {
+
+    $scope.close = function () {
+        $scope.embed = '';
+    }
+
+    $scope.getEmbed = function (id) {
+        return $sce.trustAsHtml('<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+    }
+
+    $scope.$on('podcast:play', function (event, id) {
+        $scope.embed = $scope.getEmbed(id);
+    });
+
+}]);
+
 app.service('EntryService', ['$http', function ($http) {
 
     this.loaded = [];
@@ -245,7 +264,7 @@ app.service('EntryService', ['$http', function ($http) {
 app.directive("scrollpercent", function ($window) {
     return function (scope, element, attrs) {
         angular.element($window).bind("scroll", function () {
-            if (document.getElementById('review-header')) {
+            if (document.getElementById('review-header') && document.getElementById('review-text')) {
                 var p = Math.round(100 * (scrollY / (document.getElementById('review-header').scrollHeight + document.getElementById('review-text').scrollHeight - screen.availHeight + 30)));
                 if (p < 0) p = 0;
                 if (p > 100) p = 100;

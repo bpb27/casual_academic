@@ -12,7 +12,7 @@ body {
 }
 
 .page {
-	padding-bottom: 80px;
+	padding-bottom: 120px;
 }
 
 .pointer {
@@ -99,6 +99,26 @@ body {
 
 #navbar-right a {
 	padding: 0 12px;
+}
+
+#podcast-player {
+	position: fixed;
+	bottom: 45px;
+	width: 100%;
+}
+
+#podcast-player div:first-child {
+	text-align: right;
+}
+
+#podcast-player div:first-child a {
+	padding: 5px;
+	background: #ef3838;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	cursor: pointer;
 }
 /* ************************************************************************** */
 
@@ -200,6 +220,38 @@ body {
 	color: black;
 }
 
+#latest-asides {
+	background: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#latest-asides img {
+	width: 15%;
+}
+
+#latest-aside-titles {
+	display: inline-block;
+  width: 75%;
+  vertical-align: top;
+  font-size: 22px;
+  text-align: left;
+  padding-left: 4%;
+}
+
+#latest-aside-titles p:first-child {
+	font-weight: 700;
+	text-decoration: underline;
+	font-size: 30px;
+	margin-top: 0;
+}
+
+#latest-aside-titles p.ng-binding.ng-scope {
+	padding: 10px;
+	background: rgba(131, 84, 96, 0.26);
+	display: inline-block;
+}
+
 #featured-review {
 	background: rgb(216, 216, 216);
 	padding: 80px 40px;
@@ -243,16 +295,20 @@ body {
 	padding: 0 10px;
 }
 
+#upcoming {
+	background: #d8d8d8;
+}
+
 #upcoming img {
-  height: 300px;
-	margin: 40px;
+	height: 300px;
+	margin: 3% 8%;
 }
 
 #upcoming-banner {
-  font-size: 3em;
+	font-size: 30px;
+	font-weight: 700;
 	text-decoration: underline;
 	padding-top: 25px;
-	background: white;
 }
 /* ************************************************************************** */
 
@@ -267,6 +323,12 @@ body {
 	width: 80%;
 	margin: 0 auto;
 }
+
+.review-list {
+	width: 80%;
+	margin: 0 auto;
+}
+
 .review-entry {
 	border-bottom: 10px solid black;
 	padding: 20px 5px;
@@ -277,7 +339,7 @@ body {
 }
 
 .review-entry.even {
-	background: rgb(255, 237, 242);
+	background: rgb(238, 238, 238);
 	text-align: right;
 }
 
@@ -452,27 +514,9 @@ body {
 	color: #ff5500;
 }
 
-#soundcloud-player {
-	margin-top: 80px;
-}
-
-#soundcloud-close {
-	text-align: center;
-}
-
-#soundcloud-close span {
-	background: #d64d4d;
-	padding: 1px 10px;
-	font-size: 14px;
-	color: #fde6e6;
-	letter-spacing: 3px;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
 #episode-list {
 	width: 80%;
-	margin-top: 20px;
+  padding-top: 100px;
 	display: inline-block;
 }
 

@@ -22,6 +22,13 @@
       <div id="featured-teaser" class="reading-text">{{featured.review.teaser}}...</div>
     </div>
   </div>
+  <div id="latest-asides">
+    <img src="/images/havana_notebook.png" class="shadow">
+    <div id="latest-aside-titles">
+      <p>Not familiar with those books? Start with these short asides:</p>
+      <p ng-repeat="aside in asides" ng-click="play(aside.soundcloud)" class="pointer red-hov shadow-light">{{aside.title}}</p>
+    </div>
+  </div>
   <div id="upcoming">
     <div id="upcoming-banner">Up Next in February:</div>
     <a href="https://en.wikipedia.org/wiki/We_Have_Always_Lived_in_the_Castle" target="_blank"><img src="./images/we_have_always_lived_in_the_castle.jpg" class="shadow"/></a>
