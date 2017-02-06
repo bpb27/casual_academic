@@ -28,7 +28,7 @@ app.run(function ($FB) {
     $FB.init('1785189578409909');
 });
 
-app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', 'EntryService', function ($scope, $location, $timeout, $http, EntryService) {
+app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootScope', 'EntryService', function ($scope, $location, $timeout, $http, $rootScope, EntryService) {
 
     window.scrollTo(0, 0);
 
@@ -51,6 +51,10 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', 'EntrySe
         $location.path('/episodes/' + book.podcast.soundcloud);
     }
 
+    $scope.play = function (id) {
+        $rootScope.$broadcast('podcast:play', id);
+    }
+
     $scope.read = function (book) {
         $location.path('/reviews/' + book.review.template.split('.')[0]);
     }
@@ -68,6 +72,8 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', 'EntrySe
             item['selected'] = false;
             item['created_at_date'] = new Date(item['created_at']);
             return item;
+        }).filter(function (item) {
+            return item.has_podcast;
         }).sort(function (a, b) {
             if (a.created_at_date < b.created_at_date) return -1;
             if (a.created_at_date > b.created_at_date) return 1;
@@ -84,12 +90,9 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', 'EntrySe
 
 }]);
 
-app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntryService', function ($scope, $sce, $http, $location, EntryService) {
+app.controller('episodesCtrl', ['$scope', '$rootScope', '$sce', '$http', '$location', 'EntryService', function ($scope, $rootScope, $sce, $http, $location, EntryService) {
 
     window.scrollTo(0, 0);
-
-    $scope.autoplay = window.location.hostname !== 'localhost';
-    $scope.embed = '';
     $scope.episodes = [];
 
     EntryService.getEntries(function (entries) {
@@ -108,7 +111,9 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
 
                 return item;
             });
-            entries = entries.map(function (item) {
+            entries = entries.filter(function (item) {
+                return item.has_podcast;
+            }).map(function (item) {
                 item['created_at_date'] = new Date(item.created_at);
                 item['term'] = 'Episode';
                 item['play_on_page'] = false;
@@ -124,14 +129,9 @@ app.controller('episodesCtrl', ['$scope', '$sce', '$http', '$location', 'EntrySe
         });
     });
 
-    $scope.close = function () {
-        $scope.embed = '';
-    }
-
     $scope.play = function (item) {
         if (item.play_on_page) {
-            $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + item.soundcloud + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
-            window.scrollTo(0, 0);
+            $rootScope.$broadcast('podcast:play', item.soundcloud);
         } else {
             $location.path('/episodes/' + item.podcast.soundcloud);
         }
@@ -175,10 +175,10 @@ app.controller('reviewsCtrl', ['$scope', '$location', 'EntryService', function (
             item.review.created_at_date = new Date(item.review.created_at);
             return item;
         }).sort(function (a, b) {
-            if (a.review.created_at < b.review.created_at) return -1;
-            if (a.review.created_at > b.review.created_at) return 1;
+            if (a.review.created_at_date < b.review.created_at_date) return -1;
+            if (a.review.created_at_date > b.review.created_at_date) return 1;
             return 0;
-        });
+        }).reverse();
     });
 
 }]);
@@ -194,6 +194,22 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', 
         $scope.review = entry.review;
         $scope.template = '/reviews/' + entry.review.template;
         $scope.$apply();
+    });
+
+}]);
+
+app.controller('playerCtrl', ['$scope', '$sce', function ($scope, $sce) {
+
+    $scope.close = function () {
+        $scope.embed = '';
+    }
+
+    $scope.getEmbed = function (id) {
+        return $sce.trustAsHtml('<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+    }
+
+    $scope.$on('podcast:play', function (event, id) {
+        $scope.embed = $scope.getEmbed(id);
     });
 
 }]);

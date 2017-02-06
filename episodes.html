@@ -6,10 +6,6 @@
     <a href="http://tunein.com/radio/The-Casual-Academic-p880368/" target="_blank">Tune-In Radio</a>
     <a href="https://soundcloud.com/thecasualacademic" target="_blank">Soundcloud</a>
   </div>
-  <div id="soundcloud-player" ng-bind-html="embed"></div>
-  <div id="soundcloud-close" ng-show="embed">
-    <span ng-click="close()">close</span>
-  </div>
   <div id="episode-list">
     <div ng-repeat="item in episodes | orderBy:'-'" class="episode">
         <img ng-src="/images/{{item.cover_image}}" class="episode-bookcover shadow" />

@@ -12,7 +12,7 @@ body {
 }
 
 .page {
-	padding-bottom: 80px;
+	padding-bottom: 120px;
 }
 
 .pointer {
@@ -99,6 +99,26 @@ body {
 
 #navbar-right a {
 	padding: 0 12px;
+}
+
+#podcast-player {
+	position: fixed;
+	bottom: 45px;
+	width: 100%;
+}
+
+#podcast-player div:first-child {
+	text-align: right;
+}
+
+#podcast-player div:first-child a {
+	padding: 5px;
+	background: #ef3838;
+	border-radius: 5px;
+	color: white;
+	text-decoration: none;
+	font-size: 10px;
+	cursor: pointer;
 }
 /* ************************************************************************** */
 
@@ -201,7 +221,7 @@ body {
 }
 
 #latest-asides {
-	background: #ffffff;
+	background: white;
 	padding-top: 50px;
 	padding-bottom: 50px;
 }
@@ -228,7 +248,7 @@ body {
 
 #latest-aside-titles p.ng-binding.ng-scope {
 	padding: 10px;
-	background: rgba(214, 210, 210, 0.83);
+	background: rgba(131, 84, 96, 0.26);
 	display: inline-block;
 }
 
@@ -276,19 +296,19 @@ body {
 }
 
 #upcoming {
-	background: white;
+	background: #d8d8d8;
 }
 
 #upcoming img {
-	height: 400px;
-	margin: 3% 6%;
+	height: 300px;
+	margin: 3% 8%;
 }
 
 #upcoming-banner {
-  font-size: 3em;
+	font-size: 30px;
+	font-weight: 700;
 	text-decoration: underline;
 	padding-top: 25px;
-	background: white;
 }
 /* ************************************************************************** */
 
@@ -299,9 +319,9 @@ body {
 	background: #e1ecff;
 }
 
-.black-line {
-	height: 10px;
-	background: black;
+#reviews-list {
+	width: 80%;
+	margin: 0 auto;
 }
 
 .review-list {
@@ -319,7 +339,7 @@ body {
 }
 
 .review-entry.even {
-	background: rgb(233, 251, 230);
+	background: rgb(238, 238, 238);
 	text-align: right;
 }
 
@@ -333,7 +353,7 @@ body {
 
 .review-bookcover {
 	width: 20%;
-	padding: 10px;
+	margin: 10px;
 }
 
 .review-info {
@@ -344,16 +364,18 @@ body {
 }
 
 .review-info .review-title {
-	font-size: 4em;
+	font-size: 2em;
 	letter-spacing: 1px;
 	text-align: center;
 	width: 100%;
+	padding-top: 15px;
 }
 
 .review-info .review-author {
 	text-align: center;
 	font-size: 1.2em;
 	width: 100%;
+	padding-bottom: 15px;
 }
 
 .review-info .review-teaser {
@@ -374,6 +396,14 @@ body {
 
 .odd .review-info {
 	margin-left: 5%;
+}
+
+.review-entry:first-child {
+	border-top: 0;
+}
+
+.review-entry:last-child {
+	border-bottom: 0;
 }
 /* ************************************************************************** */
 
@@ -484,27 +514,9 @@ body {
 	color: #ff5500;
 }
 
-#soundcloud-player {
-	margin-top: 80px;
-}
-
-#soundcloud-close {
-	text-align: center;
-}
-
-#soundcloud-close span {
-	background: #d64d4d;
-	padding: 1px 10px;
-	font-size: 14px;
-	color: #fde6e6;
-	letter-spacing: 3px;
-	border-radius: 3px;
-	cursor: pointer;
-}
-
 #episode-list {
 	width: 80%;
-	margin-top: 20px;
+  padding-top: 100px;
 	display: inline-block;
 }
 
