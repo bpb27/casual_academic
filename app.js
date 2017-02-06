@@ -60,7 +60,6 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootSc
     }
 
     $http.get('./data/asides.json').then(function (asides) {
-        console.log(asides);
         $scope.asides = asides.data.reverse().slice(0, 3);
     });
 
