@@ -37,7 +37,6 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootSc
     $scope.data = [];
     $scope.featured = {};
     $scope.featuredTitle = "Michael Chabon's Great American Novel";
-    // $scope.featuredTitle = "A Primer to Borges";
 
     $scope.choose = function (item) {
         if ($scope.book.created_at === item.created_at) {
@@ -48,6 +47,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootSc
     }
 
     $scope.listen = function (book) {
+        $rootScope.$broadcast('podcast:play', book.podcast.soundcloud);
         $location.path('/episodes/' + book.podcast.soundcloud);
     }
 
@@ -129,24 +129,25 @@ app.controller('episodesCtrl', ['$scope', '$rootScope', '$sce', '$http', '$locat
     });
 
     $scope.play = function (item) {
-        if (item.play_on_page) {
-            $rootScope.$broadcast('podcast:play', item.soundcloud);
-        } else {
+        $rootScope.$broadcast('podcast:play', item.podcast.soundcloud || item.soundcloud);
+        if (!item.play_on_page) {
             $location.path('/episodes/' + item.podcast.soundcloud);
         }
     }
 
 }]);
 
-app.controller('singleEpisodeCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', function ($scope, $sce, $routeParams, EntryService) {
+app.controller('singleEpisodeCtrl', ['$scope', '$rootScope', '$sce', '$routeParams', 'EntryService', function ($scope, $rootScope, $sce, $routeParams, EntryService) {
 
     window.scrollTo(0, 0);
 
-    $scope.autoplay = window.location.hostname !== 'localhost';
-    $scope.embed = $sce.trustAsHtml('<iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + $routeParams.episode + '&amp;auto_play=' + $scope.autoplay + '&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
     $scope.episode = {};
     $scope.further_reading = '';
     $scope.url = 'thecasualacademic.com/' + window.location.pathname;
+
+    $scope.play = function (id) {
+        $rootScope.$broadcast('podcast:play', id);
+    }
 
     EntryService.getEpisode($routeParams.episode).then(function (entry) {
         var links = '';
@@ -199,8 +200,14 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', 'EntryService', 
 
 app.controller('playerCtrl', ['$scope', '$sce', function ($scope, $sce) {
 
+    $scope.minimized = false;
+
     $scope.close = function () {
         $scope.embed = '';
+    }
+
+    $scope.minimize = function () {
+        $scope.minimized = !$scope.minimized;
     }
 
     $scope.getEmbed = function (id) {
@@ -209,6 +216,7 @@ app.controller('playerCtrl', ['$scope', '$sce', function ($scope, $sce) {
 
     $scope.$on('podcast:play', function (event, id) {
         $scope.embed = $scope.getEmbed(id);
+        $scope.minimized = false;
     });
 
 }]);

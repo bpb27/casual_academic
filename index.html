@@ -44,8 +44,11 @@
 			</div>
 		</div>
 		<div ng-view class="view-frame"></div>
-		<div ng-controller="playerCtrl" id="podcast-player">
-			<div><a ng-if="embed" ng-click="close()">Close Player</a></div>
+		<div ng-controller="playerCtrl" id="podcast-player" ng-class="{'minimized': minimized}">
+			<div>
+				<a ng-if="embed" ng-click="minimize()">Show / Hide</a>
+				<a ng-if="embed" ng-click="close()">Close Player</a>
+			</div>
 			<div ng-bind-html="embed"></div>
 		</div>
 	</body>

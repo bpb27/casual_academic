@@ -107,6 +107,10 @@ body {
 	width: 100%;
 }
 
+#podcast-player.minimized {
+  bottom: -30px;
+}
+
 #podcast-player div:first-child {
 	text-align: right;
 }
@@ -213,8 +217,9 @@ body {
 }
 
 .book-option {
-	padding: 20px;
+	padding: 40px 20px;
 	font-size: 32px;
+	line-height: 40px;
 	cursor: pointer;
 	display: inline-block;
 	color: black;
@@ -608,8 +613,12 @@ body {
 }
 
 #single-episode-number {
-  text-decoration: underline;
   margin-bottom: 30px;
+}
+
+#single-episode-number span {
+	padding-right: 20px;
+	cursor: pointer;
 }
 
 #single-episode-hosts {
