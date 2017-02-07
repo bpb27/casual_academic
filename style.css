@@ -321,12 +321,13 @@ body {
 /* Reviews Page */
 /* ************************************************************************** */
 #page-reviews {
-	background: #e1ecff;
+  background: #af542d;
 }
 
 #reviews-list {
 	width: 80%;
-	margin: 0 auto;
+  margin: 0 auto;
+  padding-top: 10px;
 }
 
 .review-list {
@@ -335,80 +336,7 @@ body {
 }
 
 .review-entry {
-	border-bottom: 10px solid black;
-	padding: 20px 5px;
-}
 
-.review-entry.odd {
-	background: #e1ecff;
-}
-
-.review-entry.even {
-	background: rgb(238, 238, 238);
-	text-align: right;
-}
-
-.odd .bookcover-right {
-  display: none;
-}
-
-.even .bookcover-left {
-  display: none;
-}
-
-.review-bookcover {
-	width: 20%;
-	margin: 10px;
-}
-
-.review-info {
-	width: 70%;
-	display: inline-block;
-	vertical-align: top;
-	margin-top: 2%;
-}
-
-.review-info .review-title {
-	font-size: 2em;
-	letter-spacing: 1px;
-	text-align: center;
-	width: 100%;
-	padding-top: 15px;
-}
-
-.review-info .review-author {
-	text-align: center;
-	font-size: 1.2em;
-	width: 100%;
-	padding-bottom: 15px;
-}
-
-.review-info .review-teaser {
-	width: 80%;
-	margin: 0 auto;
-	margin-top: 20px;
-	font-size: 1.2em;
-	line-height: 36px;
-}
-
-.even .review-info {
-	margin-right: 5%;
-}
-
-.even .review-teaser {
-	text-align: left;
-}
-
-.odd .review-info {
-	margin-left: 5%;
-}
-
-.review-entry:first-child {
-	border-top: 0;
-}
-
-.review-entry:last-child {
-	border-bottom: 0;
 }
 /* ************************************************************************** */
 
@@ -431,36 +359,45 @@ body {
 	font-size: 20px;
 }
 
-#review-header {
+.review-header {
 	margin: 40px;
 	background: white;
 	padding: 20px;
 	letter-spacing: 2px;
 }
 
-#review-header-left {
+.review-header-left {
 	display: inline-block;
 	vertical-align: top;
 	width: 49%;
 	padding: 5%;
+	padding-bottom: 10px;
 	font-size: 1.7em;
 }
 
-#review-header-left h2, #review-header-left h5 {
+.review-header-left h2, .review-header-left h5 {
 	margin: 0;
 }
 
-#review-header-left h5 {
+.review-header-left h5 {
 	margin-top: 20px;
 }
 
-#review-header-right {
+.review-header-left p {
+	font-family: Lora;
+	font-size: 16px;
+	letter-spacing: 1px;
+	line-height: 24px;
+	margin-top: 40px;
+}
+
+.review-header-right {
 	display: inline-block;
 	width: 40%;
   text-align: right;
 }
 
-#review-header-right img {
+.review-header-right img {
 	width: 100%;
 }
 
@@ -487,7 +424,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 100%;
-  opacity: 0.3;
+  /*opacity: 0.3;*/
 }
 
 #page-episodes {

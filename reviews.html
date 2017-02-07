@@ -1,15 +1,17 @@
-
 <div id="page-reviews" class="page" ng-controller="reviewsCtrl">
   <div class="black-line"></div>
   <div id="reviews-list">
-    <div ng-repeat="item in reviews" class="review-entry" ng-class-odd="'odd'" ng-class-even="'even'">
-        <img ng-src="/images/{{item.cover_image}}" class="review-bookcover bookcover-left shadow"/>
-        <div class="review-info">
-          <div class="review-title white-highlight pointer red-hov" ng-click="read(item)">{{item.review.title}}</div>
-          <div class="review-author white-highlight">by {{item.review.reviewer}} ({{item.review.created_at_date | date : "mediumDate"}})</div>
-          <div class="review-teaser white-highlight shadow-lighter">{{item.review.teaser}} <span class="pointer red-hov" ng-click="read(item)">(read more...)</span></div>
+    <div ng-repeat="item in reviews" class="review-entry pointer" ng-click="read(item)">
+        <div class="review-header shadow">
+          <div class="review-header-left">
+            <h2>{{item.review.title}}</h2>
+            <h5>by {{item.review.reviewer}}</h5>
+            <p>{{item.review.teaser}} <a>(read more...)</a></p>
+          </div>
+          <div class="review-header-right">
+            <img class="shadow" src="/images/{{item.review.image}}"/>
+          </div>
         </div>
-        <img ng-src="/images/{{item.cover_image}}" class="review-bookcover bookcover-right shadow"/>
     </div>
   </div>
 </div>
