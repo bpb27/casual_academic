@@ -516,5 +516,40 @@
       "title": "Michael Chabon's Great American Novel"
     },
     "year": "2000"
+  },
+  {
+    "author": "Shirley Jackson",
+    "cover_image": "we_have_always_lived_in_the_castle1.jpg",
+    "created_at": "2-14-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "Castle Time",
+    "podcast": {
+      "episode": "17",
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": "307687370",
+      "title": "The Failed Gothic, Neurosis & Humor in Shirley Jackson's \"We Have Always Lived in th Castle\"",
+      "further_reading": [
+        "<li><a href=\"http://www.nybooks.com/articles/2009/10/08/the-witchcraft-of-shirley-jackson/\" target=\"_blank\">“The Witchcraft of Shirley Jackson,”</a> Joyce Carol Oates. The New York Review of Books, 2009.</li>",
+        "<li>“The Establishment and Preservation of Female Power in Shirley Jackson’s “We Have Always Lived in the Castle,” Lynette Carpenter. A Journal of Women Studies, 1984.</li>",
+        "<li><a href=\"https://books.google.es/books?id=pnYkBQAAQBAJ&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Let Me Tell You: New Stories, Essays, and Other Writings</a> Shirley Jackson (edited by Laurence Jackson Hyman and Sarah Hyman DeWitt). Penguin Random House, 2015.</li>",
+        "<li>“Living on the Moon: Women, Home Making, and the House after World War II in Shirley Jackson’s We Have Always Lived in the Castle,” Leslie Dennis. (Master’s thesis) retrieved from University of South Carolina Scholar Commons, 2014.</li>",
+        "<li><a href=\"http://www.nybooks.com/articles/2016/10/27/shirley-jackson-in-love-death/\" target=\"_blank\">“Shirley Jackson in Love & Death,”</a> Joyce Carol Oates. The New York Book Review, 2016.</li>",
+        "<li>“House Mothers and Haunted Daughters: Shirley Jackson and Female Gothic,” Roberta Rubenstein. Tulsa Studies in Women’s Literature, 1996.</li>",
+        "<li><a href=\"https://www.theatlantic.com/magazine/archive/2016/10/the-possessed/497513/\" target=\"_blank\">“Haunted Womanhood,”</a> Heather Havrilesky. The Atlantic, 2016.</li>",
+        "<li>“Chambers of Yearning: Shirley Jackson’s Use of the Gothic,” John G. Parks. Twentieth Century Literature, 1984.</li>",
+        "<li><a href=\"http://www.newyorker.com/magazine/2016/10/17/the-haunted-mind-of-shirley-jackson\" target=\"_blank\">“The Haunted Mind of Shirley Jackson,”</a> Zoë Heller. The New Yorker, 2016.</li>",
+        "<li><a href=\"https://books.google.es/books?id=AO8yDAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson, Influences and Confluences,</a> edited by Melanie R. Anderson and Lisa Kröger. Routledge, 2016.</li>",
+        "<li><a href=\"https://books.google.es/books?id=ueOaCwAAQBAJ&printsec=copyright&authuser=0&source=gbs_pub_info_r#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson: A Rather Haunted Life,</a> Ruth Franklin. Liveright Publishing Corporation, 2016.</li>",
+        "<li><a href=\"https://books.google.es/books?id=jutboZnFCCsC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson's American Gothic,</a> Darryl Hattenhauer. State University of New York Press, 2003.</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "1962"
   }
 ]
