@@ -344,7 +344,7 @@ body {
 /* Review Page */
 /* ************************************************************************** */
 #page-review {
-	background: #f8f8f8;
+	background: #fefefe;
 }
 
 #review-facebook {
@@ -413,6 +413,7 @@ body {
 #review-text blockquote {
 	font-style: italic;
 }
+
 /* ************************************************************************** */
 
 
