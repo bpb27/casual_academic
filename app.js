@@ -36,7 +36,7 @@ app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootSc
     $scope.book = {};
     $scope.data = [];
     $scope.featured = {};
-    $scope.featuredTitle = "Michael Chabon's Great American Novel";
+    $scope.featuredTitle = "Ursula LeGuin’s Anarchism: Subversion Within Narrative";
 
     $scope.choose = function (item) {
         if ($scope.book.created_at === item.created_at) {
