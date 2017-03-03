@@ -51,7 +51,13 @@ body {
 	box-shadow: 7px 7px 11px -5px rgba(0,0,0,0.75);
 }
 
+.left {
+	text-align: left;
+}
 
+.right {
+	text-align: right;
+}
 /* ************************************************************************** */
 
 
@@ -307,6 +313,7 @@ body {
 #upcoming img {
 	height: 300px;
 	margin: 3% 8%;
+	text-align: left;
 }
 
 #upcoming-banner {
@@ -316,6 +323,12 @@ body {
 	padding-top: 25px;
 }
 
+#brazil-month {
+	font-size: 30px;
+	font-weight: 700;
+	text-decoration: underline;
+	padding-top: 25px;
+}
 /* ************************************************************************** */
 
 
@@ -415,6 +428,9 @@ body {
 	font-style: italic;
 }
 
+#review-text i {
+	font-style: italic;
+}
 /* ************************************************************************** */
 
 
