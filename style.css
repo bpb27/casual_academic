@@ -137,11 +137,12 @@ body {
 /* ************************************************************************** */
 #banner {
 	position: fixed;
+	padding-bottom: 150px;
   top: 0;
   left: 0;
 	width: 100%;
 	z-index: -1;
-	background-image: url('images/banner.jpg');
+	background-image: url('images/new_banner_2.jpg');
 }
 
 .typewriter {
@@ -149,18 +150,20 @@ body {
 }
 
 .typewriter h1 {
+	font-family: "Bebasneue Regular", sans-serif;
+	text-transform: uppercase;
 	transition: text-align 3 ease-out;
-	text-align: center;
+	text-align: right;
 	overflow: hidden;
 	border-right: .15em solid black;
 	white-space: nowrap;
 	margin: 0 0;
-	letter-spacing: .1em;
-	font-weight: 100;
+	letter-spacing: .01em;
+	font-weight: 50;
 	width: 100%;
-	padding: 40px 0 40px 13px;
-	color: white;
-	font-weight: 700;
+	padding: 115px 0 40px 0px;
+	color: #fee266;
+	font-weight: 400;
 	font-size: 7em;
   animation:
     typing 7.5s steps(40, end),
@@ -190,7 +193,7 @@ body {
 #bookshelf {
 	text-align: center;
 	vertical-align: bottom;
-	margin-top: 195px;
+	margin-top: 375px;
 	height: 367px;
 	overflow-y: hidden;
 	background: white;
