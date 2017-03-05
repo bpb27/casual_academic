@@ -1,8 +1,10 @@
 <div ng-controller="homeCtrl" id="page-home" class="page">
   <div id="banner">
+    <div class="topline">The Casual</div>
     <div class="typewriter">
       <h1 ng-style="bannerStyle">Academic</h1>
     </div>
+    <div class="tagline">In-depth literary discussion, without the pretense. Just good books.</div>
   </div>
   <div id="bookshelf">
     <div ng-repeat="item in data" ng-click="choose(item)" ng-class="{selected: item.cover_image === book.cover_image}">
