@@ -137,12 +137,20 @@ body {
 /* ************************************************************************** */
 #banner {
 	position: fixed;
-	padding-bottom: 150px;
   top: 0;
   left: 0;
 	width: 100%;
 	z-index: -1;
-	background-image: url('images/new_banner_2.jpg');
+	background-image: url('images/new_banner_no_text.jpg');
+}
+
+.topline {
+	font-size: 4em;
+	text-align: right;
+	font-family: 'Great Vibes', cursive;
+	color: #fee266;
+	padding: 20px;
+	padding-bottom: 0;
 }
 
 .typewriter {
@@ -150,24 +158,29 @@ body {
 }
 
 .typewriter h1 {
-	font-family: "Bebasneue Regular", sans-serif;
-	text-transform: uppercase;
 	transition: text-align 3 ease-out;
 	text-align: right;
 	overflow: hidden;
-	border-right: .15em solid black;
+	border-right: .15em solid #fee266;
 	white-space: nowrap;
-	margin: 0 0;
-	letter-spacing: .01em;
-	font-weight: 50;
+	margin: 0;
+	padding: 0;
+	letter-spacing: .1em;
+	font-weight: 200;
 	width: 100%;
-	padding: 115px 0 40px 0px;
 	color: #fee266;
-	font-weight: 400;
 	font-size: 7em;
   animation:
     typing 7.5s steps(40, end),
     blink-caret .75s step-end infinite;
+}
+
+.tagline {
+	color: #fee266;
+  font-size: 2em;
+  border-top: 2px solid #fee266;
+  padding: 10px 0;
+	background: rgba(0, 0, 0, 0.58);
 }
 
 @media (max-width: 1270px) {
@@ -177,8 +190,17 @@ body {
 }
 
 @media (max-width: 1100px) {
+	.topline {
+		text-align: center;
+	}
 	.typewriter h1 {
 		font-size: 5em;
+		text-align: center;
+	}
+	.tagline {
+		letter-spacing: 2px;
+    font-size: 1.2em;
+    padding: 15px;
 	}
 }
 /* ************************************************************************** */
@@ -193,7 +215,7 @@ body {
 #bookshelf {
 	text-align: center;
 	vertical-align: bottom;
-	margin-top: 375px;
+	margin-top: 270px;
 	height: 367px;
 	overflow-y: hidden;
 	background: white;
