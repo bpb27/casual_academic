@@ -306,6 +306,18 @@ body {
 	cursor: pointer;
 }
 
+@media (max-width: 900px) {
+	#featured-review img {
+		width: 100%;
+		margin-right: 0;
+		margin-bottom: 20px;
+	}
+
+	#featured-info {
+		width: 100%;
+	}
+}
+
 #featured-info:hover #featured-title{
 	color: red;
 }
@@ -360,7 +372,7 @@ body {
 /* Reviews Page */
 /* ************************************************************************** */
 #page-reviews {
-  background: #af542d;
+  background: #d27f5b;
 }
 
 #reviews-list {
@@ -408,7 +420,7 @@ body {
 .review-header-left {
 	display: inline-block;
 	vertical-align: top;
-	width: 49%;
+	width: 47%;
 	padding: 5%;
 	padding-bottom: 10px;
 	font-size: 1.7em;
@@ -438,6 +450,7 @@ body {
 
 .review-header-right img {
 	width: 100%;
+	margin-top: 10%;
 }
 
 #review-text {
