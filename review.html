@@ -17,5 +17,9 @@
   <div ng-if="template" id="review-text" class="reading-text">
     <ng-include src="template"></ng-include>
   </div>
+  <div id="review-footer" class="review-footer shadow" ng-if="review.footer">
+      <a>"{{review.footer_title}}</a>
+      <a ng-href="{{review.footer}}">Listen Here</a>
+    </div>
 
 </div>
