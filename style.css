@@ -471,7 +471,7 @@ body {
 }
 .review-footer {
 	margin: 40px;
-	background: white;
+	background: #f7f7f7;
 	padding: 20px;
 	letter-spacing: 2px;
 }
@@ -487,7 +487,7 @@ body {
 
 .review-footer a {
 	font-family: Lora;
-	font-size: 25px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	line-height: 25px;
 	margin-top: 15px;
@@ -496,7 +496,7 @@ body {
 
 .review-footer_title a {
 	font-family: Lora;
-	font-size: 25px;
+	font-size: 20px;
 	letter-spacing: 1px;
 	line-height: 50px;
 	margin-top: 10px;

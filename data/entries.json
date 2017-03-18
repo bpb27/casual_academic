@@ -37,7 +37,7 @@
     "created_at": "03-18-2016",
     "has_podcast": true,
     "has_review": false,
-    "liner": "Franz, you're a fucking weirdo.",
+    "liner": "Apes and Penal Colonies",
     "podcast": {
       "episode": "2",
       "hosts": "Alex Johnson and Jacob Welcker",
@@ -120,7 +120,8 @@
       "teaser": "Perhaps due to the plethora of authors citing him as inspiration, or perhaps because of the infinite number of ways the world is currently baffling (i.e. Donald Trump), Jorge Luis Borges has become a permanent blinking dot on the public’s radar.  There have been pieces on Borges and Borgesian concepts",
       "template": "a_primer_to_borges.html",
       "title": "A Primer to Borges",
-      "footer": "http://thecasualacademic.com/episodes/258329009"
+      "footer": "http://thecasualacademic.com/episodes/258329009",
+      "footer_title": "Haven't Heard The Episode Yet?"
     },
     "year": "1944"
   },
@@ -240,7 +241,8 @@
       "teaser": "Her first popular title within the Hainish Cycle was The Left Hand of Darkness, which, among other things, explored a society that challenged gender norms of the mid-twentieth century. Back in June of 2016, we discussed Le Guin and The Left Hand of Darkness on The Casual Academic’s eighth episode.",
       "template": "ursula_leguin_subversion_in_narrative.html",
       "title": "Ursula LeGuin’s Anarchism: Subversion Within Narrative",
-      "footer": "http://thecasualacademic.com/episodes/268803127"
+      "footer": "http://thecasualacademic.com/episodes/268803127",
+      "footer_title": "Haven't Heard The Episode Yet?"
     },
     "year": "1969"
   },
@@ -590,5 +592,36 @@
       "title": ""
     },
     "year": "1948"
+  },
+  {
+    "author": "",
+    "cover_image": "deslit_launch_photo.JPG",
+    "created_at": "3-14-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "Reading and Inauguration of literary zine \"La Errante\" from Desperate Literature, Madrid",
+    "podcast": {
+      "episode": "Special",
+      "hosts": "Alex Johnson, Jacob Welcker and the \"La Errante\" team",
+      "soundcloud": "312225637",
+      "title": "Live Recording of the Launch of Literary Zine \"La Errante,\" from Desperate Literature",
+      "further_reading": [
+        "<li><a href=\"<a href=\"http://desperateliterature.com/\" target=\"_blank\">“Desperate Literature”</a> Calle Campomanes, 13, 28013 Madrid, España</li>",
+        "<li>The recording of the launch event of La Errante, A Journal of Art & Literature based out of Madrid, Spain. The event was recorded live last Friday (10/4/2017) at the bookstore Desperate Literature in Madrid. The event was a total success and a lot of fun. It was a true pleasure to be able to be in a place with so many amazing people. We are very proud to be able to present this recording to all of our listeners. You'll hear Layla Benitez-James, Martha Sprackland, Robert Greer, Emma Roulette, James Womack and Terry Craven reading poems and flash fiction from the first issue (Layla's poems are her own). A big thanks to Terry, Robert and Charlotte Delattre at Desperate Lit for hosting the event and for letting us record as well as to everyone else involved in such an exciting and worthwhile project.</li>",
+        "<li>Editors of La Errante</li>",
+        "<li>-Terry Craven</li>",
+        "<li>-Robert Greer</li>",
+        "<li>-Emma Roulette</li>",
+        "<li>-Martha Sprackland</li>",
+        "<li>-James Womack</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "2017"
   }
 ]
