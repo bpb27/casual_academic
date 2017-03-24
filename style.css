@@ -502,6 +502,17 @@ body {
 	margin-top: 10px;
 	border: 0;
 }
+
+.review-footer_right img {
+	width: 100%;
+	margin-top: 10%;
+}
+
+	#review-footer {
+		width: 50%;
+		margin-left: 300px;
+}
+
 /* ************************************************************************** */
 
 
