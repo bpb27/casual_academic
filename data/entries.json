@@ -595,7 +595,7 @@
   },
   {
     "author": "",
-    "cover_image": "deslit_launch_photo.JPG",
+    "cover_image": "deslit_launch_photo1.JPG",
     "created_at": "3-14-2017",
     "has_podcast": true,
     "has_review": false,
@@ -623,5 +623,39 @@
       "title": ""
     },
     "year": "2017"
-  }
+  },
+  {
+    "author": "Clarice Lispector",
+    "cover_image": "near_to_the_wild_heart1.jpg",
+    "created_at": "4-5-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "A discussion on Clarice Lispector's debut novel Near to the Wild Heart",
+    "podcast": {
+      "episode": "19",
+      "hosts": "Alex Johnson and Jacob Welcker",
+      "soundcloud": "316200218",
+      "title": "Narrative Techniques & The Thing Itself in Clarice Lispector's \"Near to the Wild Heart\"",
+      "further_reading": [
+        "<li><a href=\"https://www.thenation.com/article/not-the-word-but-the-thing-itself/\" target=\"_blank\">“Not the Word, but the Thing Itself,”</a> Ava Kofman. The Nation, 2015..</li>",
+        "<li>“A Discourse of Silence: The Postmodernism of Clarice Lispector,” Earl E. Fitz. Contemporary Literature, 1987.</li>",
+        "<li>An <a href=\"http://bailiwick.lib.uiowa.edu/wstudies/cixous/\" target=\"_blank\">interview</a> with Hélène Cixous. Kathleen O'Grady. Women's education des femmes, 1996.</li>",
+        "<li>“The Passion of Logo(centrism), or, the Deconstructionist Universe of Clarice Lispector,” Earl E. Fitz. Luso-Brazilian Review, 1988.</li>",
+        "<li>An extremely informative <a href=\"https://jwa.org/encyclopedia/article/lispector-clarice\" target=\"_blank\">introduction</a> to Clarice Lispector and her work. Via The Jewish Women's Archive.”</li>",
+        "<li><a href=\"http://jairo.nii.ac.jp/0378/00001132/en\" target=\"_blank\">“The Reception of Clarice Lispector via Hélène Cixous: Reading from the Whale’s Belly,”</a> Elena Carrera. Modern Languages Publications Archive, 1999.</li>",
+        "<li>The only footage of Clarice Lispector, giving an <a href=\"https://www.youtube.com/watch?v=w1zwGLBpULs\" target=\"_blank\">interview</a> in São Paulo in 1977. With English subtitles.</li>",
+        "<li>A great, short piece on reading and thinking about Clarice Lispector, titled <a href=\"http://www.du.edu/denverquarterly/media/documents/481Friedland.pdf\" target=\"_blank\">“The Law of the Living: On Clarice Lispector,”</a> Yanara Friedland. Via The University of Denver's Quartler Conversation.</li>",
+        "<li>“Freedom and Self-Realization: Feminist Characterization in the Fiction of Clarice Lispector,” Earl E. Fitz. Modern Language Studies, 1980.</li>",
+        "<li><a href=\"https://books.google.es/books?id=jLyNd_b9ItAC&printsec=frontcover&dq=why+this+world&hl=en&sa=X&ved=0ahUKEwi6obi41Y_TAhUJAxoKHXLCCGgQ6AEIHDAA#v=onepage&q=why%20this%20world&f=false\" target=\"_blank\">Why This World: A Biography of Clarice Lispector,</a> Benjamin Moser. Oxford University Press, 2009.</li>",
+        "<li>A wonderful essay on Lispector and translation titled <a href=\"http://www.themillions.com/2012/01/my-hour-of-the-star-on-clarice-lispector.html\" target=\"_blank\">My Hour of the Star: On Clarice Lispector</a> by Magdalena Edwards.  The Millions, 2012.</li>"
+      ]
+    },
+    "review": {
+      "reviewer": "",
+      "teaser": "",
+      "template": "",
+      "title": ""
+    },
+    "year": "1943"
+}
 ]
