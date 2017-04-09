@@ -63,48 +63,9 @@ body {
 
 /* Navbar */
 /* ************************************************************************** */
-#navbar {
-	position: fixed;
-	bottom: 0;
-	left: 0;
-	z-index: 5;
-	background-color: #353535;
-	color: white;
-	width: 100%;
-	min-width: 700px;
-	padding: 15px 0;
-	font-size: 20px;
-}
 
-#navbar a {
-	text-decoration: none;
-	color: #f0eeee;
-}
-
-#navbar-left {
+#social-media-links a {
 	display: inline-block;
-	margin-left: 20px;
-}
-
-#navbar-icons {
-	display: inline-block;
-	position: absolute;
-	bottom: 0;
-	margin-left: 20px;
-}
-
-#navbar-icons img {
-	height: 42px;
-}
-
-#navbar-right {
-	display: inline-block;
-	float: right;
-	margin-right: 20px;
-}
-
-#navbar-right a {
-	padding: 0 12px;
 }
 
 #podcast-player {
