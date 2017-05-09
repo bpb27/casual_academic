@@ -637,7 +637,7 @@
       "soundcloud": "316200218",
       "title": "Narrative Techniques & The Thing Itself in Clarice Lispector's \"Near to the Wild Heart\"",
       "further_reading": [
-        "<li><a href=\"https://www.thenation.com/article/not-the-word-but-the-thing-itself/\" target=\"_blank\">“Not the Word, but the Thing Itself,”</a> Ava Kofman. The Nation, 2015..</li>",
+        "<li><a href=\"https://www.thenation.com/article/not-the-word-but-the-thing-itself/\" target=\"_blank\">“Not the Word, but the Thing Itself,”</a> Ava Kofman. The Nation, 2015.</li>",
         "<li>“A Discourse of Silence: The Postmodernism of Clarice Lispector,” Earl E. Fitz. Contemporary Literature, 1987.</li>",
         "<li>An <a href=\"http://bailiwick.lib.uiowa.edu/wstudies/cixous/\" target=\"_blank\">interview</a> with Hélène Cixous. Kathleen O'Grady. Women's education des femmes, 1996.</li>",
         "<li>“The Passion of Logo(centrism), or, the Deconstructionist Universe of Clarice Lispector,” Earl E. Fitz. Luso-Brazilian Review, 1988.</li>",
@@ -657,5 +657,37 @@
       "title": ""
     },
     "year": "1943"
+  },
+  {
+    "author": "Machado de Assis",
+    "cover_image": "epitaph_of_a_small_winner.jpg",
+    "created_at": "5-9-2017",
+    "has_podcast": true,
+    "has_review": false,
+    "liner": "A discussion on Machado de Assis' novel The Posthumous Memoirs of Brás Cubas",
+    "podcast": {
+    "episode": "20",
+    "hosts": "Alex Johnson and Clay Oppenhuizen",
+    "soundcloud": "321718006",
+    "title": "Vanity, Philosophy, and Literary Lineages in Machado de Assis' \"The Posthumous Memoirs of Brás Cubas\"",
+    "further_reading": [
+      "<li>“Fielding, Sterne and Machado de Assis: A Genealogy,” Marta de Senna.  Portuguese Studies, 1993.</li>",
+      "<li>“Machado de Assis’ Theory of the Novel,” María Luisa Nunes. Latin American Literary Review, 1975.</li>",
+      "<li>“Delirium and Divertissement: Pascaline Allegories in Machado de Assis,” Paul Sneed. Hispania, 2006.</li>",
+      "<li>“The ‘Memorias postumas de Bras Cubas’ as (Proto) Type of the Modernist Novel: A Problem in Literary History and Interpretation,” Earl E. Fitz. Latin American Literary Review, 1990.</li>",
+      "<li>We are pretty against <a href=\"https://www.spectator.co.uk/2015/08/machado-de-assis-wasnt-the-dickens-of-brazil-but-he-is-one-of-the-greats/#\" target=\"_blank\">this article</a> from The Spectator, but it’s what we responded to in our aside and episode on Machado de Assis.</li>",
+      "<li>Here is a nice <a href=\"http://www.oxfordbibliographies.com/view/document/obo-9780199766581/obo-9780199766581-0139.xml\" target=\"_blank\">starting point</a> for those interested in research on Machado de Assis, provided by Oxford Bibliographies.</li>",
+      "<li><a href=\"https://books.google.es/books?id=m_aODAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Emerging Dialogues on Machado de Assis,</a> edited by Lamonte Aidoo and Daniel F. Silva. Springer Nature, 2016.</li>",
+      "<li><a href=\"https://books.google.es/books?id=OfTzCAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Machado de Assis: A Literary Life</a> Kenneth David Jackson. Yale University Press, 2015.</li>",
+      "<li><a href=\"https://books.google.es/books?id=HzEmMFj8pvsC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Machado de Assis: The Brazilian Master and His Novels,</a> Helen Caldwell. University of California Press, 1970.</li>"
+    ]
+  },
+  "review": {
+    "reviewer": "",
+    "teaser": "",
+    "template": "",
+    "title": ""
+  },
+  "year": "1881"
 }
 ]
