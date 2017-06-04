@@ -689,5 +689,36 @@
     "title": ""
   },
   "year": "1881"
+},
+{
+  "author": "Margaret Atwood",
+  "cover_image": "the_handmaids_tale.jpg",
+  "created_at": "5-31-2017",
+  "has_podcast": true,
+  "has_review": false,
+  "liner": "A discussion language, speculative fiction and survival in Margaret Atwood's The Handmaid's Tale",
+  "podcast": {
+  "episode": "21",
+  "hosts": "Alex Johnson, Jacob Welcker & Zak Breckenridge",
+  "soundcloud": "325032755",
+  "title": "Speculative Fiction, Language and Survival in Margaret Atwood's \"The Handmaid's Tale\"",
+  "further_reading": [
+    "<li>“Identity, Complicity, and Resistance in The Handmaid's Tale,” Peter G. Stillman and S. Anne Johnson. Utopian Studies, 1994.</li>",
+    "<li>The Paris Review's <a href=\"https://www.theparisreview.org/interviews/2262/margaret-atwood-the-art-of-fiction-no-121-margaret-atwood\" target=\"_blank\">interview</a> with Margaret Atwood. The Art of Fiction No. 121, 1990.</li>",
+    "<li> <a href=\"http://www.earlybirdbooks.com/gloria-steinem-on-the-handmaids-tale/\" target=\"_blank\">The Handmaid’s Tale: A Warning About Patriarchy and Power</a> by Gloria Steinem. Early Bird Books, 2017.</li>",
+    "<li>“\"The Handmaid's Tale\": \"Historical Notes\" and Documentary Subversion,” Dominick M. Grace. Science Fiction Studies, 1998.</li>",
+    "<li> <a href=\"http://www.newyorker.com/magazine/2017/04/17/margaret-atwood-the-prophet-of-dystopia\" target=\"_blank\">Margaret Atwood, The Prophet of Dystopia</a> by Rebecca Mead. The New Yorker, 2017..</li>",
+    "<li>Mary McCarthy's rather polemical <a href=\"http://www.nytimes.com/books/00/03/26/specials/mccarthy-atwood.html\" target=\"_blank\">review</a> of The Handmaid's Tale. The New York Times, 1986.</li>",
+    "<li><a href=\"https://books.google.es/books?id=OJTTBRdGZ88C&dq=editions:YMPm141akjEC&hl=en&sa=X&redir_esc=y\" target=\"_blank\">Survival: A Thematic Guide to Canadian Literature</a> by Maragret Atwood. House of Anansi, 1972.</li>",
+    "<li>“Margaret Atwood's \"The Handmaid's Tale\": A Contextual Dystopia,” David Ketterer. Science Fiction Studies, 1989.</li>"
+  ]
+},
+"review": {
+  "reviewer": "",
+  "teaser": "",
+  "template": "",
+  "title": ""
+},
+"year": "1985"
 }
 ]
