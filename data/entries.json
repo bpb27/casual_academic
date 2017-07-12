@@ -696,7 +696,7 @@
   "created_at": "5-31-2017",
   "has_podcast": true,
   "has_review": false,
-  "liner": "A discussion language, speculative fiction and survival in Margaret Atwood's The Handmaid's Tale",
+  "liner": "A discussion on language, speculative fiction and survival in Margaret Atwood's The Handmaid's Tale",
   "podcast": {
   "episode": "21",
   "hosts": "Alex Johnson, Jacob Welcker & Zak Breckenridge",
@@ -720,5 +720,35 @@
   "title": ""
 },
 "year": "1985"
+},
+{
+  "author": "Frank Hoyle",
+  "cover_image": "the_black_cloud_coverart.jpg",
+  "created_at": "6-22-2017",
+  "has_podcast": true,
+  "has_review": false,
+  "liner": "A discussion on good science in sci-fi, popular and unique conceptions of aliens, and Fred Hoyle's polemical critique on democracy in \"The Black Cloud\"",
+  "podcast": {
+  "episode": "22",
+  "hosts": "Jacob Welcker & Shawn Moksvold",
+  "soundcloud": "329531119",
+  "title": "Science in Sci-Fi, Aliens, and a Critique of Democracy in \"The Black Cloud\"",
+  "further_reading": [
+    "<li> <a href=\"https://www.theatlantic.com/video/index/506846/were-probably-imagining-aliens-wrong/\" target=\"_blank\">We're Probably Imagining Aliens Wrong</a> by Aeon Video. The Atlantic, 2016</li>",
+    "<li>A <a href=\"http://scienceblogs.com/universe/2007/08/31/book-review-the-black-cloud/\" target=\"_blank\">book review</a> from \"Science Blogs\" by Claire L. Evans. Science Blogs, 2007.</li>",
+    "<li>Another informative <a href=\"http://www.waivingentropy.com/2014/12/19/review-the-black-cloud//\" target=\"_blank\">book review</a> from \"Waiving Entropy\" by Daniel Bastian. Waiving Entropy, 2014.</li>",
+    "<li>A great <a href=\"http://www.physicsoftheuniverse.com/scientists_hoyle.html\" target=\"_blank\">biography</a> of Fred Hoyle and his career from \"Physics of the Universe,\" 2009.</li>",
+    "<li>A <a href=\"https://thebackmezzanine.wordpress.com/2017/03/01/imagining-ourselves-in-hoyles-cloud/\" target=\"_blank\">review</a> of Fred Hoyle's \"The Black Cloud\" written by our guest Shawn Moksvold from his blog \"The Back Mezzanine,\" 2017.</li>",
+    "<li>An <a href=\"https://www.youtube.com/watch?v=ebqAH5mLZNk\" target=\"_blank\">interview</a> with Fred Hoyle on The Big Bang and the abuse of science.</li>",
+    "<li>The Guardian's <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">review</a> of \"The Black Cloud\" by Nicholas Lezard, 2010.</li>"
+  ]
+},
+"review": {
+  "reviewer": "",
+  "teaser": "",
+  "template": "",
+  "title": ""
+},
+"year": "1957"
 }
 ]
