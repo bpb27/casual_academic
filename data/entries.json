@@ -750,5 +750,35 @@
   "title": ""
 },
 "year": "1957"
+},
+{
+  "author": "Neil Gaiman",
+  "cover_image": "american_gods.jpg",
+  "created_at": "7-31-2017",
+  "has_podcast": true,
+  "has_review": false,
+  "liner": "A discussion on belief, grifters and the american soul in Neil Gaiman's beloved \"American Gods\"",
+  "podcast": {
+  "episode": "23",
+  "hosts": "Alex Johnson & Jacob Welcker",
+  "soundcloud": "335535301",
+  "title": "Belief, Con Artists & The American Soul in Neil Gaiman's \"American Gods\"",
+  "further_reading": [
+    "<li> <a href=\"https://www.vox.com/culture/2017/4/27/12622944/american-gods-gaiman-explained\" target=\"_blank\">Why Neil Gaiman’s American Gods is so iconic</a> by Alex Abad-Santos. Vox, 2017</li>",
+    "<li>An interesting thesis titled <a href=\"http://scholarworks.uno.edu/cgi/viewcontent.cgi?article=1315&context=td\" target=\"_blank\">\"Neil Gaiman's American Gods: An Outsider's Critiwue of American Culture\"</a> by Mark Hill. University of New Orleans, 2005.</li>",
+    "<li>Neil Gaiman on the <a href=\"https://www.youtube.com/watch?v=Iqopv_pg_q0/\" target=\"_blank\">origins</a> of \"American Gods.\"</li>",
+    "<li>The Guardian seems to agree with our choice for a summer read with this article, titled <a href=\"https://www.theguardian.com/books/booksblog/2014/jul/29/book-beach-american-gods-neil-gaiman\" target=\"_blank\">\"A Book for the Beach: American Gods by Neil Gaiman,\"</a> by David Barnett. \"The Guardian,\" 2014.</li>",
+    "<li> <a href=\"https://www.degruyter.com/view/j/rjes.2016.13.issue-1/rjes-2016-0006/rjes-2016-0006.xml\" target=\"_blank\">“Only the Gods are Real”: The Mythopoeic Dimension of Neil Gaiman’s American Gods,</a> by Irina Rață. Romanian Journal of English Studies, 2016..</li>",
+    "<li>An interesting <a href=\"http://www.juliangough.com/journal/american-gods-and-london-literary-novelists.html\" target=\"_blank\">post</a> by Julian Gough on how arbitrarily the word \"literary\" is thrown around, as well as when it is withheld. Julian Gough, 2007. </li>",
+    "<li>A great <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">interview</a> with Gaiman, the actors and writers of the T.V. series \"American Gods,\" 2017.</li>"
+  ]
+},
+"review": {
+  "reviewer": "",
+  "teaser": "",
+  "template": "",
+  "title": ""
+},
+"year": "1957"
 }
 ]
