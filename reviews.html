@@ -1,15 +1,16 @@
 <div id="page-reviews" class="page" ng-controller="reviewsCtrl">
   <div class="black-line"></div>
   <div id="reviews-list">
-    <div ng-repeat="item in reviews" class="review-entry pointer" ng-click="read(item)">
+    <div ng-repeat="review in reviews" class="review-entry pointer" ng-click="read(review)">
         <div class="review-header shadow">
           <div class="review-header-left">
-            <h2>{{item.review.title}}</h2>
-            <h5>by {{item.review.reviewer}}</h5>
-            <p>{{item.review.teaser}} <a>(read more...)</a></p>
+            <h2>{{review.title}}</h2>
+            <h5>by {{review.reviewer}}</h5>
+            <p>{{review.teaser}}...</p>
+            <p><a class="red-hov">(read more)</a></p>
           </div>
           <div class="review-header-right">
-            <img class="shadow" src="/images/{{item.review.image}}"/>
+            <img class="shadow" src="/images/{{review.image}}"/>
           </div>
         </div>
     </div>

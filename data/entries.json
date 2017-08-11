@@ -1,675 +1,403 @@
 [
   {
-    "author": "Thomas Mann",
     "cover_image": "death_in_venice.png",
     "created_at": "03-12-2016",
-    "has_podcast": true,
-    "has_review": true,
+    "episode": "1",
+    "further_reading": [
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Farchive.org%252Fstream%252Fthebirthoftraged00nietuoft%2523page%252Fn5%252Fmode%252F2up%26t%3DYzJjNzVjODk2ODczYzI3N2M0YmMxZDFhY2YxZWUzNjEyOWMxMzAzYyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950705000&usg=AFQjCNHdizywJi1xy7Mr_DgbH76g7TwwIA\">The Birth of Tragedy</a> - Frederick Nietzsche </li>",
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.gutenberg.org%252Ffiles%252F38427%252F38427-h%252F38427-h.html%26t%3DZDVhN2Q3ZjY1MmRiYmM1NWNkYjVkMGIxOGUwNjMwOWQ0ZGNlNzhlYyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950706000&usg=AFQjCNEQIq237NHfBt3Y1naE9TQi2UkwTA\">The World as Will and Representation</a> - Arthur Schopenhauer </li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.gesnerus.ch%252Ffileadmin%252Fmedia%252Fpdf%252F2009_3-4%252F256-287_Ruetten.pdf%26t%3DYWI4MmRkOTk5OTBkOGE0ZTdkNzdmMTZiNDBiM2ZjMjJlNGRiOTM3ZixqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950707000&usg=AFQjCNESni_tbmoMDdskkKTL4Ctloj_t_Q\">Cholera in Thomas Mann’s ‘Death in Venice</a>,’” Thomas Rütten. Newcastle University, 2009.</li>",
+      "<li>The amazing The Partially Examined Life podcast & blog’s brief article on “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.partiallyexaminedlife.com%252F2016%252F07%252F03%252Fhow-platos-phaedrus-influenced-thomas-manns-death-in-venice%252F%26t%3DOWRkMzljNTI1MmIyODk0NDJkZTBmNTI2YTIyZTRmMzljOWYxMjBlOSxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950709000&usg=AFQjCNFSM6X8kND64DtPGAR4rOET7JF-QQ\">How Plato’s ‘Phaedrus’ Influenced Thomas Mann’s ‘Death in Venice</a>’”</li>",
+      "<li>“Ancient Wisdom and Modern Love” on iTunesU by David O’Connor -<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fitunes.apple.com%252Fus%252Fitunes-u%252Fancient-wisdom-modern-love%252Fid382669109%253Fmt%253D10%26t%3DYjM3MzgxZTEzMWY5ODZlMzcxNzllMmZkMTFjNzM1MzhlNTZlMDg4YyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950710000&usg=AFQjCNEADg_Klra9SgbqyGPqug--kDfOVQ\">Episode 7</a> discusses Plato’s “Phaedrus” in the context of Mann’s novella</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Tadzio, sweet Tadzio!",
-    "podcast": {
-      "episode": "1",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "251522402",
-      "title": "The Apollonian & Dionysian in Thomas Mann's \"Death In Venice\"",
-      "further_reading": [
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Farchive.org%252Fstream%252Fthebirthoftraged00nietuoft%2523page%252Fn5%252Fmode%252F2up%26t%3DYzJjNzVjODk2ODczYzI3N2M0YmMxZDFhY2YxZWUzNjEyOWMxMzAzYyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950705000&usg=AFQjCNHdizywJi1xy7Mr_DgbH76g7TwwIA\">The Birth of Tragedy</a> - Frederick Nietzsche </li>",
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.gutenberg.org%252Ffiles%252F38427%252F38427-h%252F38427-h.html%26t%3DZDVhN2Q3ZjY1MmRiYmM1NWNkYjVkMGIxOGUwNjMwOWQ0ZGNlNzhlYyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950706000&usg=AFQjCNEQIq237NHfBt3Y1naE9TQi2UkwTA\">The World as Will and Representation</a> - Arthur Schopenhauer </li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.gesnerus.ch%252Ffileadmin%252Fmedia%252Fpdf%252F2009_3-4%252F256-287_Ruetten.pdf%26t%3DYWI4MmRkOTk5OTBkOGE0ZTdkNzdmMTZiNDBiM2ZjMjJlNGRiOTM3ZixqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950707000&usg=AFQjCNESni_tbmoMDdskkKTL4Ctloj_t_Q\">Cholera in Thomas Mann’s ‘Death in Venice</a>,’” Thomas Rütten. Newcastle University, 2009.</li>",
-        "<li>The amazing The Partially Examined Life podcast & blog’s brief article on “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.partiallyexaminedlife.com%252F2016%252F07%252F03%252Fhow-platos-phaedrus-influenced-thomas-manns-death-in-venice%252F%26t%3DOWRkMzljNTI1MmIyODk0NDJkZTBmNTI2YTIyZTRmMzljOWYxMjBlOSxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950709000&usg=AFQjCNFSM6X8kND64DtPGAR4rOET7JF-QQ\">How Plato’s ‘Phaedrus’ Influenced Thomas Mann’s ‘Death in Venice</a>’”</li>",
-        "<li>“Ancient Wisdom and Modern Love” on iTunesU by David O’Connor -<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fitunes.apple.com%252Fus%252Fitunes-u%252Fancient-wisdom-modern-love%252Fid382669109%253Fmt%253D10%26t%3DYjM3MzgxZTEzMWY5ODZlMzcxNzllMmZkMTFjNzM1MzhlNTZlMDg4YyxqYWlrNldnOQ%253D%253D&sa=D&ust=1480360950710000&usg=AFQjCNEADg_Klra9SgbqyGPqug--kDfOVQ\">Episode 7</a> discusses Plato’s “Phaedrus” in the context of Mann’s novella</li>"
-      ]
-    },
-    "review": {
-      "created_at": "01-05-2017",
-      "image": "review_image_death_in_venice.jpg",
-      "reviewer": "A.S. Johnson",
-      "teaser": "As Socrates elevated the objective contemplation of beauty in his courting of dear Phaedrus ‘neath the willow tree, German philosopher Arthur Schopenhauer believed that the only way to escape this futile nightmare we call life is the release of",
-      "template": "looking_beyond_the_beautiful.html",
-      "title": "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\"",
-      "footer": "http://www.thecasualacademic.com/episodes/251522402",
-      "footer_title": "Haven't Heard The Episode Yet?"
-    },
-    "year": "1912"
+    "soundcloud": "251522402",
+    "title": "The Apollonian & Dionysian in Thomas Mann's \"Death In Venice\""
   },
   {
-    "author": "Franz Kafka",
     "cover_image": "short_stories_franz_kafka.png",
     "created_at": "03-18-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "2",
+    "further_reading": [
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.openculture.com%252F2012%252F12%252Fkafkas_nightmare_tale_a_country_doctor_told_in_award-winning_japanese_animation.html%26t%3DNzE5YjRkMzg3MmI3YjU2NzJiZDM2OTgwNzJkYTU2NjQxYzJjMDY0NSxlRThucEhwNw%253D%253D&sa=D&ust=1480360950694000&usg=AFQjCNF2WpkyP6ghhRYbXZcKRKbgsMw0-A\">Kafka’s Nightmare Tale, ‘A Country Doctor,’ Told in Award-Winning Japanese Animation</a></li>",
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fnewprairiepress.org%252Fcgi%252Fviewcontent.cgi%253Farticle%253D1112%2526context%253Dsttcl%26t%3DYmE3OTgyZmYzYzAzMmJjYzc2MWM2OTg3ZDMzZTg5YzYyYzhhZDRlYixlRThucEhwNw%253D%253D&sa=D&ust=1480360950695000&usg=AFQjCNFlrWp3ZSTGqf3oUvpgWbvUWywRoQ\">“Kafka’s Writing Machine:  Metamorphosis In The Penal Colony,”</a> Arnold Weinstein. Studies in 20th Century Literature, 1982.</li>",
+      "<li>Vanderbilt University’s awesome idea to put “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.vanderbilt.edu%252Folli%252Fclass-materials%252FFranz_Kafka.pdf%26t%3DMTIzZGQ0NmQyN2VkZWJhY2Q4YzZmMTIwMWUzNjJiMzQ4ZWRkMTdmZCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950697000&usg=AFQjCNEB7V1RhcIqIdroURk__bupNW-few\">The Complete Stories</a>” by Franz Kafka online for public use</li>",
+      "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” where he discusses “The Metamorphosis” and “A Country Doctor”</li>",
+      "<li>Robert Harrison’s “Entitled Opinions” talk show<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fplayer.fm%252Fseries%252Fentitled-opinions-about-life-and-literature-91263%252Famir-eshel-on-franz-kafka%26t%3DNmI3MmQwODhkMTQwNWU5YzAzNjEzMjA4YWFhZjU3MjQ4NTNhMmU0ZCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950698000&usg=AFQjCNHr9VhVsfyFa73gQmTgTsTCjcrG9Q\"> episode</a> with Amir Eschel on Franz Kafka</li>",
+      "<li>Kafka’s own “Letter To His Father,” and <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.kafka.org%252Findex.php%253Farch_father%26t%3DN2Q5NTUxNWRmYTM3NWRmNzdiMzVlZDQ4NGU4M2ZkNzc0ZjhhOWY1NCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950700000&usg=AFQjCNFtI0M8wUr099qQ1JDBM0kHqt7sJA\">this</a> interesting take on it</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Ffranzkafkastories.com%252FshortStories.php%253Fstory_id%253Dkafka_the_judgement%26t%3DOWFmYzcxYTljY2IwZTI4ZjQ2MDYxMjY4NDYwYzFjN2Y0YmNjNzMwMixlRThucEhwNw%253D%253D&sa=D&ust=1480360950701000&usg=AFQjCNEIqJi0_bdnJLBomPmuM6UyOTbmFQ\">The Judgment</a>,” the first short story he was really proud of; and well, everything else he ever wrote….</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Apes and Penal Colonies",
-    "podcast": {
-      "episode": "2",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "252613786",
-      "title": "An Assortment of Franz Kafka",
-      "further_reading": [
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.openculture.com%252F2012%252F12%252Fkafkas_nightmare_tale_a_country_doctor_told_in_award-winning_japanese_animation.html%26t%3DNzE5YjRkMzg3MmI3YjU2NzJiZDM2OTgwNzJkYTU2NjQxYzJjMDY0NSxlRThucEhwNw%253D%253D&sa=D&ust=1480360950694000&usg=AFQjCNF2WpkyP6ghhRYbXZcKRKbgsMw0-A\">Kafka’s Nightmare Tale, ‘A Country Doctor,’ Told in Award-Winning Japanese Animation</a></li>",
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fnewprairiepress.org%252Fcgi%252Fviewcontent.cgi%253Farticle%253D1112%2526context%253Dsttcl%26t%3DYmE3OTgyZmYzYzAzMmJjYzc2MWM2OTg3ZDMzZTg5YzYyYzhhZDRlYixlRThucEhwNw%253D%253D&sa=D&ust=1480360950695000&usg=AFQjCNFlrWp3ZSTGqf3oUvpgWbvUWywRoQ\">“Kafka’s Writing Machine:  Metamorphosis In The Penal Colony,”</a> Arnold Weinstein. Studies in 20th Century Literature, 1982.</li>",
-        "<li>Vanderbilt University’s awesome idea to put “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.vanderbilt.edu%252Folli%252Fclass-materials%252FFranz_Kafka.pdf%26t%3DMTIzZGQ0NmQyN2VkZWJhY2Q4YzZmMTIwMWUzNjJiMzQ4ZWRkMTdmZCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950697000&usg=AFQjCNEB7V1RhcIqIdroURk__bupNW-few\">The Complete Stories</a>” by Franz Kafka online for public use</li>",
-        "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” where he discusses “The Metamorphosis” and “A Country Doctor”</li>",
-        "<li>Robert Harrison’s “Entitled Opinions” talk show<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fplayer.fm%252Fseries%252Fentitled-opinions-about-life-and-literature-91263%252Famir-eshel-on-franz-kafka%26t%3DNmI3MmQwODhkMTQwNWU5YzAzNjEzMjA4YWFhZjU3MjQ4NTNhMmU0ZCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950698000&usg=AFQjCNHr9VhVsfyFa73gQmTgTsTCjcrG9Q\"> episode</a> with Amir Eschel on Franz Kafka</li>",
-        "<li>Kafka’s own “Letter To His Father,” and <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.kafka.org%252Findex.php%253Farch_father%26t%3DN2Q5NTUxNWRmYTM3NWRmNzdiMzVlZDQ4NGU4M2ZkNzc0ZjhhOWY1NCxlRThucEhwNw%253D%253D&sa=D&ust=1480360950700000&usg=AFQjCNFtI0M8wUr099qQ1JDBM0kHqt7sJA\">this</a> interesting take on it</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Ffranzkafkastories.com%252FshortStories.php%253Fstory_id%253Dkafka_the_judgement%26t%3DOWFmYzcxYTljY2IwZTI4ZjQ2MDYxMjY4NDYwYzFjN2Y0YmNjNzMwMixlRThucEhwNw%253D%253D&sa=D&ust=1480360950701000&usg=AFQjCNEIqJi0_bdnJLBomPmuM6UyOTbmFQ\">The Judgment</a>,” the first short story he was really proud of; and well, everything else he ever wrote….</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1914"
+    "soundcloud": "252613786",
+    "title": "An Assortment of Franz Kafka"
   },
   {
-    "author": "Ernest Hemingway",
     "cover_image": "a_movable_feast.jpg",
     "created_at": "04-03-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "3",
+    "further_reading": [
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fbooks.google.es%252Fbooks%253Fid%253DyP-cgVNr55wC%2526lr%253D%26t%3DNjkyZGM5ZjJjMmJmZTU2YTY2M2Y2NDIzMWMxMTY4OWEwNGRiMDQ2NSxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950683000&usg=AFQjCNFST2GY24aycbJ3j-mET9mmCgHzNw\">Hemingway, The Writer as Artist</a>,” Carlos Baker. Princeton Press, 1972.</li>",
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fbooks%252F99%252F07%252F04%252Fspecials%252Fhemingway-marquez.html%26t%3DNjViYmVmOTkyNmY0ZDQyMGM1NGVmM2NlZjJlNjVmMDFiZTFhODg0MyxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950684000&usg=AFQjCNGHhMVSX4Je58Pu0RMwevgnHs0o5A\">An interesting short piece</a> by Gabriel Garcia Marquez and his meeting Ernest Hemingway </li>",
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fbooks%252F99%252F07%252F04%252Fspecials%252Fhemingway-search.html%26t%3DOGM3NDRjZjZhODBjMTkwNDI3ODFkNmExOTIxYWU3YzE1ZjRkYTUwYixZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950686000&usg=AFQjCNEwvc6oRH62KX8QgbI3M4I0bbYx_g\">Another short piece</a> by Carlos Baker about trying to discover the real Ernest Hemingway</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fscholarsarchive.byu.edu%252Fcgi%252Fviewcontent.cgi%253Farticle%253D1036%2526context%253Dcriterion%26t%3DYmY2N2Q3Y2ZlYmNjYzg3NjZiYTllYzUzYjVjYTVjZDg0NDQ0MjRlOCxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950687000&usg=AFQjCNFlClDpZ0ykgsYf0coJBr9PlSBUvg\">Archiving Art: The Value of Nostalgia in Ernest Hemingway’s “A Moveable Feast</a>,” Jared Michael Pence. A Journal of Literary Criticism, 2014.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fcontent.lib.utah.edu%252Futils%252Fgetfile%252Fcollection%252Fetd2%252Fid%252F1328%252Ffilename%252F1057.pdf%26t%3DZTNlMDcxYzZhNzQ3MDM3NDlhYWU4ZDY0OGVjZTVmYzlhMjY4MWEwNixZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950689000&usg=AFQjCNEz_QHAFbcMY8dzs8xAW8uaQIreSA\">The Function of Nostalgia: Ernest Hemingway</a>,”  an M.A. thesis submitted by Stephen L. Tanner to the University of Utah, 1964.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Call me Hemingweener.",
-    "podcast": {
-      "episode": "3",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "257095726",
-      "title": "Saudade & Memory in Ernest Hemingway's \"A Moveable Feast\"",
-      "further_reading": [
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fbooks.google.es%252Fbooks%253Fid%253DyP-cgVNr55wC%2526lr%253D%26t%3DNjkyZGM5ZjJjMmJmZTU2YTY2M2Y2NDIzMWMxMTY4OWEwNGRiMDQ2NSxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950683000&usg=AFQjCNFST2GY24aycbJ3j-mET9mmCgHzNw\">Hemingway, The Writer as Artist</a>,” Carlos Baker. Princeton Press, 1972.</li>",
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fbooks%252F99%252F07%252F04%252Fspecials%252Fhemingway-marquez.html%26t%3DNjViYmVmOTkyNmY0ZDQyMGM1NGVmM2NlZjJlNjVmMDFiZTFhODg0MyxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950684000&usg=AFQjCNGHhMVSX4Je58Pu0RMwevgnHs0o5A\">An interesting short piece</a> by Gabriel Garcia Marquez and his meeting Ernest Hemingway </li>",
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fwww.nytimes.com%252Fbooks%252F99%252F07%252F04%252Fspecials%252Fhemingway-search.html%26t%3DOGM3NDRjZjZhODBjMTkwNDI3ODFkNmExOTIxYWU3YzE1ZjRkYTUwYixZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950686000&usg=AFQjCNEwvc6oRH62KX8QgbI3M4I0bbYx_g\">Another short piece</a> by Carlos Baker about trying to discover the real Ernest Hemingway</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fscholarsarchive.byu.edu%252Fcgi%252Fviewcontent.cgi%253Farticle%253D1036%2526context%253Dcriterion%26t%3DYmY2N2Q3Y2ZlYmNjYzg3NjZiYTllYzUzYjVjYTVjZDg0NDQ0MjRlOCxZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950687000&usg=AFQjCNFlClDpZ0ykgsYf0coJBr9PlSBUvg\">Archiving Art: The Value of Nostalgia in Ernest Hemingway’s “A Moveable Feast</a>,” Jared Michael Pence. A Journal of Literary Criticism, 2014.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fcontent.lib.utah.edu%252Futils%252Fgetfile%252Fcollection%252Fetd2%252Fid%252F1328%252Ffilename%252F1057.pdf%26t%3DZTNlMDcxYzZhNzQ3MDM3NDlhYWU4ZDY0OGVjZTVmYzlhMjY4MWEwNixZZVF2M3pFVg%253D%253D&sa=D&ust=1480360950689000&usg=AFQjCNEz_QHAFbcMY8dzs8xAW8uaQIreSA\">The Function of Nostalgia: Ernest Hemingway</a>,”  an M.A. thesis submitted by Stephen L. Tanner to the University of Utah, 1964.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1964"
+    "soundcloud": "257095726",
+    "title": "Saudade & Memory in Ernest Hemingway's \"A Moveable Feast\""
   },
   {
-    "author": "Jorge Luis Borges",
     "cover_image": "ficciones.jpg",
     "created_at": "04-10-2016",
-    "has_podcast": true,
-    "has_review": true,
+    "episode": "4",
+    "further_reading": [
+      "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fassets.cambridge.org%252F97805211%252F93399%252Ffrontmatter%252F9780521193399_frontmatter.pdf%26t%3DZThlY2M2OTEwN2VlYzAwN2NmYTNiNjZhOTA3ZWUwMjY4NmY2ZDI5ZCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950666000&usg=AFQjCNEmyvKn7YH6Y_SI_wPld61gdFz1TA\">The Cambridge Companion to Jorge Luis Borges</a></li>",
+      "<li>Robert Harrison’s talk show “Entitled Opinions” - “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Ffrench-italian.stanford.edu%252Fopinions%252F%26t%3DYTMwNWQ5YmI2MTc3M2FlZjE2N2JjYjhjODE4NDc3MGEwNTAwNzkxZCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950668000&usg=AFQjCNFPBJGKdoNQdeFQZpMBb8bkcE4Fag\">Hans Gumbrecht on Borges”</a></li>",
+      "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” and his lecture series on Borges’ “Fictions”</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fweb.mit.edu%252Fallanmc%252Fwww%252Fborgesaleph.pdf%26t%3DMjJiZmY0NWE3MDJlZjA0NDFkZmE1YTcwYTQ0NDJhNDg2ZGU2MzU1MCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950670000&usg=AFQjCNGzhIOA_kXcqDlu5v7eWvrYaB7aLA\">The Aleph</a>” by Borges (in English)</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fsites.google.com%252Fsite%252Fjimeikner%252Fhome%252Fborges%252Fkafka-and-his-precursors%26t%3DZmI1NzgyZGRhNjAyNzllMTU2ZWI4ZTI3Y2I3ODY4NDljODAzZTY5OCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950672000&usg=AFQjCNGXR4BjVL7uX9Lh15kINVOnoo4-QQ\">Kafka and His Precursors</a>” by Borges (in English)</li>",
+      "<li>The Paris Review interview with Jorge Luis Borges - <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.theparisreview.org%252Finterviews%252F4331%252Fthe-art-of-fiction-no-39-jorge-luis-borges%26t%3DYzYzODdjZTY3ZGNmM2JjZTM4ZjY5ODJlOTg5ZGFiMmI1NTFkYzYxOSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950673000&usg=AFQjCNF6Xne2AhQXwIOZ48xanJVcjLgfnQ\">The Art of Fiction No. 39</a></li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fafondo-entrevistas-soler-serrano.blogspot.com.es%252F2012%252F07%252Fjorge-luis-borges-entrevistado-en-fondo.html%26t%3DYWRiYTM2NmY5MTY0NmI3MjIzYzI5M2Q4OGNiZDQ3MWUxMzI2NDA4YyxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950675000&usg=AFQjCNEoAc7_37AMWZFVKv2VU8PNtiumaw\">Jorge Luis Borges - Entrevistado ‘A Fondo’’ 1976</a>″ - Entrevistas A Fondo - conducted by Soler Serrano (in Spanish)</li>",
+      "<li>Borges on Kafka - pgs. 216-220 <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252FKafkaKierkegaardBible%252FJorgeLuisBorgesConversations.pdf%26t%3DNzkwMTE1ZGVkOTEyOTE4NjRjYmI0YzBhMjYyNDc3Mjk4Nzg3YzY3ZixGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950676000&usg=AFQjCNHvVUHyw6vutNSioCNcqsm7Qcr6oA\">here</a> (thank you University of Florida)</li>",
+      "<li>For those James Joyce heads out there, here is an article by Patricia Novillo-Corvalán titled “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.borges.pitt.edu%252Fbsol%252Fdocuments%252F2606.pdf%26t%3DYTg2ZmJlYjI1MzA5OGU0ZjlkOWJiMjQ5YWE0OGY0ZTQ1YzMxM2MxMCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950677000&usg=AFQjCNFIS9oIH5LpOj5FsLLxwbJOAbPFXQ\">James Joyce, author of ‘<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252Fspaceshotsairheads%252Fborges-funes_el_memorioso.pdf%26t%3DNDcwMTNmOTk2MTU2ODM0NzhhZDNmNjNhYjkwOWQ5ZTcyMjllYmNiOSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950678000&usg=AFQjCNHsV1qRsEW6RJnsllMfo0oT7ZKIxA\">Funes el memorioso</a></a>,’”Variaciones Borges 28, 2008.  She traces Joyce’s influence on Borges and the writer’s presence in Borges’ short story “Funes el memorioso,” or “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252Fspaceshotsairheads%252Fborges-funes.pdf%26t%3DNmJlNTMwMzRjNGY0NDE1N2NlNjVhOWYyMjc3Y2VkNzcxOTcwYjIzYSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950679000&usg=AFQjCNFwPeJD-vbIslW-KwyhlSdu1UgOqQ\">Funes, The Memorious</a>.” (thank you again University of Florida)</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Into the depths, my boys!",
-    "podcast": {
-      "episode": "4",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "258329009",
-      "title": "Narrative Pathways & Alternate Histories in Jorge Luis Borges' \"Fictions\"",
-      "further_reading": [
-        "<li><a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fassets.cambridge.org%252F97805211%252F93399%252Ffrontmatter%252F9780521193399_frontmatter.pdf%26t%3DZThlY2M2OTEwN2VlYzAwN2NmYTNiNjZhOTA3ZWUwMjY4NmY2ZDI5ZCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950666000&usg=AFQjCNEmyvKn7YH6Y_SI_wPld61gdFz1TA\">The Cambridge Companion to Jorge Luis Borges</a></li>",
-        "<li>Robert Harrison’s talk show “Entitled Opinions” - “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Ffrench-italian.stanford.edu%252Fopinions%252F%26t%3DYTMwNWQ5YmI2MTc3M2FlZjE2N2JjYjhjODE4NDc3MGEwNTAwNzkxZCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950668000&usg=AFQjCNFPBJGKdoNQdeFQZpMBb8bkcE4Fag\">Hans Gumbrecht on Borges”</a></li>",
-        "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” and his lecture series on Borges’ “Fictions”</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fweb.mit.edu%252Fallanmc%252Fwww%252Fborgesaleph.pdf%26t%3DMjJiZmY0NWE3MDJlZjA0NDFkZmE1YTcwYTQ0NDJhNDg2ZGU2MzU1MCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950670000&usg=AFQjCNGzhIOA_kXcqDlu5v7eWvrYaB7aLA\">The Aleph</a>” by Borges (in English)</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttps%253A%252F%252Fsites.google.com%252Fsite%252Fjimeikner%252Fhome%252Fborges%252Fkafka-and-his-precursors%26t%3DZmI1NzgyZGRhNjAyNzllMTU2ZWI4ZTI3Y2I3ODY4NDljODAzZTY5OCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950672000&usg=AFQjCNGXR4BjVL7uX9Lh15kINVOnoo4-QQ\">Kafka and His Precursors</a>” by Borges (in English)</li>",
-        "<li>The Paris Review interview with Jorge Luis Borges - <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.theparisreview.org%252Finterviews%252F4331%252Fthe-art-of-fiction-no-39-jorge-luis-borges%26t%3DYzYzODdjZTY3ZGNmM2JjZTM4ZjY5ODJlOTg5ZGFiMmI1NTFkYzYxOSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950673000&usg=AFQjCNF6Xne2AhQXwIOZ48xanJVcjLgfnQ\">The Art of Fiction No. 39</a></li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fafondo-entrevistas-soler-serrano.blogspot.com.es%252F2012%252F07%252Fjorge-luis-borges-entrevistado-en-fondo.html%26t%3DYWRiYTM2NmY5MTY0NmI3MjIzYzI5M2Q4OGNiZDQ3MWUxMzI2NDA4YyxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950675000&usg=AFQjCNEoAc7_37AMWZFVKv2VU8PNtiumaw\">Jorge Luis Borges - Entrevistado ‘A Fondo’’ 1976</a>″ - Entrevistas A Fondo - conducted by Soler Serrano (in Spanish)</li>",
-        "<li>Borges on Kafka - pgs. 216-220 <a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252FKafkaKierkegaardBible%252FJorgeLuisBorgesConversations.pdf%26t%3DNzkwMTE1ZGVkOTEyOTE4NjRjYmI0YzBhMjYyNDc3Mjk4Nzg3YzY3ZixGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950676000&usg=AFQjCNHvVUHyw6vutNSioCNcqsm7Qcr6oA\">here</a> (thank you University of Florida)</li>",
-        "<li>For those James Joyce heads out there, here is an article by Patricia Novillo-Corvalán titled “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fwww.borges.pitt.edu%252Fbsol%252Fdocuments%252F2606.pdf%26t%3DYTg2ZmJlYjI1MzA5OGU0ZjlkOWJiMjQ5YWE0OGY0ZTQ1YzMxM2MxMCxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950677000&usg=AFQjCNFIS9oIH5LpOj5FsLLxwbJOAbPFXQ\">James Joyce, author of ‘<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252Fspaceshotsairheads%252Fborges-funes_el_memorioso.pdf%26t%3DNDcwMTNmOTk2MTU2ODM0NzhhZDNmNjNhYjkwOWQ5ZTcyMjllYmNiOSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950678000&usg=AFQjCNHsV1qRsEW6RJnsllMfo0oT7ZKIxA\">Funes el memorioso</a></a>,’”Variaciones Borges 28, 2008.  She traces Joyce’s influence on Borges and the writer’s presence in Borges’ short story “Funes el memorioso,” or “<a href=\"https://www.google.com/url?q=http://t.umblr.com/redirect?z%3Dhttp%253A%252F%252Fusers.clas.ufl.edu%252Fburt%252Fspaceshotsairheads%252Fborges-funes.pdf%26t%3DNmJlNTMwMzRjNGY0NDE1N2NlNjVhOWYyMjc3Y2VkNzcxOTcwYjIzYSxGYnMzWlMzTQ%253D%253D&sa=D&ust=1480360950679000&usg=AFQjCNFwPeJD-vbIslW-KwyhlSdu1UgOqQ\">Funes, The Memorious</a>.” (thank you again University of Florida)</li>"
-      ]
-    },
-    "review": {
-      "created_at": "12-01-2016",
-      "image": "review_image_borges.jpg",
-      "reviewer": "Jacob Welcker",
-      "teaser": "Perhaps due to the plethora of authors citing him as inspiration, or perhaps because of the infinite number of ways the world is currently baffling (i.e. Donald Trump), Jorge Luis Borges has become a permanent blinking dot on the public’s radar.  There have been pieces on Borges and Borgesian concepts",
-      "template": "a_primer_to_borges.html",
-      "title": "A Primer to Borges",
-      "footer": "http://thecasualacademic.com/episodes/258329009",
-      "footer_title": "Haven't Heard The Episode Yet?"
-    },
-    "year": "1944"
+    "soundcloud": "258329009",
+    "title": "Narrative Pathways & Alternate Histories in Jorge Luis Borges' \"Fictions\""
   },
   {
-    "author": "Venedikt Yerofeyev",
     "cover_image": "moscow_to_the_end_of_the_line.jpg",
     "created_at": "04-25-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "5",
+    "further_reading": [
+      "<li>\"In Praise of Booze: 'Moskva-Petushki' and Erasmian Irony,\" Oliver Ready. The Slavonic & East European Review, 2010.</li>",
+      "<li>\"<a href=\"https://www.google.com/url?q=http://www.emory.edu/INTELNET/af.rus.postmodernism.html&sa=D&ust=1480360950656000&usg=AFQjCNHhG7GkmBElRM__1jNFRP9Gs1Vz3A\">The Origins and Meaning of Russian Postmodernism</a>,\" Michael Epstein. Published by Emory University for The National Council Soviet and Eastern European Research, 1993.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.pitt.edu/~slavic/sisc/SISC10/docs/shneyder.pdf&sa=D&ust=1480360950658000&usg=AFQjCNG4IhG6RjplWGY14FJGrsRXcSXJfg\">The Problem of Postmodernism in Russian Literary History: A Comparative Reading of Summer in Baden-Baden and Moscow to the End of the Line</a>,” Vadim Shneyder. Studies in Slavic Cultures.</li>",
+      "<li>\"Venedikt Erofeev's 'Moskva-Petushki': Performance and Performativity in the Late Soviet Text,\" Ann Komaromi. The Slavic and East European Journal, 2011.</li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3D5MdEe2W7RhUC%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950661000&usg=AFQjCNGuCvwdFQ5CuD2nK0QPXnJCmf02qg\">Russian Postmodernist Fiction: Dialogue with Chaos</a>, Mark Lipovetsky. M.E. Sharpe, 1999.</li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DrQlEAgAAQBAJ%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950662000&usg=AFQjCNHQGM8S_9HpsM83uXGwJR5KcSEdpQ\">Reference Guide to Russian Literature</a>, Neil Cornwell. Routledge, 2013.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Ty che, blyad?",
-    "podcast": {
-      "episode": "5",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "260887633",
-      "title": "The Russian Post-Modern Condition in Venedikt Erofeev's Moscow to the End of the Line",
-      "further_reading": [
-        "<li>\"In Praise of Booze: 'Moskva-Petushki' and Erasmian Irony,\" Oliver Ready. The Slavonic & East European Review, 2010.</li>",
-        "<li>\"<a href=\"https://www.google.com/url?q=http://www.emory.edu/INTELNET/af.rus.postmodernism.html&sa=D&ust=1480360950656000&usg=AFQjCNHhG7GkmBElRM__1jNFRP9Gs1Vz3A\">The Origins and Meaning of Russian Postmodernism</a>,\" Michael Epstein. Published by Emory University for The National Council Soviet and Eastern European Research, 1993.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.pitt.edu/~slavic/sisc/SISC10/docs/shneyder.pdf&sa=D&ust=1480360950658000&usg=AFQjCNG4IhG6RjplWGY14FJGrsRXcSXJfg\">The Problem of Postmodernism in Russian Literary History: A Comparative Reading of Summer in Baden-Baden and Moscow to the End of the Line</a>,” Vadim Shneyder. Studies in Slavic Cultures.</li>",
-        "<li>\"Venedikt Erofeev's 'Moskva-Petushki': Performance and Performativity in the Late Soviet Text,\" Ann Komaromi. The Slavic and East European Journal, 2011.</li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3D5MdEe2W7RhUC%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950661000&usg=AFQjCNGuCvwdFQ5CuD2nK0QPXnJCmf02qg\">Russian Postmodernist Fiction: Dialogue with Chaos</a>, Mark Lipovetsky. M.E. Sharpe, 1999.</li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DrQlEAgAAQBAJ%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950662000&usg=AFQjCNHQGM8S_9HpsM83uXGwJR5KcSEdpQ\">Reference Guide to Russian Literature</a>, Neil Cornwell. Routledge, 2013.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1973"
+    "soundcloud": "260887633",
+    "title": "The Russian Post-Modern Condition in Venedikt Erofeev's Moscow to the End of the Line"
   },
   {
-    "author": "J.M. Coetzee",
     "cover_image": "disgrace.jpg",
     "created_at": "05-08-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "6",
+    "further_reading": [
+      "<li>“<a href=\"https://www.google.com/url?q=https://www.ru.ac.za/media/rhodesuniversity/content/english/documents/Kossew%2520-%2520Shame%2520and%2520Redemption.pdf&sa=D&ust=1480360950643000&usg=AFQjCNFd8Wd4rbJ_mHZ_LDN7uEWe4gg1Tg\">The Politics of Shame and Redemption in J.M. Coetzee’s Disgrace</a>,” Sue Kossew.  EBSCO Publishing, 2003.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=https://www.researchgate.net/publication/227832073_Coetzee_on_South_Africa%2527s_Past_Remembering_in_the_Time_of_Forgetting&sa=D&ust=1480360950645000&usg=AFQjCNFHPHDae0ZMUrJku_Y1lsifxnqJcw\">Coetzee on South Africa’s Past: Remembering in the Time of Forgetting</a>,” Lynn Meskell & Lindsay Weiss. American Anthropologist, 2006.</li>",
+      "<li>Salman Rushdie’s <a href=\"https://www.google.com/url?q=http://coetzee.livejournal.com/566.html&sa=D&ust=1480360950647000&usg=AFQjCNElY0mxG1ZeAEswUUmihFtXsnWC_w\">review</a> of Disgrace in 2000.</li>",
+      "<li>A pretty useful <a href=\"https://www.google.com/url?q=http://library.buffalo.edu/exhibits/pdf/jmcoetzee.pdf&sa=D&ust=1480360950649000&usg=AFQjCNFtUPdmMltCqcnrjL5DuErxSyqbvA\">introduction</a> to J.M. Coetzee as a writer and thinker, put together by the University of Buffalo</li>",
+      "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” and his lecture series on Coetzee’s Disgrace</li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Dnjg6-G4q56gC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950651000&usg=AFQjCNHsog1KPsePZN6sk17Lcis3qONFkw\">J.M. Coetzee and the Paradox of Postcolonial Authorship</a>, Jane Poyner. Ashgate Publishing Limited, 2009.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Lurid ol' Lurie",
-    "podcast": {
-      "episode": "6",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "263172465",
-      "title": "Borderlands, Self-Other and the Failure of Language in J.M. Coetzee's \"Disgrace\"",
-      "further_reading": [
-        "<li>“<a href=\"https://www.google.com/url?q=https://www.ru.ac.za/media/rhodesuniversity/content/english/documents/Kossew%2520-%2520Shame%2520and%2520Redemption.pdf&sa=D&ust=1480360950643000&usg=AFQjCNFd8Wd4rbJ_mHZ_LDN7uEWe4gg1Tg\">The Politics of Shame and Redemption in J.M. Coetzee’s Disgrace</a>,” Sue Kossew.  EBSCO Publishing, 2003.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=https://www.researchgate.net/publication/227832073_Coetzee_on_South_Africa%2527s_Past_Remembering_in_the_Time_of_Forgetting&sa=D&ust=1480360950645000&usg=AFQjCNFHPHDae0ZMUrJku_Y1lsifxnqJcw\">Coetzee on South Africa’s Past: Remembering in the Time of Forgetting</a>,” Lynn Meskell & Lindsay Weiss. American Anthropologist, 2006.</li>",
-        "<li>Salman Rushdie’s <a href=\"https://www.google.com/url?q=http://coetzee.livejournal.com/566.html&sa=D&ust=1480360950647000&usg=AFQjCNElY0mxG1ZeAEswUUmihFtXsnWC_w\">review</a> of Disgrace in 2000.</li>",
-        "<li>A pretty useful <a href=\"https://www.google.com/url?q=http://library.buffalo.edu/exhibits/pdf/jmcoetzee.pdf&sa=D&ust=1480360950649000&usg=AFQjCNFtUPdmMltCqcnrjL5DuErxSyqbvA\">introduction</a> to J.M. Coetzee as a writer and thinker, put together by the University of Buffalo</li>",
-        "<li>Arnold Weinstein’s free course on Coursera titled “The Fiction of Relationship,” and his lecture series on Coetzee’s Disgrace</li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Dnjg6-G4q56gC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950651000&usg=AFQjCNHsog1KPsePZN6sk17Lcis3qONFkw\">J.M. Coetzee and the Paradox of Postcolonial Authorship</a>, Jane Poyner. Ashgate Publishing Limited, 2009.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1999"
+    "soundcloud": "263172465",
+    "title": "Borderlands, Self-Other and the Failure of Language in J.M. Coetzee's \"Disgrace\""
   },
   {
-    "author": "Graham Greene",
     "cover_image": "the_power_and_the_glory.jpg",
     "created_at": "05-25-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "7",
+    "further_reading": [
+      "<li>Graham Greene’s Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/5180/the-art-of-fiction-no-3-graham-greene&sa=D&ust=1480360950629000&usg=AFQjCNEY1ei-q5qB0sV6U9IIelQNjdCfmQ\">interview</a>, The Art of Fiction No.3, 1953.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2001/07/graham-greenes-vatican-dossier/302264/&sa=D&ust=1480360950631000&usg=AFQjCNHQWQirlg3FrfdOPxFK6HkzJUpXDw\">Graham Greene’s Vatican Dossier</a>,” Peter Godman.  The Atlantic, 2001.</li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Dh7MeBgAAQBAJ%26pg%3DPA119%26lpg%3DPA119%26dq%3DThe%2BPower%2Band%2Bthe%2BGlory:%2BA%2BSource%2Bof%2BGraham%2BGreene%25E2%2580%2599s%2BNovelistic%2BIdentity%26source%3Dbl%26ots%3D4lOBZjpKwN%26sig%3DdFpCZu1ZNiq2-Xw9L0v7DzMSU-4%26hl%3Den%26sa%3DX%26ved%3D0ahUKEwiw_eWj5r_QAhVBPxQKHfOKAEIQ6AEIMzAD%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950633000&usg=AFQjCNEnhHlNWFU2z5hv4sNFLYvK6lRnsA\">Graham Greene: Some Critical Considerations</a>, edited by Robery O. Evans.  A great introduction to Greene as a writer and the criticism surrounding his work</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.rjelal.com/2.%25203.2014/Dr%2520Druv-161-166.pdf&sa=D&ust=1480360950635000&usg=AFQjCNG1XDlbxnbk6_oSwjImbiVDkSC5Wg\">The Power and the Glory</a><a href=\"https://www.google.com/url?q=http://www.rjelal.com/2.%25203.2014/Dr%2520Druv-161-166.pdf&sa=D&ust=1480360950635000&usg=AFQjCNG1XDlbxnbk6_oSwjImbiVDkSC5Wg\">: A Source of Graham Greene’s Novelistic Identity</a>,” Dhruv Shankar. RJELAL, 2014.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.koersjournal.org.za/index.php/koers/article/viewFile/539/664&sa=D&ust=1480360950637000&usg=AFQjCNGBxbk7j35A6B30gL9nU3ntnRBCZQ\">Religious Paradoxes in Graham Greene’s Novels</a>,” Nettie Cloete. KOERS, 1998.</li>",
+      "<li>Need more?  Questia has put together quite a bibliography of critical work on Graham Greene, which you can peruse <a href=\"https://www.google.com/url?q=https://www.questia.com/library/literature/fiction/novelists/graham-greene&sa=D&ust=1480360950638000&usg=AFQjCNEXq9AJg6LP1hNaCzs9cmM2E-ezdQ\">here</a></li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "A mere cracker!",
-    "podcast": {
-      "episode": "7",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "265824571",
-      "title": "The 20th Century Catholic Writer & Paradox in Graham Greene's \"The Power and The Glory\"",
-      "further_reading": [
-        "<li>Graham Greene’s Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/5180/the-art-of-fiction-no-3-graham-greene&sa=D&ust=1480360950629000&usg=AFQjCNEY1ei-q5qB0sV6U9IIelQNjdCfmQ\">interview</a>, The Art of Fiction No.3, 1953.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2001/07/graham-greenes-vatican-dossier/302264/&sa=D&ust=1480360950631000&usg=AFQjCNHQWQirlg3FrfdOPxFK6HkzJUpXDw\">Graham Greene’s Vatican Dossier</a>,” Peter Godman.  The Atlantic, 2001.</li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Dh7MeBgAAQBAJ%26pg%3DPA119%26lpg%3DPA119%26dq%3DThe%2BPower%2Band%2Bthe%2BGlory:%2BA%2BSource%2Bof%2BGraham%2BGreene%25E2%2580%2599s%2BNovelistic%2BIdentity%26source%3Dbl%26ots%3D4lOBZjpKwN%26sig%3DdFpCZu1ZNiq2-Xw9L0v7DzMSU-4%26hl%3Den%26sa%3DX%26ved%3D0ahUKEwiw_eWj5r_QAhVBPxQKHfOKAEIQ6AEIMzAD%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950633000&usg=AFQjCNEnhHlNWFU2z5hv4sNFLYvK6lRnsA\">Graham Greene: Some Critical Considerations</a>, edited by Robery O. Evans.  A great introduction to Greene as a writer and the criticism surrounding his work</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.rjelal.com/2.%25203.2014/Dr%2520Druv-161-166.pdf&sa=D&ust=1480360950635000&usg=AFQjCNG1XDlbxnbk6_oSwjImbiVDkSC5Wg\">The Power and the Glory</a><a href=\"https://www.google.com/url?q=http://www.rjelal.com/2.%25203.2014/Dr%2520Druv-161-166.pdf&sa=D&ust=1480360950635000&usg=AFQjCNG1XDlbxnbk6_oSwjImbiVDkSC5Wg\">: A Source of Graham Greene’s Novelistic Identity</a>,” Dhruv Shankar. RJELAL, 2014.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.koersjournal.org.za/index.php/koers/article/viewFile/539/664&sa=D&ust=1480360950637000&usg=AFQjCNGBxbk7j35A6B30gL9nU3ntnRBCZQ\">Religious Paradoxes in Graham Greene’s Novels</a>,” Nettie Cloete. KOERS, 1998.</li>",
-        "<li>Need more?  Questia has put together quite a bibliography of critical work on Graham Greene, which you can peruse <a href=\"https://www.google.com/url?q=https://www.questia.com/library/literature/fiction/novelists/graham-greene&sa=D&ust=1480360950638000&usg=AFQjCNEXq9AJg6LP1hNaCzs9cmM2E-ezdQ\">here</a></li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1940"
+    "soundcloud": "265824571",
+    "title": "The 20th Century Catholic Writer & Paradox in Graham Greene's \"The Power and The Glory\""
   },
   {
-    "author": "Ursula K. Le Guin",
     "cover_image": "the_left_hand_of_darkness.jpg",
     "created_at": "06-12-2016",
-    "has_podcast": true,
-    "has_review": true,
+    "episode": "8",
+    "further_reading": [
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.publicbooks.org/fiction/le-guins-anarchist-aesthetics&sa=D&ust=1480360950615000&usg=AFQjCNGbIdTPqo88mu8OD53UKdTKHIm91Q\">LeGuin’s Anarchist’s Aesthetics</a>,” John Plotz. Public Books, 2015.</li>",
+      "<li>Ursula LeGuin’s Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/6253/the-art-of-fiction-no-221-ursula-k-le-guin&sa=D&ust=1480360950617000&usg=AFQjCNHS887syJmJj-3wklbFbsltKHGHIw\">interview</a>, The Art of Fiction No. 221, 2013.</li>",
+      "<li>Her article in response to criticism of The Left Hand of Darkness, titled “<a href=\"https://www.google.com/url?q=https://americanfuturesiup.files.wordpress.com/2013/01/is-gender-necessary.pdf&sa=D&ust=1480360950619000&usg=AFQjCNHGHi7VFpI_gT4hU2iiMpTWCbJzEQ\">Is Gender Necessary</a>,” (1976) as well as her “Redux” of the same article (1988)</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://engl210-deykute.wikispaces.umb.edu/file/view/omelas.pdf&sa=D&ust=1480360950621000&usg=AFQjCNEeei4y6hC72fwxU6WfrTEucgjWqw\">The Ones Who Walk Away From Omelas</a>” – one of her amazing short stories.</li>",
+      "<li>“The Art of Social-Science Fiction: The Ambiguous Utopian Dialectics of Ursula K. Le Guin,” Donald F. Theall. Science Fiction Studies, 1975.</li>",
+      "<li>“Le Guin's the Left Hand of Darkness: Form and Content,” Martin Bickman. Science Fiction Studies, 1977.</li>",
+      "<li>Her article in The New Yorker titled “<a href=\"https://www.google.com/url?q=http://www.newyorker.com/magazine/2012/06/04/the-golden-age-5&sa=D&ust=1480360950625000&usg=AFQjCNH2-k8OuBSsiEMUWSndfIsgpJo9GQ\">The Golden Age</a>,” in which she discusses the history and merits of Science Fiction as a genre</li>"
+    ],
+    "hosts": "Alex Johnson, Clay Oppenhuizen, and Jacob Welcker",
     "liner": "This poor unfortunate soul!",
-    "podcast": {
-      "episode": "8",
-      "hosts": "Alex Johnson, Clay Oppenhuizen, and Jacob Welcker",
-      "soundcloud": "268803127",
-      "title": "Terra Incognita, Utopia and I & Thou in Ursula K. LeGuin's \"The Left Hand of Darkness\"",
-      "further_reading": [
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.publicbooks.org/fiction/le-guins-anarchist-aesthetics&sa=D&ust=1480360950615000&usg=AFQjCNGbIdTPqo88mu8OD53UKdTKHIm91Q\">LeGuin’s Anarchist’s Aesthetics</a>,” John Plotz. Public Books, 2015.</li>",
-        "<li>Ursula LeGuin’s Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/6253/the-art-of-fiction-no-221-ursula-k-le-guin&sa=D&ust=1480360950617000&usg=AFQjCNHS887syJmJj-3wklbFbsltKHGHIw\">interview</a>, The Art of Fiction No. 221, 2013.</li>",
-        "<li>Her article in response to criticism of The Left Hand of Darkness, titled “<a href=\"https://www.google.com/url?q=https://americanfuturesiup.files.wordpress.com/2013/01/is-gender-necessary.pdf&sa=D&ust=1480360950619000&usg=AFQjCNHGHi7VFpI_gT4hU2iiMpTWCbJzEQ\">Is Gender Necessary</a>,” (1976) as well as her “Redux” of the same article (1988)</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://engl210-deykute.wikispaces.umb.edu/file/view/omelas.pdf&sa=D&ust=1480360950621000&usg=AFQjCNEeei4y6hC72fwxU6WfrTEucgjWqw\">The Ones Who Walk Away From Omelas</a>” – one of her amazing short stories.</li>",
-        "<li>“The Art of Social-Science Fiction: The Ambiguous Utopian Dialectics of Ursula K. Le Guin,” Donald F. Theall. Science Fiction Studies, 1975.</li>",
-        "<li>“Le Guin's the Left Hand of Darkness: Form and Content,” Martin Bickman. Science Fiction Studies, 1977.</li>",
-        "<li>Her article in The New Yorker titled “<a href=\"https://www.google.com/url?q=http://www.newyorker.com/magazine/2012/06/04/the-golden-age-5&sa=D&ust=1480360950625000&usg=AFQjCNH2-k8OuBSsiEMUWSndfIsgpJo9GQ\">The Golden Age</a>,” in which she discusses the history and merits of Science Fiction as a genre</li>"
-      ]
-    },
-    "review": {
-      "created_at": "03-02-2017",
-      "image": "leguin_clay_article.jpg",
-      "reviewer": "Clay Oppenhuizen",
-      "teaser": "Her first popular title within the Hainish Cycle was The Left Hand of Darkness, which, among other things, explored a society that challenged gender norms of the mid-twentieth century. Back in June of 2016, we discussed Le Guin and The Left Hand of Darkness on The Casual Academic’s eighth episode.",
-      "template": "ursula_leguin_subversion_in_narrative.html",
-      "title": "Ursula LeGuin’s Anarchism: Subversion Within Narrative",
-      "footer": "http://thecasualacademic.com/episodes/268803127",
-      "footer_title": "Haven't Heard The Episode Yet?"
-    },
-    "year": "1969"
+    "soundcloud": "268803127",
+    "title": "Terra Incognita, Utopia and I & Thou in Ursula K. LeGuin's \"The Left Hand of Darkness\""
   },
   {
-    "author": "Flannery O'Connor",
     "cover_image": "the_violent_bear_it_away.jpg",
     "created_at": "08-08-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "9",
+    "further_reading": [
+      "<li>“Flannery O’Connor’s Devil,” John Hawkes. The Sewanee Review, 1962.</li>",
+      "<li>“Positive Destruction in the Fiction of Flannery O’Connor,” Richard Kane. The Southern Literary Journal, 1987.</li>",
+      "<li>O’Connor’s essay “<a href=\"https://www.google.com/url?q=http://w3.salemstate.edu/~pglasser/the-nature-and-aim-of-fiction.pdf&sa=D&ust=1480360950605000&usg=AFQjCNHpsv-uXM7l7cGAyuVyTBmi0ZDZsg\">The Nature and Aim of Fiction</a>,” from Mystery & Manners: Occasional Prose</li>",
+      "<li>“The Functional Gothic of Flannery O’Connor,” Ollye Tine Snow. Southwest Review, 1965.</li>",
+      "<li>Listen to Flannery O’Connor read her short story “A Good Man is Hard to Find” in 1959 <a href=\"https://www.google.com/url?q=http://www.openculture.com/2012/05/rare_1959_audio_flannery_oconnor_reads_a_good_man_is_hard_to_find.html&sa=D&ust=1480360950608000&usg=AFQjCNFN3w-TDNF70Ac8XsFfkHUBopliRA\">here</a></li>",
+      "<li>Kelly Gerald’s fascinating article on O’Connor’s other artistic talent – cartooning. “<a href=\"https://www.google.com/url?q=http://www.theparisreview.org/blog/2012/04/30/flannery-o%25E2%2580%2599connor-and-the-habit-of-art/&sa=D&ust=1480360950610000&usg=AFQjCNFN-8fM524sCWFY2QNcAFIZ70LxMA\">Flannery O’Connor and the Habit of Art</a>,” The Paris Review, 2012</li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3D5Y36FhTDgTkC%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950611000&usg=AFQjCNEBFmyzobJR0RPJZ1zjpuwv-p79BQ\">Flannery O’Connor</a> – a collection of critical essays on her work with an introduction by Harold Bloom</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "The dominance of destiny",
-    "podcast": {
-      "episode": "9",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "277379095",
-      "title": "The Devil, The Gothic & Ignoring the Divine in O'Connor's \"The Violent Bear It Away\"",
-      "further_reading": [
-        "<li>“Flannery O’Connor’s Devil,” John Hawkes. The Sewanee Review, 1962.</li>",
-        "<li>“Positive Destruction in the Fiction of Flannery O’Connor,” Richard Kane. The Southern Literary Journal, 1987.</li>",
-        "<li>O’Connor’s essay “<a href=\"https://www.google.com/url?q=http://w3.salemstate.edu/~pglasser/the-nature-and-aim-of-fiction.pdf&sa=D&ust=1480360950605000&usg=AFQjCNHpsv-uXM7l7cGAyuVyTBmi0ZDZsg\">The Nature and Aim of Fiction</a>,” from Mystery & Manners: Occasional Prose</li>",
-        "<li>“The Functional Gothic of Flannery O’Connor,” Ollye Tine Snow. Southwest Review, 1965.</li>",
-        "<li>Listen to Flannery O’Connor read her short story “A Good Man is Hard to Find” in 1959 <a href=\"https://www.google.com/url?q=http://www.openculture.com/2012/05/rare_1959_audio_flannery_oconnor_reads_a_good_man_is_hard_to_find.html&sa=D&ust=1480360950608000&usg=AFQjCNFN3w-TDNF70Ac8XsFfkHUBopliRA\">here</a></li>",
-        "<li>Kelly Gerald’s fascinating article on O’Connor’s other artistic talent – cartooning. “<a href=\"https://www.google.com/url?q=http://www.theparisreview.org/blog/2012/04/30/flannery-o%25E2%2580%2599connor-and-the-habit-of-art/&sa=D&ust=1480360950610000&usg=AFQjCNFN-8fM524sCWFY2QNcAFIZ70LxMA\">Flannery O’Connor and the Habit of Art</a>,” The Paris Review, 2012</li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3D5Y36FhTDgTkC%26printsec%3Dfrontcover%26authuser%3D0%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950611000&usg=AFQjCNEBFmyzobJR0RPJZ1zjpuwv-p79BQ\">Flannery O’Connor</a> – a collection of critical essays on her work with an introduction by Harold Bloom</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1960"
+    "soundcloud": "277379095",
+    "title": "The Devil, The Gothic & Ignoring the Divine in O'Connor's \"The Violent Bear It Away\""
   },
   {
-    "author": "Ta-Nehisi Coates",
     "cover_image": "between_the_world_and_me.jpg",
     "created_at": "09-04-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "10",
+    "further_reading": [
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2012/09/fear-of-a-black-president/309064/&sa=D&ust=1480360950587000&usg=AFQjCNGXekd3jZw-8hMHOs2sLZpUAbRolQ\">Fear of a Black President</a>,” Ta-Nehisi Coates. The Atlantic, 2012.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/&sa=D&ust=1480360950589000&usg=AFQjCNGyzKrT5w-282fWDoMZ-yvML69Q1w\">The Case for Reparations</a>,” Ta-Nehisi Coates. The Atlantic, 2014.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/politics/archive/2015/12/hope-and-the-historian/419961/&sa=D&ust=1480360950591000&usg=AFQjCNG-kI0Obkg_UlgRth2nY01J5I3saw\">Hope and the Historian</a>,” Ta-Nehisi Coates. The Atlantic, 2015.</li>",
+      "<li>Richard Wright’s 1935 poem “<a href=\"https://www.google.com/url?q=http://www.mun.ca/educ/faculty/hammett/between.htm&sa=D&ust=1480360950593000&usg=AFQjCNGTSpCTDLZ1aMRuWmCXDNKzAHydVQ\">Between the World and Me</a>.”</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.counterpunch.org/2016/01/11/locating-the-black-body-in-class-in-history-what-ta-nehisi-coates-took-from-richard-wright/&sa=D&ust=1480360950594000&usg=AFQjCNH5R8E6M87a-tJkOasIFtjfHfzsHA\">Locating ‘The Black Body’ in Class and in History: What Ta-Nehisi Coates took from Richard Wright</a>,” Joseph G. Ramsey. From Counterpunch Magazine.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950595000&usg=AFQjCNEQC7ilabyPci2pqli8z_ZELJfMTA\">Why James Baldwin’s </a><a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950596000&usg=AFQjCNEXxXDOBa7kWLOvi_iDNu4k6euU9w\">The Fire Next Time</a><a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950596000&usg=AFQjCNEXxXDOBa7kWLOvi_iDNu4k6euU9w\"> Still Matters</a>,” Orlando Emmons. JSTOR Daily, 2016.</li>",
+      "<li>“‘<a href=\"https://www.google.com/url?q=https://rewire.news/article/2016/08/02/burn-hope-todays-writers-revisit-fire-time/&sa=D&ust=1480360950597000&usg=AFQjCNHz8o4xX-wPD0mvOKMjEbAbHgzs2w\">I Burn, and I Hope’: Today’s Writers Revisit </a><a href=\"https://www.google.com/url?q=https://rewire.news/article/2016/08/02/burn-hope-todays-writers-revisit-fire-time/&sa=D&ust=1480360950598000&usg=AFQjCNEHjN1xqTzGDkz5iPF7sx43O0sD2g\">The Fire Next Time</a>,” Shonte Daniels. Rewire, 2016.</li>",
+      "<li>Malcolm X and James Baldwin <a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3D-JIp9_IIV3s&sa=D&ust=1480360950599000&usg=AFQjCNGYBz8tdPxFjV4NREgEZtXK4oGi7Q\">debate</a> from September 5, 1963</li>"
+    ],
+    "hosts": "Leselle Hatcher, Alex Johnson, and Clay Oppenhuizen",
     "liner": "Between two buns",
-    "podcast": {
-      "episode": "10",
-      "hosts": "Leselle Hatcher, Alex Johnson, and Clay Oppenhuizen",
-      "soundcloud": "281364008",
-      "title": "Ta-Nehisi Coates, James Baldwin & Richard Wright in \"Between The World & Me\"",
-      "further_reading": [
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2012/09/fear-of-a-black-president/309064/&sa=D&ust=1480360950587000&usg=AFQjCNGXekd3jZw-8hMHOs2sLZpUAbRolQ\">Fear of a Black President</a>,” Ta-Nehisi Coates. The Atlantic, 2012.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/magazine/archive/2014/06/the-case-for-reparations/361631/&sa=D&ust=1480360950589000&usg=AFQjCNGyzKrT5w-282fWDoMZ-yvML69Q1w\">The Case for Reparations</a>,” Ta-Nehisi Coates. The Atlantic, 2014.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.theatlantic.com/politics/archive/2015/12/hope-and-the-historian/419961/&sa=D&ust=1480360950591000&usg=AFQjCNG-kI0Obkg_UlgRth2nY01J5I3saw\">Hope and the Historian</a>,” Ta-Nehisi Coates. The Atlantic, 2015.</li>",
-        "<li>Richard Wright’s 1935 poem “<a href=\"https://www.google.com/url?q=http://www.mun.ca/educ/faculty/hammett/between.htm&sa=D&ust=1480360950593000&usg=AFQjCNGTSpCTDLZ1aMRuWmCXDNKzAHydVQ\">Between the World and Me</a>.”</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.counterpunch.org/2016/01/11/locating-the-black-body-in-class-in-history-what-ta-nehisi-coates-took-from-richard-wright/&sa=D&ust=1480360950594000&usg=AFQjCNH5R8E6M87a-tJkOasIFtjfHfzsHA\">Locating ‘The Black Body’ in Class and in History: What Ta-Nehisi Coates took from Richard Wright</a>,” Joseph G. Ramsey. From Counterpunch Magazine.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950595000&usg=AFQjCNEQC7ilabyPci2pqli8z_ZELJfMTA\">Why James Baldwin’s </a><a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950596000&usg=AFQjCNEXxXDOBa7kWLOvi_iDNu4k6euU9w\">The Fire Next Time</a><a href=\"https://www.google.com/url?q=http://daily.jstor.org/feature-james-baldwin-fire-next-time/&sa=D&ust=1480360950596000&usg=AFQjCNEXxXDOBa7kWLOvi_iDNu4k6euU9w\"> Still Matters</a>,” Orlando Emmons. JSTOR Daily, 2016.</li>",
-        "<li>“‘<a href=\"https://www.google.com/url?q=https://rewire.news/article/2016/08/02/burn-hope-todays-writers-revisit-fire-time/&sa=D&ust=1480360950597000&usg=AFQjCNHz8o4xX-wPD0mvOKMjEbAbHgzs2w\">I Burn, and I Hope’: Today’s Writers Revisit </a><a href=\"https://www.google.com/url?q=https://rewire.news/article/2016/08/02/burn-hope-todays-writers-revisit-fire-time/&sa=D&ust=1480360950598000&usg=AFQjCNEHjN1xqTzGDkz5iPF7sx43O0sD2g\">The Fire Next Time</a>,” Shonte Daniels. Rewire, 2016.</li>",
-        "<li>Malcolm X and James Baldwin <a href=\"https://www.google.com/url?q=https://www.youtube.com/watch?v%3D-JIp9_IIV3s&sa=D&ust=1480360950599000&usg=AFQjCNGYBz8tdPxFjV4NREgEZtXK4oGi7Q\">debate</a> from September 5, 1963</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "2015"
+    "soundcloud": "281364008",
+    "title": "Ta-Nehisi Coates, James Baldwin & Richard Wright in \"Between The World & Me\""
   },
   {
-    "author": "Umberto Eco",
     "cover_image": "the_name_of_the_rose.jpg",
     "created_at": "10-02-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "11",
+    "further_reading": [
+      "<li>Lecture 8 – “Semiotics and Structuralism,” from Paul Fry’s lecture series “<a href=\"https://www.google.com/url?q=http://oyc.yale.edu/english/engl-300%23sessions&sa=D&ust=1480360950569000&usg=AFQjCNEYfgwkLJwBtix1YMkGOxeL4nquIQ\">Introduction to Theory of Literature</a>,” on Free Yale Courses. </li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://personal.bgsu.edu/~dcallen/saussure.html&sa=D&ust=1480360950571000&usg=AFQjCNEe8NgcV5qOjjEvZwA-vIdnfikyOw\">Nature of the Linguistic Sign</a>,” from Ferdinand de Saussure’s Course in General Linguistics, </li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://faculty.georgetown.edu/irvinem/theory/Eco-TheoryofSigns-BMMLA-1981.pdf&sa=D&ust=1480360950573000&usg=AFQjCNHyndkRxSwR5oD8qWL4ItLHAyFGIw\">The Theory of Signs and the Role of the Reader</a>,” Umberto Eco. The Bulletin of the Midwest Modern Languages Association, 1981.</li>",
+      "<li>Naming the Rose: Eco, Medieval Signs and Modern Theory, Theresa Coletti. Cornell University Press, 1988.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.3dlit.org/artist-index/davidcolosi/colosi_writingsby/role_of_writer/davidcolosi_comic.html&sa=D&ust=1480360950576000&usg=AFQjCNEldnINvkD22dfaQ4PGsV8rYYuclw\">The Comic in Eco</a>” – a chapter excerpt from The Role of the Writer: Deviations from the Works of Humberto Eco, David Colosi. 3D Lit.</li>",
+      "<li>Umberto Eco’s The Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/5856/the-art-of-fiction-no-197-umberto-eco&sa=D&ust=1480360950578000&usg=AFQjCNGkSCsyZ_47igd5Q6ZvixRA3xQyUQ\">interview</a>, The Art of Fiction No. 197, 2008.</li>",
+      "<li>A hero named “Marco” provided translations for the majority of the Latin found in The Name of the Rose, which you can find <a href=\"https://www.google.com/url?q=http://www.rapiddiffusion.com/translations-name-rose-eco/&sa=D&ust=1480360950581000&usg=AFQjCNFMHVPmRV1GEUBhX-ZbUAaLesRNqQ\">here</a>.</li>",
+      "<li>An interesting <a href=\"https://www.google.com/url?q=http://publishingperspectives.com/2014/12/umberto-eco-name-of-the-rose-bestseller/%23.WDlievkrJPY&sa=D&ust=1480360950582000&usg=AFQjCNGnOejz89V7oVErOHrXnKdzM7zapg\">article</a> by Kevin DiCamillo about the puzzling success of Eco’s first novel, from Publishing Perspectives.</li>",
+      "<li>A good <a href=\"https://www.google.com/url?q=http://ebonyinkwell.com/umberto-eco-intertextuality-in-the-name-of-the-rose/&sa=D&ust=1480360950583000&usg=AFQjCNEHdx2ORbfiIxtClvDalciNKuVMWA\">start</a> at the intertextuality of Eco’s novel, by Casselise Rowe, from her blog The Ebony Inkwell.</li>"
+    ],
+    "hosts": "Zak Breckenridge, Alex Johnson and Jacob Welcker",
     "liner": "Umbies Concierto of Echoes",
-    "podcast": {
-      "episode": "11",
-      "hosts": "Zak Breckenridge, Alex Johnson and Jacob Welcker",
-      "soundcloud": "285751441",
-      "title": "Semiotics, Sublimation and Inter-Textuality in Umberto Eco's \"The Name of the Rose\"",
-      "further_reading": [
-        "<li>Lecture 8 – “Semiotics and Structuralism,” from Paul Fry’s lecture series “<a href=\"https://www.google.com/url?q=http://oyc.yale.edu/english/engl-300%23sessions&sa=D&ust=1480360950569000&usg=AFQjCNEYfgwkLJwBtix1YMkGOxeL4nquIQ\">Introduction to Theory of Literature</a>,” on Free Yale Courses. </li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://personal.bgsu.edu/~dcallen/saussure.html&sa=D&ust=1480360950571000&usg=AFQjCNEe8NgcV5qOjjEvZwA-vIdnfikyOw\">Nature of the Linguistic Sign</a>,” from Ferdinand de Saussure’s Course in General Linguistics, </li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://faculty.georgetown.edu/irvinem/theory/Eco-TheoryofSigns-BMMLA-1981.pdf&sa=D&ust=1480360950573000&usg=AFQjCNHyndkRxSwR5oD8qWL4ItLHAyFGIw\">The Theory of Signs and the Role of the Reader</a>,” Umberto Eco. The Bulletin of the Midwest Modern Languages Association, 1981.</li>",
-        "<li>Naming the Rose: Eco, Medieval Signs and Modern Theory, Theresa Coletti. Cornell University Press, 1988.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.3dlit.org/artist-index/davidcolosi/colosi_writingsby/role_of_writer/davidcolosi_comic.html&sa=D&ust=1480360950576000&usg=AFQjCNEldnINvkD22dfaQ4PGsV8rYYuclw\">The Comic in Eco</a>” – a chapter excerpt from The Role of the Writer: Deviations from the Works of Humberto Eco, David Colosi. 3D Lit.</li>",
-        "<li>Umberto Eco’s The Paris Review <a href=\"https://www.google.com/url?q=http://www.theparisreview.org/interviews/5856/the-art-of-fiction-no-197-umberto-eco&sa=D&ust=1480360950578000&usg=AFQjCNGkSCsyZ_47igd5Q6ZvixRA3xQyUQ\">interview</a>, The Art of Fiction No. 197, 2008.</li>",
-        "<li>A hero named “Marco” provided translations for the majority of the Latin found in The Name of the Rose, which you can find <a href=\"https://www.google.com/url?q=http://www.rapiddiffusion.com/translations-name-rose-eco/&sa=D&ust=1480360950581000&usg=AFQjCNFMHVPmRV1GEUBhX-ZbUAaLesRNqQ\">here</a>.</li>",
-        "<li>An interesting <a href=\"https://www.google.com/url?q=http://publishingperspectives.com/2014/12/umberto-eco-name-of-the-rose-bestseller/%23.WDlievkrJPY&sa=D&ust=1480360950582000&usg=AFQjCNGnOejz89V7oVErOHrXnKdzM7zapg\">article</a> by Kevin DiCamillo about the puzzling success of Eco’s first novel, from Publishing Perspectives.</li>",
-        "<li>A good <a href=\"https://www.google.com/url?q=http://ebonyinkwell.com/umberto-eco-intertextuality-in-the-name-of-the-rose/&sa=D&ust=1480360950583000&usg=AFQjCNEHdx2ORbfiIxtClvDalciNKuVMWA\">start</a> at the intertextuality of Eco’s novel, by Casselise Rowe, from her blog The Ebony Inkwell.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1980"
+    "soundcloud": "285751441",
+    "title": "Semiotics, Sublimation and Inter-Textuality in Umberto Eco's \"The Name of the Rose\""
   },
   {
-    "author": "Thomas Ligotti",
     "cover_image": "songs_of_a_dead_dreamer.jpg",
     "created_at": "10-20-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "12",
+    "further_reading": [
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Db7MrXWlBKIoC%26printsec%3Dfrontcover%26dq%3Dthomas%2Bligotti%26hl%3Den%26sa%3DX%26ved%3D0ahUKEwj_4unsqsbQAhWHWxoKHWmNAQQQ6AEILzAD%23v%3Donepage%26q%3Dthomas%2520ligotti%26f%3Dfalse&sa=D&ust=1480360950552000&usg=AFQjCNHem9GJLcdBJvGpoMMUZkPZ5Ihheg\">The Thomas Ligotti Reader: Essays and Explorations</a>, edited by Darrell Schweitzer. Wildside Press, 2003.</li>",
+      "<li>NPR rightly choosing Ligotti’s collection Songs from a Dead Dreamer & Grimscribe for their Halloween reading <a href=\"https://www.google.com/url?q=http://www.npr.org/2015/10/31/450887561/three-horror-classics-rise-from-the-grave-for-halloween&sa=D&ust=1480360950554000&usg=AFQjCNGHmcYzewKYzr2H81X6BEnDBBs4HA\">recommendations</a></li>",
+      "<li>This <a href=\"https://www.google.com/url?q=https://lovecraftzine.com/2015/10/14/the-lovecraft-ezine-interviews-thomas-ligotti/&sa=D&ust=1480360950555000&usg=AFQjCNFc4U3_vWRShLmQLYptWzxQS-7Zaw\">interview</a> with “The Lovecraft Ezine,” where the questions range from Arthur Schopenhauer to dark humor in Ligotti’s writing. A very interesting gamut of topics</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=http://www.newyorker.com/books/page-turner/the-horror-of-the-unreal&sa=D&ust=1480360950557000&usg=AFQjCNF2kvyugjHOUNMm41ktGKcyf3OV9g\">The Horror of the Unreal</a>,” Peter Bebergal. The New Yorker, 2015.</li>",
+      "<li><a href=\"https://www.google.com/url?q=http://www.ligotti.net/cmps_index.php&sa=D&ust=1480360950559000&usg=AFQjCNGlaQnIg9JDXTLXnNZfDCwDhISJPA\">Thomas Ligotti Online</a> – the website for everything Ligotti-related</li>",
+      "<li>A bit heavy, but a good read about Ligotti’s philosophy and its appearance in HBO’s True Detective – “<a href=\"https://www.google.com/url?q=http://www.thecritique.com/articles/the-philosophy-of-thomas-ligotti/&sa=D&ust=1480360950562000&usg=AFQjCNHX-YY5fNBZvY4ZCksLJAABhLZM_Q\">The Philosophy of Thomas Ligotti</a>,” James Trafford. The Critique, 2015.</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=https://lareviewofbooks.org/article/loving-the-alien-thomas-ligotti-and-the-psychology-of-cosmic-horror/%23!&sa=D&ust=1480360950564000&usg=AFQjCNEYhTg1zmZFISXAabZz7bd0HIIctQ\">Loving the Alien: Thomas Ligotti and the Psychology of Cosmic Horror</a>,” Michael W. Clune. The Los Angeles Review of Books, 2016.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Rioting in a lavender mist",
-    "podcast": {
-      "episode": "12",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "289210255",
-      "title": "The World, The Fiction, & The Philosophy of Thomas Ligotti",
-      "further_reading": [
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3Db7MrXWlBKIoC%26printsec%3Dfrontcover%26dq%3Dthomas%2Bligotti%26hl%3Den%26sa%3DX%26ved%3D0ahUKEwj_4unsqsbQAhWHWxoKHWmNAQQQ6AEILzAD%23v%3Donepage%26q%3Dthomas%2520ligotti%26f%3Dfalse&sa=D&ust=1480360950552000&usg=AFQjCNHem9GJLcdBJvGpoMMUZkPZ5Ihheg\">The Thomas Ligotti Reader: Essays and Explorations</a>, edited by Darrell Schweitzer. Wildside Press, 2003.</li>",
-        "<li>NPR rightly choosing Ligotti’s collection Songs from a Dead Dreamer & Grimscribe for their Halloween reading <a href=\"https://www.google.com/url?q=http://www.npr.org/2015/10/31/450887561/three-horror-classics-rise-from-the-grave-for-halloween&sa=D&ust=1480360950554000&usg=AFQjCNGHmcYzewKYzr2H81X6BEnDBBs4HA\">recommendations</a></li>",
-        "<li>This <a href=\"https://www.google.com/url?q=https://lovecraftzine.com/2015/10/14/the-lovecraft-ezine-interviews-thomas-ligotti/&sa=D&ust=1480360950555000&usg=AFQjCNFc4U3_vWRShLmQLYptWzxQS-7Zaw\">interview</a> with “The Lovecraft Ezine,” where the questions range from Arthur Schopenhauer to dark humor in Ligotti’s writing. A very interesting gamut of topics</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=http://www.newyorker.com/books/page-turner/the-horror-of-the-unreal&sa=D&ust=1480360950557000&usg=AFQjCNF2kvyugjHOUNMm41ktGKcyf3OV9g\">The Horror of the Unreal</a>,” Peter Bebergal. The New Yorker, 2015.</li>",
-        "<li><a href=\"https://www.google.com/url?q=http://www.ligotti.net/cmps_index.php&sa=D&ust=1480360950559000&usg=AFQjCNGlaQnIg9JDXTLXnNZfDCwDhISJPA\">Thomas Ligotti Online</a> – the website for everything Ligotti-related</li>",
-        "<li>A bit heavy, but a good read about Ligotti’s philosophy and its appearance in HBO’s True Detective – “<a href=\"https://www.google.com/url?q=http://www.thecritique.com/articles/the-philosophy-of-thomas-ligotti/&sa=D&ust=1480360950562000&usg=AFQjCNHX-YY5fNBZvY4ZCksLJAABhLZM_Q\">The Philosophy of Thomas Ligotti</a>,” James Trafford. The Critique, 2015.</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=https://lareviewofbooks.org/article/loving-the-alien-thomas-ligotti-and-the-psychology-of-cosmic-horror/%23!&sa=D&ust=1480360950564000&usg=AFQjCNEYhTg1zmZFISXAabZz7bd0HIIctQ\">Loving the Alien: Thomas Ligotti and the Psychology of Cosmic Horror</a>,” Michael W. Clune. The Los Angeles Review of Books, 2016.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1989"
+    "soundcloud": "289210255",
+    "title": "The World, The Fiction, & The Philosophy of Thomas Ligotti"
   },
   {
-    "author": "H.P. Lovecraft",
     "cover_image": "at_the_mountains_of_madness.png",
     "created_at": "10-30-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "13",
+    "further_reading": [
+      "<li>Lovecraft’s 1927 essay “<a href=\"https://www.google.com/url?q=http://www.hplovecraft.com/writings/texts/essays/shil.aspx&sa=D&ust=1480360950539000&usg=AFQjCNGceHKE2h3bDBq9dy-WJU6wida6pw\">Supernatural Horror in Literature</a>”</li>",
+      "<li>His “<a href=\"https://www.google.com/url?q=http://www.hplovecraft.com/writings/texts/essays/nwwf.aspx&sa=D&ust=1480360950541000&usg=AFQjCNEIfSvv4ZueVMxHDUghDv4qkj5__g\">Notes of Writing Weird Fiction</a>” </li>",
+      "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DtNCxCwAAQBAJ%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950542000&usg=AFQjCNHGD2h0nlzk8VHWdtPuz6M0Jlgs3g\">Science, Fiction, and the Fin-De-Siècle Periodical Press</a>, Will Tattersdill. Cambridge University Press, 2016. Recommended: Chapter 4, “Further northward: polar exploration and empire in the fact and fiction of the popular press”</li>",
+      "<li>A <a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DYdO2XRYNUuQC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950543000&usg=AFQjCNGjAghLiaduQC3-opP7JnQn5GVkZQ\">Subtler Magick: The Writings and Philosophy of H.P. Lovecraft</a>, S.T. Joshi. Wildside Press, 1982.</li>",
+      "<li>Edgar Allan Poe’s 1842 essay “<a href=\"https://www.google.com/url?q=http://www.massey.ac.nz/massey/fms/Colleges/College%2520of%2520Humanities%2520and%2520Social%2520Sciences/EMS/Readings/139.105/Additional/The%2520Importance%2520of%2520the%2520Single%2520Effect%2520in%2520a%2520Prose%2520Tale%2520-%2520Edgar%2520Allan%2520Poe.pdf&sa=D&ust=1480360950545000&usg=AFQjCNGsjlbK-bou4TUFQyoe8RirJlGraA\">The Importance of the Single Effect in a Prose Tale</a>”</li>",
+      "<li>The Lovecraft Annual, No.1, edited by S.T. Joshi. 2007. Recommended: “The Master’s Eyes With Secrets: H.P. Lovecraft’s influence on Thomas Ligotti,” by Matt Cardin</li>",
+      "<li>“<a href=\"https://www.google.com/url?q=https://qspace.qu.edu.qa/bitstream/handle/10576/8071/The%2520cosmology%2520of%2520HP%2520Lovecraft%2520fulltext.pdf?sequence%3D8%26isAllowed%3Dy&sa=D&ust=1480360950547000&usg=AFQjCNGHoFJqFB-m_VosXsT-b9m7_HkkeA\">The Cosmology of H.P. Lovecraft</a>,” Marcia G. Kutrieh. Bulletin of the Faculty of Humanities and Social Sciences, 1985.</li>",
+      "<li>New Critical Essays on H.P. Lovecraft, edited by David Simmons. Palgrave MacMillan, 2013. Recommended: “Looming at the Mountains of Madness: Lovecraft’s Mirages,” Robert Waugh</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Unimaginable cosmic castles",
-    "podcast": {
-      "episode": "13",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "290638863",
-      "title": "Mirages, Dread, and the Unreliable Narrator in Lovecraft's \"At the Mountains of Madness\"",
-      "further_reading": [
-        "<li>Lovecraft’s 1927 essay “<a href=\"https://www.google.com/url?q=http://www.hplovecraft.com/writings/texts/essays/shil.aspx&sa=D&ust=1480360950539000&usg=AFQjCNGceHKE2h3bDBq9dy-WJU6wida6pw\">Supernatural Horror in Literature</a>”</li>",
-        "<li>His “<a href=\"https://www.google.com/url?q=http://www.hplovecraft.com/writings/texts/essays/nwwf.aspx&sa=D&ust=1480360950541000&usg=AFQjCNEIfSvv4ZueVMxHDUghDv4qkj5__g\">Notes of Writing Weird Fiction</a>” </li>",
-        "<li><a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DtNCxCwAAQBAJ%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950542000&usg=AFQjCNHGD2h0nlzk8VHWdtPuz6M0Jlgs3g\">Science, Fiction, and the Fin-De-Siècle Periodical Press</a>, Will Tattersdill. Cambridge University Press, 2016. Recommended: Chapter 4, “Further northward: polar exploration and empire in the fact and fiction of the popular press”</li>",
-        "<li>A <a href=\"https://www.google.com/url?q=https://books.google.es/books?id%3DYdO2XRYNUuQC%26printsec%3Dfrontcover%23v%3Donepage%26q%26f%3Dfalse&sa=D&ust=1480360950543000&usg=AFQjCNGjAghLiaduQC3-opP7JnQn5GVkZQ\">Subtler Magick: The Writings and Philosophy of H.P. Lovecraft</a>, S.T. Joshi. Wildside Press, 1982.</li>",
-        "<li>Edgar Allan Poe’s 1842 essay “<a href=\"https://www.google.com/url?q=http://www.massey.ac.nz/massey/fms/Colleges/College%2520of%2520Humanities%2520and%2520Social%2520Sciences/EMS/Readings/139.105/Additional/The%2520Importance%2520of%2520the%2520Single%2520Effect%2520in%2520a%2520Prose%2520Tale%2520-%2520Edgar%2520Allan%2520Poe.pdf&sa=D&ust=1480360950545000&usg=AFQjCNGsjlbK-bou4TUFQyoe8RirJlGraA\">The Importance of the Single Effect in a Prose Tale</a>”</li>",
-        "<li>The Lovecraft Annual, No.1, edited by S.T. Joshi. 2007. Recommended: “The Master’s Eyes With Secrets: H.P. Lovecraft’s influence on Thomas Ligotti,” by Matt Cardin</li>",
-        "<li>“<a href=\"https://www.google.com/url?q=https://qspace.qu.edu.qa/bitstream/handle/10576/8071/The%2520cosmology%2520of%2520HP%2520Lovecraft%2520fulltext.pdf?sequence%3D8%26isAllowed%3Dy&sa=D&ust=1480360950547000&usg=AFQjCNGHoFJqFB-m_VosXsT-b9m7_HkkeA\">The Cosmology of H.P. Lovecraft</a>,” Marcia G. Kutrieh. Bulletin of the Faculty of Humanities and Social Sciences, 1985.</li>",
-        "<li>New Critical Essays on H.P. Lovecraft, edited by David Simmons. Palgrave MacMillan, 2013. Recommended: “Looming at the Mountains of Madness: Lovecraft’s Mirages,” Robert Waugh</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1936"
+    "soundcloud": "290638863",
+    "title": "Mirages, Dread, and the Unreliable Narrator in Lovecraft's \"At the Mountains of Madness\""
   },
   {
-    "author": "Edgar Allan Poe, Charlotte Perkins Gilman, Algernon Blackwood, Ryunosuke Akutagawa and Kazuo Ishiguro",
     "cover_image": "our_favorite_short_horror_stories.jpg",
     "created_at": "11-13-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "14",
+    "further_reading": [
+      "<li><a href='http://xroads.virginia.edu/~hyper/poe/cask.html'>“The Cask of Amontillado,”</a> by Edgar Allan Poe</li>",
+      "<li><a href='https://www.nlm.nih.gov/literatureofprescription/exhibitionAssets/digitalDocs/The-Yellow-Wall-Paper.pdf'>“The Yellow Wallpaper,”</a> by Charlotte Perkins Gilman</li>",
+      "<li><a href='http://algernonblackwood.org/Z-files/Willows.pdf'>“The Willows,”</a> by Algernon Blackwood</li>",
+      "<li><a href='https://archive.org/stream/RashomonAndOtherStories/RashomonAndOtherStories_djvu.txt'>“Rashomon and Other Stories,”</a> by Ryunosuke Akutagawa</li>",
+      "<li><a href='https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi9h_6suMbQAhWBahoKHY6jBaQQFggbMAA&url=http%3A%2F%2Fseas3.elte.hu%2Fcoursematerial%2FHarasztosAgnes%2FIshiguro%2C_A_Family_Supper.rtf&usg=AFQjCNEJRUV2MH_YxAPclXzuVH46bFqpAA&sig2=htRi8xeKZBN-lIInfY5L4A&bvm=bv.139782543,d.d2s'>“A Family Supper,”</a> by Kazuo Ishiguro</li>",
+      "<li>An impressive <a href='http://www.literaryhistory.com/19thC/Gilman.htm'>collection</a> of articles and books on Charlotte Perkins Gilman and her work</li>",
+      "<li>Perkins Gilman short 1913 article <a href='https://csivc.csi.cuny.edu/history/files/lavender/whyyw.html'>“Why I Wrote ‘The Yellow Wallpaper”</a></li>",
+      "<li>“Feminist Gothic in <a href='http://www.lonestar.edu/yellow-wallpaper.htm'>“The Yellow Wallpaper,”</a> Sarah L. Crowder. Lone Star College.</li>",
+      "<li>Almost <a href='http://algernonblackwood.org/'>all writings</a> by Algernon Blackwood</li>",
+      "<li>NPR rightly <a href='http://www.npr.org/2011/09/08/137295929/a-creepy-collection-of-supernatural-thrills'>recommending</a> Algernon Blackwood’s works for Halloween reads</li>",
+      "<li>Kate Mosse’s <a href='https://www.theguardian.com/books/2007/oct/27/featuresreviews.guardianreview32'>article</a> from The Guardian on why Algernon Blackwood is a neglected master of Horror fiction</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Our favorite short creepy tales",
-    "podcast": {
-      "episode": "14",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "292893243",
-      "title": "Our Favorite Short Horror & Listener Recommendations",
-      "further_reading": [
-        "<li><a href='http://xroads.virginia.edu/~hyper/poe/cask.html'>“The Cask of Amontillado,”</a> by Edgar Allan Poe</li>",
-        "<li><a href='https://www.nlm.nih.gov/literatureofprescription/exhibitionAssets/digitalDocs/The-Yellow-Wall-Paper.pdf'>“The Yellow Wallpaper,”</a> by Charlotte Perkins Gilman</li>",
-        "<li><a href='http://algernonblackwood.org/Z-files/Willows.pdf'>“The Willows,”</a> by Algernon Blackwood</li>",
-        "<li><a href='https://archive.org/stream/RashomonAndOtherStories/RashomonAndOtherStories_djvu.txt'>“Rashomon and Other Stories,”</a> by Ryunosuke Akutagawa</li>",
-        "<li><a href='https://www.google.es/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwi9h_6suMbQAhWBahoKHY6jBaQQFggbMAA&url=http%3A%2F%2Fseas3.elte.hu%2Fcoursematerial%2FHarasztosAgnes%2FIshiguro%2C_A_Family_Supper.rtf&usg=AFQjCNEJRUV2MH_YxAPclXzuVH46bFqpAA&sig2=htRi8xeKZBN-lIInfY5L4A&bvm=bv.139782543,d.d2s'>“A Family Supper,”</a> by Kazuo Ishiguro</li>",
-        "<li>An impressive <a href='http://www.literaryhistory.com/19thC/Gilman.htm'>collection</a> of articles and books on Charlotte Perkins Gilman and her work</li>",
-        "<li>Perkins Gilman short 1913 article <a href='https://csivc.csi.cuny.edu/history/files/lavender/whyyw.html'>“Why I Wrote ‘The Yellow Wallpaper”</a></li>",
-        "<li>“Feminist Gothic in <a href='http://www.lonestar.edu/yellow-wallpaper.htm'>“The Yellow Wallpaper,”</a> Sarah L. Crowder. Lone Star College.</li>",
-        "<li>Almost <a href='http://algernonblackwood.org/'>all writings</a> by Algernon Blackwood</li>",
-        "<li>NPR rightly <a href='http://www.npr.org/2011/09/08/137295929/a-creepy-collection-of-supernatural-thrills'>recommending</a> Algernon Blackwood’s works for Halloween reads</li>",
-        "<li>Kate Mosse’s <a href='https://www.theguardian.com/books/2007/oct/27/featuresreviews.guardianreview32'>article</a> from The Guardian on why Algernon Blackwood is a neglected master of Horror fiction</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "2016"
+    "soundcloud": "292893243",
+    "title": "Our Favorite Short Horror & Listener Recommendations"
   },
   {
-    "author": "Tayeb Salih",
     "cover_image": "season_of_migration_to_the_north.jpg",
     "created_at": "12-08-2016",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "15",
+    "further_reading": [
+      "<li><a href=\"https://www.researchgate.net/publication/276836934_Moving_in_and_Out_of_Borders_Othello_Caliban_and_Conrad_in_Tayeb_Salih%27s_Season_of_Migration_to_the_North\" target=\"_blank\">“Moving in and Out of Borders: Othello, Caliban, and Conrad in Tayeb Salih’s Season of Migration to the North,”</a> Rajeev Pakte. Yale-NUS College, 2013.</li>",
+      "<li><a href=\"http://www.academicjournals.org/journal/IJEL/article-abstract/037154C3086\" target=\"_blank\">“Season of Migration to the North and the Story of the Sudanese Nation: Hopes and Impediments,”</a> Yahya Ali Abdullah Idriss. Journal of English and Literature Vol. 3, 2012.</li>",
+      "<li>“Tayeb Salih and Conrad,” Mohammad Shaheen. Comparative Literature Studies, 1985.</li>",
+      "<li><a href=\"https://journals.lib.unb.ca/index.php/IFR/article/view/14324\" target=\"_blank\">“Reinscribing Conrad: Tayeb Salih’s Season of Migration to the North,”</a> R.S. Krishnan. The International Fiction Review, 1996.</li>",
+      "<li><a href=\"http://www.academia.edu/3797850/The_Mimetic_Discourse_in_Tayeb_Salihs_Season_of_Migration_to_the_North\" target=\"_blank\">“The Mimetic Discourse in Tayeb Salih's Season of Migration to the North,”</a> W. Abdul-Jabbar. Rock Mountain Review, 2012.</li>",
+      "<li>“Cultural Hybridity and Contamination in Tayeb Salih's Mawsim al-hijra ila al-Shamal (Season of Migration to the North),” Patricia Geesey. Research in African Literatures, 1997.</li>",
+      "<li><a href=\"http://www.jasstudies.com/DergiPdfDetay.aspx?ID=2927\" target=\"_blank\">“Tayeb Salih’s Season of Migration to the North as a Postcolonial Text,”</a> Neslihan GÜNAYDIN. International Journal of Social Science, 2015.</li>",
+      "<li><a href=\"https://kuscholarworks.ku.edu/bitstream/handle/1808/16406/Caminero-SantageloB_ariel_30(4)7.pdf?sequence=1\" target=\"_blank\">“Legacies of Darkness: Neocolonialism, Joseph Conrad, and Tayeb Salih’s Season of Migration to the North,”</a> Byron Caminero-Santangelo. ARIEL, 1999.</li>",
+      "<li>“In Search of a Middle Point: The Origins of Oppression in Tayeb Salih's Season of Migration to the North,” John E. Davidson. Research in African Literatures, 1989.</li>",
+      "<li><a href=\"https://books.google.es/books/about/Planetary_Modernisms.html?id=z3AcCgAAQBAJ&redir_esc=y\" target=\"_blank\">Planetary Modernisms: Provocations on Modernity Across Time, Susan Stanford Friedman. Columbia University Press, 2016.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Migration station",
-    "podcast": {
-      "episode": "15",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "296767619",
-      "title": "Ambiguity, Violence and the Postcolonial Condition in Season of Migration to the North",
-      "further_reading": [
-        "<li><a href=\"https://www.researchgate.net/publication/276836934_Moving_in_and_Out_of_Borders_Othello_Caliban_and_Conrad_in_Tayeb_Salih%27s_Season_of_Migration_to_the_North\" target=\"_blank\">“Moving in and Out of Borders: Othello, Caliban, and Conrad in Tayeb Salih’s Season of Migration to the North,”</a> Rajeev Pakte. Yale-NUS College, 2013.</li>",
-        "<li><a href=\"http://www.academicjournals.org/journal/IJEL/article-abstract/037154C3086\" target=\"_blank\">“Season of Migration to the North and the Story of the Sudanese Nation: Hopes and Impediments,”</a> Yahya Ali Abdullah Idriss. Journal of English and Literature Vol. 3, 2012.</li>",
-        "<li>“Tayeb Salih and Conrad,” Mohammad Shaheen. Comparative Literature Studies, 1985.</li>",
-        "<li><a href=\"https://journals.lib.unb.ca/index.php/IFR/article/view/14324\" target=\"_blank\">“Reinscribing Conrad: Tayeb Salih’s Season of Migration to the North,”</a> R.S. Krishnan. The International Fiction Review, 1996.</li>",
-        "<li><a href=\"http://www.academia.edu/3797850/The_Mimetic_Discourse_in_Tayeb_Salihs_Season_of_Migration_to_the_North\" target=\"_blank\">“The Mimetic Discourse in Tayeb Salih's Season of Migration to the North,”</a> W. Abdul-Jabbar. Rock Mountain Review, 2012.</li>",
-        "<li>“Cultural Hybridity and Contamination in Tayeb Salih's Mawsim al-hijra ila al-Shamal (Season of Migration to the North),” Patricia Geesey. Research in African Literatures, 1997.</li>",
-        "<li><a href=\"http://www.jasstudies.com/DergiPdfDetay.aspx?ID=2927\" target=\"_blank\">“Tayeb Salih’s Season of Migration to the North as a Postcolonial Text,”</a> Neslihan GÜNAYDIN. International Journal of Social Science, 2015.</li>",
-        "<li><a href=\"https://kuscholarworks.ku.edu/bitstream/handle/1808/16406/Caminero-SantageloB_ariel_30(4)7.pdf?sequence=1\" target=\"_blank\">“Legacies of Darkness: Neocolonialism, Joseph Conrad, and Tayeb Salih’s Season of Migration to the North,”</a> Byron Caminero-Santangelo. ARIEL, 1999.</li>",
-        "<li>“In Search of a Middle Point: The Origins of Oppression in Tayeb Salih's Season of Migration to the North,” John E. Davidson. Research in African Literatures, 1989.</li>",
-        "<li><a href=\"https://books.google.es/books/about/Planetary_Modernisms.html?id=z3AcCgAAQBAJ&redir_esc=y\" target=\"_blank\">Planetary Modernisms: Provocations on Modernity Across Time, Susan Stanford Friedman. Columbia University Press, 2016.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1966"
+    "soundcloud": "296767619",
+    "title": "Ambiguity, Violence and the Postcolonial Condition in Season of Migration to the North"
   },
   {
-    "author": "W.G. Sebald",
     "cover_image": "the_rings_of_saturn_2.jpg",
     "created_at": "1-20-2017",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "16",
+    "further_reading": [
+      "<li><a href=\"http://www.newyorker.com/books/page-turner/why-you-should-read-w-g-sebald\" target=\"_blank\">“Why You Should Read W.G. Sebald,”</a> Mark O'Connell. The New Yorker, 2013.</li>",
+      "<li>“Writing at the Roche Limit: Order and Entropy in W.G. Sebald’s Die RInge des Saturn,” Richard T. Gray. The German Quarterly, 2010.</li>",
+      "<li>Michael Silverblatt’s <a href=\"http://www.kcrw.com/news-culture/shows/bookworm/w-g-sebald\" target=\"_blank\">interview</a> with W.G. Sebald here, from KCRW’s Bookworm, 2001.</li>",
+      "<li>“‘Remembrance…Is Nothing Other than a Quotation’: The Intertextual Fictions of W.G. Sebald,” Ann Pearson. Comparative Literature Vol. 60, 2008.</li>",
+      "<li>“A Natural History of Destruction: W.G. Sebald’s ‘The Rings of Saturn,” Bianca Theisen. MLN Vol. 121, German Issue, 2006.</li>",
+      "<li>A series of interesting audio <a href=\"http://www.bbc.co.uk/programmes/b0180hh4\" target=\"_blank\">“essays”</a> reflecting on the life and work of W.G. Sebald, provided by the BBC.</li>",
+      "<li>“An Interview with W.G. Sebald,” Sarah Kafatou. Harvard Review, 1998.</li>",
+      "<li>Susan Sontag’s wonderful <a href=\"http://www.coldbacon.com/writing/sontag-sebald.html\" target=\"_blank\">article</a> on the greatness of W.G. Sebald, 2000.</li>",
+      "<li><a href=\"https://books.google.es/books?id=UGA0utFt7i4C&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Sir Thomas Browne: The World Proposed,</a> edited by Reid Barbour and Claire Preston. Oxford University Press, 2008.</li>",
+      "<li>A short <a href=\"https://www.youtube.com/watch?v=PYoIbYgcADw&feature=youtu.be\" target=\"_blank\">interview</a> with W.G. Sebald and his use of photography in his works.</li>",
+      "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "The Ring a Dings",
-    "podcast": {
-      "episode": "16",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "303657758",
-      "title": "The Poetics of Suspension in \"The Rings of Saturn\" and The Greatness of W.G. Sebald",
-      "further_reading": [
-        "<li><a href=\"http://www.newyorker.com/books/page-turner/why-you-should-read-w-g-sebald\" target=\"_blank\">“Why You Should Read W.G. Sebald,”</a> Mark O'Connell. The New Yorker, 2013.</li>",
-        "<li>“Writing at the Roche Limit: Order and Entropy in W.G. Sebald’s Die RInge des Saturn,” Richard T. Gray. The German Quarterly, 2010.</li>",
-        "<li>Michael Silverblatt’s <a href=\"http://www.kcrw.com/news-culture/shows/bookworm/w-g-sebald\" target=\"_blank\">interview</a> with W.G. Sebald here, from KCRW’s Bookworm, 2001.</li>",
-        "<li>“‘Remembrance…Is Nothing Other than a Quotation’: The Intertextual Fictions of W.G. Sebald,” Ann Pearson. Comparative Literature Vol. 60, 2008.</li>",
-        "<li>“A Natural History of Destruction: W.G. Sebald’s ‘The Rings of Saturn,” Bianca Theisen. MLN Vol. 121, German Issue, 2006.</li>",
-        "<li>A series of interesting audio <a href=\"http://www.bbc.co.uk/programmes/b0180hh4\" target=\"_blank\">“essays”</a> reflecting on the life and work of W.G. Sebald, provided by the BBC.</li>",
-        "<li>“An Interview with W.G. Sebald,” Sarah Kafatou. Harvard Review, 1998.</li>",
-        "<li>Susan Sontag’s wonderful <a href=\"http://www.coldbacon.com/writing/sontag-sebald.html\" target=\"_blank\">article</a> on the greatness of W.G. Sebald, 2000.</li>",
-        "<li><a href=\"https://books.google.es/books?id=UGA0utFt7i4C&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Sir Thomas Browne: The World Proposed,</a> edited by Reid Barbour and Claire Preston. Oxford University Press, 2008.</li>",
-        "<li>A short <a href=\"https://www.youtube.com/watch?v=PYoIbYgcADw&feature=youtu.be\" target=\"_blank\">interview</a> with W.G. Sebald and his use of photography in his works.</li>",
-        "<li><a href=\"https://books.google.es/books?id=4JTdWubfiNMC&printsec=frontcover&dq=understanding+w.g.+sebald&hl=en&sa=X&redir_esc=y#v=onepage&q=understanding%20w.g.%20sebald&f=false\" target=\"_blank\">Understanding W.G. Sebald,</a> Mark R. McCulloh. University of South Carolina Press, 2003.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1995"
+    "soundcloud": "303657758",
+    "title": "The Poetics of Suspension in \"The Rings of Saturn\" and The Greatness of W.G. Sebald"
   },
   {
-    "author": "Michael Chabon",
     "cover_image": "the_amazing_adventures_of_kavalier_and_clay.jpg",
     "created_at": "02-05-2017",
+    "episode": "",
+    "further_reading": [
+    ],
     "has_podcast": false,
-    "has_review": true,
+    "hosts": "",
     "liner": "",
-    "podcast": {
-      "episode": "",
-      "hosts": "",
-      "soundcloud": "",
-      "title": "",
-      "further_reading": []
-    },
-    "review": {
-      "created_at": "02-05-2017",
-      "image": "chabon_article_image.jpg",
-      "reviewer": "Zak Breckenridge",
-      "teaser": "In many ways, it is a novel that leaves nothing to be desired. And yet, while it was affecting, it was not shattering. It did not wreck anything within me or within the novel form. Because other novels have had an explosive impact on me, and these are the novels I continue to value, I have tried to figure out what could be missing from a novel so obviously perfect.",
-      "template": "michael_chabons_great_american_novel.html",
-      "title": "Michael Chabon's Great American Novel"
-    },
-    "year": "2000"
+    "soundcloud": "",
+    "title": ""
   },
   {
-    "author": "Shirley Jackson",
     "cover_image": "we_have_always_lived_in_the_castle1.jpg",
     "created_at": "2-14-2017",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "17",
+    "further_reading": [
+      "<li><a href=\"http://www.nybooks.com/articles/2009/10/08/the-witchcraft-of-shirley-jackson/\" target=\"_blank\">“The Witchcraft of Shirley Jackson,”</a> Joyce Carol Oates. The New York Review of Books, 2009.</li>",
+      "<li>“The Establishment and Preservation of Female Power in Shirley Jackson’s “We Have Always Lived in the Castle,” Lynette Carpenter. A Journal of Women Studies, 1984.</li>",
+      "<li><a href=\"https://books.google.es/books?id=pnYkBQAAQBAJ&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Let Me Tell You: New Stories, Essays, and Other Writings</a> Shirley Jackson (edited by Laurence Jackson Hyman and Sarah Hyman DeWitt). Penguin Random House, 2015.</li>",
+      "<li>“Living on the Moon: Women, Home Making, and the House after World War II in Shirley Jackson’s We Have Always Lived in the Castle,” Leslie Dennis. (Master’s thesis) retrieved from University of South Carolina Scholar Commons, 2014.</li>",
+      "<li><a href=\"http://www.nybooks.com/articles/2016/10/27/shirley-jackson-in-love-death/\" target=\"_blank\">“Shirley Jackson in Love & Death,”</a> Joyce Carol Oates. The New York Book Review, 2016.</li>",
+      "<li>“House Mothers and Haunted Daughters: Shirley Jackson and Female Gothic,” Roberta Rubenstein. Tulsa Studies in Women’s Literature, 1996.</li>",
+      "<li><a href=\"https://www.theatlantic.com/magazine/archive/2016/10/the-possessed/497513/\" target=\"_blank\">“Haunted Womanhood,”</a> Heather Havrilesky. The Atlantic, 2016.</li>",
+      "<li>“Chambers of Yearning: Shirley Jackson’s Use of the Gothic,” John G. Parks. Twentieth Century Literature, 1984.</li>",
+      "<li><a href=\"http://www.newyorker.com/magazine/2016/10/17/the-haunted-mind-of-shirley-jackson\" target=\"_blank\">“The Haunted Mind of Shirley Jackson,”</a> Zoë Heller. The New Yorker, 2016.</li>",
+      "<li><a href=\"https://books.google.es/books?id=AO8yDAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson, Influences and Confluences,</a> edited by Melanie R. Anderson and Lisa Kröger. Routledge, 2016.</li>",
+      "<li><a href=\"https://books.google.es/books?id=ueOaCwAAQBAJ&printsec=copyright&authuser=0&source=gbs_pub_info_r#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson: A Rather Haunted Life,</a> Ruth Franklin. Liveright Publishing Corporation, 2016.</li>",
+      "<li><a href=\"https://books.google.es/books?id=jutboZnFCCsC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson's American Gothic,</a> Darryl Hattenhauer. State University of New York Press, 2003.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "Castle Time",
-    "podcast": {
-      "episode": "17",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "307687370",
-      "title": "The Female Gothic, Neurosis & Humor in Shirley Jackson's \"We Have Always Lived in the Castle\"",
-      "further_reading": [
-        "<li><a href=\"http://www.nybooks.com/articles/2009/10/08/the-witchcraft-of-shirley-jackson/\" target=\"_blank\">“The Witchcraft of Shirley Jackson,”</a> Joyce Carol Oates. The New York Review of Books, 2009.</li>",
-        "<li>“The Establishment and Preservation of Female Power in Shirley Jackson’s “We Have Always Lived in the Castle,” Lynette Carpenter. A Journal of Women Studies, 1984.</li>",
-        "<li><a href=\"https://books.google.es/books?id=pnYkBQAAQBAJ&printsec=frontcover#v=onepage&q&f=false\" target=\"_blank\">Let Me Tell You: New Stories, Essays, and Other Writings</a> Shirley Jackson (edited by Laurence Jackson Hyman and Sarah Hyman DeWitt). Penguin Random House, 2015.</li>",
-        "<li>“Living on the Moon: Women, Home Making, and the House after World War II in Shirley Jackson’s We Have Always Lived in the Castle,” Leslie Dennis. (Master’s thesis) retrieved from University of South Carolina Scholar Commons, 2014.</li>",
-        "<li><a href=\"http://www.nybooks.com/articles/2016/10/27/shirley-jackson-in-love-death/\" target=\"_blank\">“Shirley Jackson in Love & Death,”</a> Joyce Carol Oates. The New York Book Review, 2016.</li>",
-        "<li>“House Mothers and Haunted Daughters: Shirley Jackson and Female Gothic,” Roberta Rubenstein. Tulsa Studies in Women’s Literature, 1996.</li>",
-        "<li><a href=\"https://www.theatlantic.com/magazine/archive/2016/10/the-possessed/497513/\" target=\"_blank\">“Haunted Womanhood,”</a> Heather Havrilesky. The Atlantic, 2016.</li>",
-        "<li>“Chambers of Yearning: Shirley Jackson’s Use of the Gothic,” John G. Parks. Twentieth Century Literature, 1984.</li>",
-        "<li><a href=\"http://www.newyorker.com/magazine/2016/10/17/the-haunted-mind-of-shirley-jackson\" target=\"_blank\">“The Haunted Mind of Shirley Jackson,”</a> Zoë Heller. The New Yorker, 2016.</li>",
-        "<li><a href=\"https://books.google.es/books?id=AO8yDAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson, Influences and Confluences,</a> edited by Melanie R. Anderson and Lisa Kröger. Routledge, 2016.</li>",
-        "<li><a href=\"https://books.google.es/books?id=ueOaCwAAQBAJ&printsec=copyright&authuser=0&source=gbs_pub_info_r#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson: A Rather Haunted Life,</a> Ruth Franklin. Liveright Publishing Corporation, 2016.</li>",
-        "<li><a href=\"https://books.google.es/books?id=jutboZnFCCsC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Shirley Jackson's American Gothic,</a> Darryl Hattenhauer. State University of New York Press, 2003.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1962"
+    "soundcloud": "307687370",
+    "title": "The Female Gothic, Neurosis & Humor in Shirley Jackson's \"We Have Always Lived in the Castle\""
   },
   {
-    "author": "Yukio Mishima",
     "cover_image": "the_casual_academic_epi_18_yukio_mishima.jpg",
     "created_at": "3-8-2017",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "18",
+    "further_reading": [
+      "<li><a href=\"https://theculturetrip.com/asia/japan/articles/yukio-mishima-a-conflicted-martyr/\" target=\"_blank\">“Yukio Mishima: The Turbulent Life Of A Conflicted Martyr”</a> Beryl Belsky. Via Culture Trip.</li>",
+      "<li>“Tarrying with the Negative: Aesthetic Vision in Murasaki and Mishima,” John R. Wallace. Monumenta Nipponica, 1997.</li>",
+      "<li>The New York Times' original 1958 <a href=\"http://www.nytimes.com/books/98/10/25/specials/mishima-mask.html\" target=\"_blank\">review</a> of \"Confessions of a Mask\".</li>",
+      "<li>“Yukio Mishima: Dialectics of Mind and Body,” Dick Wagenaar and Yoshio Iwamoto. Contemporary Literature, 1975.</li>",
+      "<li>An interesting and informative BBC-produced <a href=\"https://www.youtube.com/watch?v=Ctufj50w9a0\" target=\"_blank\">documentary</a> titled “The Strange Case of Yukio Mishima.”</li>",
+      "<li><a href=\"http://jairo.nii.ac.jp/0378/00001132/en\" target=\"_blank\">“From Nanshoku to Homosexuality: A Comparative Study of Mishima Yukio's Confessions of a Mask,”</a> Junko Saeki. Japan Review, 1997.</li>",
+      "<li><a href=\"https://books.google.es/books?id=szFvvhpAVtQC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">“Deadly Dialectics: Sex, Violence, and Nihilism in the World of Yukio Mishima,”</a> Roy Starrs. University of Hawaii Press, 1994.</li>",
+      "<li><a href=\"https://books.google.es/books?id=D-Of7peK2tkC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">The Life and Death of Yukio Mishima,</a> edited by Henry Scott Stokes. Cooper Square Press, 1974.</li>",
+      "<li><a href=\"https://books.google.es/books?id=Dq-0qh8jFoYC&pg=PA164&dq=yukio+mishima+madness+and+perversity&hl=en&sa=X&ved=0ahUKEwiY5oPArcrSAhXCOBQKHb2OAdcQ6AEIITAB#v=onepage&q=yukio%20mishima%20madness%20and%20perversity&f=false\" target=\"_blank\">Eroticisms: Love, Sex, and Perversion: Psychological Undercurrents of History Vol. V,</a> edited by Jerry S. Piven and Carl Goldberg. Bloomusalem Press, 2003. Recommended: Chapter 10, \"Yukio Mishima and the Genesis of Perversion,\" by Jerry Piven.</li>",
+      "<li>Mishima's biographer and friend Henry Scott Stokes remembering <a href=\"http://www.bbc.co.uk/programmes/p02c6s3r\" target=\"_blank\">The Death of Yukio Mishima,</a> on the BBC's program Witness.</li>"
+    ],
+    "hosts": "Alex Johnson, Jacob Welcker and Clay Oppenhuizen",
     "liner": "Creepy Confessions",
-    "podcast": {
-      "episode": "18",
-      "hosts": "Alex Johnson, Jacob Welcker and Clay Oppenhuizen",
-      "soundcloud": "311441886",
-      "title": "Love, Violent Sexuality, and Western Influence on Yukio Mishima's \"Confessions of a Mask\"",
-      "further_reading": [
-        "<li><a href=\"https://theculturetrip.com/asia/japan/articles/yukio-mishima-a-conflicted-martyr/\" target=\"_blank\">“Yukio Mishima: The Turbulent Life Of A Conflicted Martyr”</a> Beryl Belsky. Via Culture Trip.</li>",
-        "<li>“Tarrying with the Negative: Aesthetic Vision in Murasaki and Mishima,” John R. Wallace. Monumenta Nipponica, 1997.</li>",
-        "<li>The New York Times' original 1958 <a href=\"http://www.nytimes.com/books/98/10/25/specials/mishima-mask.html\" target=\"_blank\">review</a> of \"Confessions of a Mask\".</li>",
-        "<li>“Yukio Mishima: Dialectics of Mind and Body,” Dick Wagenaar and Yoshio Iwamoto. Contemporary Literature, 1975.</li>",
-        "<li>An interesting and informative BBC-produced <a href=\"https://www.youtube.com/watch?v=Ctufj50w9a0\" target=\"_blank\">documentary</a> titled “The Strange Case of Yukio Mishima.”</li>",
-        "<li><a href=\"http://jairo.nii.ac.jp/0378/00001132/en\" target=\"_blank\">“From Nanshoku to Homosexuality: A Comparative Study of Mishima Yukio's Confessions of a Mask,”</a> Junko Saeki. Japan Review, 1997.</li>",
-        "<li><a href=\"https://books.google.es/books?id=szFvvhpAVtQC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">“Deadly Dialectics: Sex, Violence, and Nihilism in the World of Yukio Mishima,”</a> Roy Starrs. University of Hawaii Press, 1994.</li>",
-        "<li><a href=\"https://books.google.es/books?id=D-Of7peK2tkC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">The Life and Death of Yukio Mishima,</a> edited by Henry Scott Stokes. Cooper Square Press, 1974.</li>",
-        "<li><a href=\"https://books.google.es/books?id=Dq-0qh8jFoYC&pg=PA164&dq=yukio+mishima+madness+and+perversity&hl=en&sa=X&ved=0ahUKEwiY5oPArcrSAhXCOBQKHb2OAdcQ6AEIITAB#v=onepage&q=yukio%20mishima%20madness%20and%20perversity&f=false\" target=\"_blank\">Eroticisms: Love, Sex, and Perversion: Psychological Undercurrents of History Vol. V,</a> edited by Jerry S. Piven and Carl Goldberg. Bloomusalem Press, 2003. Recommended: Chapter 10, \"Yukio Mishima and the Genesis of Perversion,\" by Jerry Piven.</li>",
-        "<li>Mishima's biographer and friend Henry Scott Stokes remembering <a href=\"http://www.bbc.co.uk/programmes/p02c6s3r\" target=\"_blank\">The Death of Yukio Mishima,</a> on the BBC's program Witness.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1948"
+    "soundcloud": "311441886",
+    "title": "Love, Violent Sexuality, and Western Influence on Yukio Mishima's \"Confessions of a Mask\""
   },
   {
-    "author": "",
     "cover_image": "deslit_launch_photo1.jpg",
     "created_at": "3-14-2017",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "Special",
+    "further_reading": [
+      "<li><a href=\"<a href=\"http://desperateliterature.com/\" target=\"_blank\">“Desperate Literature”</a> Calle Campomanes, 13, 28013 Madrid, España</li>",
+      "<li>The recording of the launch event of La Errante, A Journal of Art & Literature based out of Madrid, Spain. The event was recorded live last Friday (10/4/2017) at the bookstore Desperate Literature in Madrid. The event was a total success and a lot of fun. It was a true pleasure to be able to be in a place with so many amazing people. We are very proud to be able to present this recording to all of our listeners. You'll hear Layla Benitez-James, Martha Sprackland, Robert Greer, Emma Roulette, James Womack and Terry Craven reading poems and flash fiction from the first issue (Layla's poems are her own). A big thanks to Terry, Robert and Charlotte Delattre at Desperate Lit for hosting the event and for letting us record as well as to everyone else involved in such an exciting and worthwhile project.</li>",
+      "<li>Editors of La Errante</li>",
+      "<li>-Terry Craven</li>",
+      "<li>-Robert Greer</li>",
+      "<li>-Emma Roulette</li>",
+      "<li>-Martha Sprackland</li>",
+      "<li>-James Womack</li>"
+    ],
+    "hosts": "Alex Johnson, Jacob Welcker and the \"La Errante\" team",
     "liner": "Reading and Inauguration of literary zine \"La Errante\" from Desperate Literature, Madrid",
-    "podcast": {
-      "episode": "Special",
-      "hosts": "Alex Johnson, Jacob Welcker and the \"La Errante\" team",
-      "soundcloud": "312225637",
-      "title": "Live Recording of the Launch of Literary Zine \"La Errante,\" from Desperate Literature",
-      "further_reading": [
-        "<li><a href=\"<a href=\"http://desperateliterature.com/\" target=\"_blank\">“Desperate Literature”</a> Calle Campomanes, 13, 28013 Madrid, España</li>",
-        "<li>The recording of the launch event of La Errante, A Journal of Art & Literature based out of Madrid, Spain. The event was recorded live last Friday (10/4/2017) at the bookstore Desperate Literature in Madrid. The event was a total success and a lot of fun. It was a true pleasure to be able to be in a place with so many amazing people. We are very proud to be able to present this recording to all of our listeners. You'll hear Layla Benitez-James, Martha Sprackland, Robert Greer, Emma Roulette, James Womack and Terry Craven reading poems and flash fiction from the first issue (Layla's poems are her own). A big thanks to Terry, Robert and Charlotte Delattre at Desperate Lit for hosting the event and for letting us record as well as to everyone else involved in such an exciting and worthwhile project.</li>",
-        "<li>Editors of La Errante</li>",
-        "<li>-Terry Craven</li>",
-        "<li>-Robert Greer</li>",
-        "<li>-Emma Roulette</li>",
-        "<li>-Martha Sprackland</li>",
-        "<li>-James Womack</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "2017"
+    "soundcloud": "312225637",
+    "title": "Live Recording of the Launch of Literary Zine \"La Errante,\" from Desperate Literature"
   },
   {
-    "author": "Clarice Lispector",
     "cover_image": "near_to_the_wild_heart1.jpg",
     "created_at": "4-5-2017",
-    "has_podcast": true,
-    "has_review": false,
+    "episode": "19",
+    "further_reading": [
+      "<li><a href=\"https://www.thenation.com/article/not-the-word-but-the-thing-itself/\" target=\"_blank\">“Not the Word, but the Thing Itself,”</a> Ava Kofman. The Nation, 2015.</li>",
+      "<li>“A Discourse of Silence: The Postmodernism of Clarice Lispector,” Earl E. Fitz. Contemporary Literature, 1987.</li>",
+      "<li>An <a href=\"http://bailiwick.lib.uiowa.edu/wstudies/cixous/\" target=\"_blank\">interview</a> with Hélène Cixous. Kathleen O'Grady. Women's education des femmes, 1996.</li>",
+      "<li>“The Passion of Logo(centrism), or, the Deconstructionist Universe of Clarice Lispector,” Earl E. Fitz. Luso-Brazilian Review, 1988.</li>",
+      "<li>An extremely informative <a href=\"https://jwa.org/encyclopedia/article/lispector-clarice\" target=\"_blank\">introduction</a> to Clarice Lispector and her work. Via The Jewish Women's Archive.”</li>",
+      "<li><a href=\"http://jairo.nii.ac.jp/0378/00001132/en\" target=\"_blank\">“The Reception of Clarice Lispector via Hélène Cixous: Reading from the Whale’s Belly,”</a> Elena Carrera. Modern Languages Publications Archive, 1999.</li>",
+      "<li>The only footage of Clarice Lispector, giving an <a href=\"https://www.youtube.com/watch?v=w1zwGLBpULs\" target=\"_blank\">interview</a> in São Paulo in 1977. With English subtitles.</li>",
+      "<li>A great, short piece on reading and thinking about Clarice Lispector, titled <a href=\"http://www.du.edu/denverquarterly/media/documents/481Friedland.pdf\" target=\"_blank\">“The Law of the Living: On Clarice Lispector,”</a> Yanara Friedland. Via The University of Denver's Quartler Conversation.</li>",
+      "<li>“Freedom and Self-Realization: Feminist Characterization in the Fiction of Clarice Lispector,” Earl E. Fitz. Modern Language Studies, 1980.</li>",
+      "<li><a href=\"https://books.google.es/books?id=jLyNd_b9ItAC&printsec=frontcover&dq=why+this+world&hl=en&sa=X&ved=0ahUKEwi6obi41Y_TAhUJAxoKHXLCCGgQ6AEIHDAA#v=onepage&q=why%20this%20world&f=false\" target=\"_blank\">Why This World: A Biography of Clarice Lispector,</a> Benjamin Moser. Oxford University Press, 2009.</li>",
+      "<li>A wonderful essay on Lispector and translation titled <a href=\"http://www.themillions.com/2012/01/my-hour-of-the-star-on-clarice-lispector.html\" target=\"_blank\">My Hour of the Star: On Clarice Lispector</a> by Magdalena Edwards.  The Millions, 2012.</li>"
+    ],
+    "hosts": "Alex Johnson and Jacob Welcker",
     "liner": "A discussion on Clarice Lispector's debut novel Near to the Wild Heart",
-    "podcast": {
-      "episode": "19",
-      "hosts": "Alex Johnson and Jacob Welcker",
-      "soundcloud": "316200218",
-      "title": "Narrative Techniques & The Thing Itself in Clarice Lispector's \"Near to the Wild Heart\"",
-      "further_reading": [
-        "<li><a href=\"https://www.thenation.com/article/not-the-word-but-the-thing-itself/\" target=\"_blank\">“Not the Word, but the Thing Itself,”</a> Ava Kofman. The Nation, 2015.</li>",
-        "<li>“A Discourse of Silence: The Postmodernism of Clarice Lispector,” Earl E. Fitz. Contemporary Literature, 1987.</li>",
-        "<li>An <a href=\"http://bailiwick.lib.uiowa.edu/wstudies/cixous/\" target=\"_blank\">interview</a> with Hélène Cixous. Kathleen O'Grady. Women's education des femmes, 1996.</li>",
-        "<li>“The Passion of Logo(centrism), or, the Deconstructionist Universe of Clarice Lispector,” Earl E. Fitz. Luso-Brazilian Review, 1988.</li>",
-        "<li>An extremely informative <a href=\"https://jwa.org/encyclopedia/article/lispector-clarice\" target=\"_blank\">introduction</a> to Clarice Lispector and her work. Via The Jewish Women's Archive.”</li>",
-        "<li><a href=\"http://jairo.nii.ac.jp/0378/00001132/en\" target=\"_blank\">“The Reception of Clarice Lispector via Hélène Cixous: Reading from the Whale’s Belly,”</a> Elena Carrera. Modern Languages Publications Archive, 1999.</li>",
-        "<li>The only footage of Clarice Lispector, giving an <a href=\"https://www.youtube.com/watch?v=w1zwGLBpULs\" target=\"_blank\">interview</a> in São Paulo in 1977. With English subtitles.</li>",
-        "<li>A great, short piece on reading and thinking about Clarice Lispector, titled <a href=\"http://www.du.edu/denverquarterly/media/documents/481Friedland.pdf\" target=\"_blank\">“The Law of the Living: On Clarice Lispector,”</a> Yanara Friedland. Via The University of Denver's Quartler Conversation.</li>",
-        "<li>“Freedom and Self-Realization: Feminist Characterization in the Fiction of Clarice Lispector,” Earl E. Fitz. Modern Language Studies, 1980.</li>",
-        "<li><a href=\"https://books.google.es/books?id=jLyNd_b9ItAC&printsec=frontcover&dq=why+this+world&hl=en&sa=X&ved=0ahUKEwi6obi41Y_TAhUJAxoKHXLCCGgQ6AEIHDAA#v=onepage&q=why%20this%20world&f=false\" target=\"_blank\">Why This World: A Biography of Clarice Lispector,</a> Benjamin Moser. Oxford University Press, 2009.</li>",
-        "<li>A wonderful essay on Lispector and translation titled <a href=\"http://www.themillions.com/2012/01/my-hour-of-the-star-on-clarice-lispector.html\" target=\"_blank\">My Hour of the Star: On Clarice Lispector</a> by Magdalena Edwards.  The Millions, 2012.</li>"
-      ]
-    },
-    "review": {
-      "reviewer": "",
-      "teaser": "",
-      "template": "",
-      "title": ""
-    },
-    "year": "1943"
+    "soundcloud": "316200218",
+    "title": "Narrative Techniques & The Thing Itself in Clarice Lispector's \"Near to the Wild Heart\""
   },
   {
-    "author": "Machado de Assis",
     "cover_image": "epitaph_of_a_small_winner.jpg",
     "created_at": "5-9-2017",
-    "has_podcast": true,
-    "has_review": false,
-    "liner": "A discussion on Machado de Assis' novel The Posthumous Memoirs of Brás Cubas",
-    "podcast": {
     "episode": "20",
-    "hosts": "Alex Johnson and Clay Oppenhuizen",
-    "soundcloud": "321718006",
-    "title": "Vanity, Philosophy, and Literary Lineages in Machado de Assis' \"The Posthumous Memoirs of Brás Cubas\"",
     "further_reading": [
       "<li>“Fielding, Sterne and Machado de Assis: A Genealogy,” Marta de Senna.  Portuguese Studies, 1993.</li>",
       "<li>“Machado de Assis’ Theory of the Novel,” María Luisa Nunes. Latin American Literary Review, 1975.</li>",
@@ -680,105 +408,65 @@
       "<li><a href=\"https://books.google.es/books?id=m_aODAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Emerging Dialogues on Machado de Assis,</a> edited by Lamonte Aidoo and Daniel F. Silva. Springer Nature, 2016.</li>",
       "<li><a href=\"https://books.google.es/books?id=OfTzCAAAQBAJ&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Machado de Assis: A Literary Life</a> Kenneth David Jackson. Yale University Press, 2015.</li>",
       "<li><a href=\"https://books.google.es/books?id=HzEmMFj8pvsC&printsec=frontcover&authuser=0#v=onepage&q&f=false\" target=\"_blank\">Machado de Assis: The Brazilian Master and His Novels,</a> Helen Caldwell. University of California Press, 1970.</li>"
-    ]
+    ],
+    "hosts": "Alex Johnson and Clay Oppenhuizen",
+    "liner": "A discussion on Machado de Assis' novel The Posthumous Memoirs of Brás Cubas",
+    "soundcloud": "321718006",
+    "title": "Vanity, Philosophy, and Literary Lineages in Machado de Assis' \"The Posthumous Memoirs of Brás Cubas\""
   },
-  "review": {
-    "reviewer": "",
-    "teaser": "",
-    "template": "",
-    "title": ""
+  {
+    "cover_image": "the_handmaids_tale.jpg",
+    "created_at": "5-31-2017",
+    "episode": "21",
+    "further_reading": [
+      "<li>“Identity, Complicity, and Resistance in The Handmaid's Tale,” Peter G. Stillman and S. Anne Johnson. Utopian Studies, 1994.</li>",
+      "<li>The Paris Review's <a href=\"https://www.theparisreview.org/interviews/2262/margaret-atwood-the-art-of-fiction-no-121-margaret-atwood\" target=\"_blank\">interview</a> with Margaret Atwood. The Art of Fiction No. 121, 1990.</li>",
+      "<li> <a href=\"http://www.earlybirdbooks.com/gloria-steinem-on-the-handmaids-tale/\" target=\"_blank\">The Handmaid’s Tale: A Warning About Patriarchy and Power</a> by Gloria Steinem. Early Bird Books, 2017.</li>",
+      "<li>“\"The Handmaid's Tale\": \"Historical Notes\" and Documentary Subversion,” Dominick M. Grace. Science Fiction Studies, 1998.</li>",
+      "<li> <a href=\"http://www.newyorker.com/magazine/2017/04/17/margaret-atwood-the-prophet-of-dystopia\" target=\"_blank\">Margaret Atwood, The Prophet of Dystopia</a> by Rebecca Mead. The New Yorker, 2017..</li>",
+      "<li>Mary McCarthy's rather polemical <a href=\"http://www.nytimes.com/books/00/03/26/specials/mccarthy-atwood.html\" target=\"_blank\">review</a> of The Handmaid's Tale. The New York Times, 1986.</li>",
+      "<li><a href=\"https://books.google.es/books?id=OJTTBRdGZ88C&dq=editions:YMPm141akjEC&hl=en&sa=X&redir_esc=y\" target=\"_blank\">Survival: A Thematic Guide to Canadian Literature</a> by Maragret Atwood. House of Anansi, 1972.</li>",
+      "<li>“Margaret Atwood's \"The Handmaid's Tale\": A Contextual Dystopia,” David Ketterer. Science Fiction Studies, 1989.</li>"
+    ],
+    "hosts": "Alex Johnson, Jacob Welcker & Zak Breckenridge",
+    "liner": "A discussion on language, speculative fiction and survival in Margaret Atwood's The Handmaid's Tale",
+    "soundcloud": "325032755",
+    "title": "Speculative Fiction, Language and Survival in Margaret Atwood's \"The Handmaid's Tale\""
   },
-  "year": "1881"
-},
-{
-  "author": "Margaret Atwood",
-  "cover_image": "the_handmaids_tale.jpg",
-  "created_at": "5-31-2017",
-  "has_podcast": true,
-  "has_review": false,
-  "liner": "A discussion on language, speculative fiction and survival in Margaret Atwood's The Handmaid's Tale",
-  "podcast": {
-  "episode": "21",
-  "hosts": "Alex Johnson, Jacob Welcker & Zak Breckenridge",
-  "soundcloud": "325032755",
-  "title": "Speculative Fiction, Language and Survival in Margaret Atwood's \"The Handmaid's Tale\"",
-  "further_reading": [
-    "<li>“Identity, Complicity, and Resistance in The Handmaid's Tale,” Peter G. Stillman and S. Anne Johnson. Utopian Studies, 1994.</li>",
-    "<li>The Paris Review's <a href=\"https://www.theparisreview.org/interviews/2262/margaret-atwood-the-art-of-fiction-no-121-margaret-atwood\" target=\"_blank\">interview</a> with Margaret Atwood. The Art of Fiction No. 121, 1990.</li>",
-    "<li> <a href=\"http://www.earlybirdbooks.com/gloria-steinem-on-the-handmaids-tale/\" target=\"_blank\">The Handmaid’s Tale: A Warning About Patriarchy and Power</a> by Gloria Steinem. Early Bird Books, 2017.</li>",
-    "<li>“\"The Handmaid's Tale\": \"Historical Notes\" and Documentary Subversion,” Dominick M. Grace. Science Fiction Studies, 1998.</li>",
-    "<li> <a href=\"http://www.newyorker.com/magazine/2017/04/17/margaret-atwood-the-prophet-of-dystopia\" target=\"_blank\">Margaret Atwood, The Prophet of Dystopia</a> by Rebecca Mead. The New Yorker, 2017..</li>",
-    "<li>Mary McCarthy's rather polemical <a href=\"http://www.nytimes.com/books/00/03/26/specials/mccarthy-atwood.html\" target=\"_blank\">review</a> of The Handmaid's Tale. The New York Times, 1986.</li>",
-    "<li><a href=\"https://books.google.es/books?id=OJTTBRdGZ88C&dq=editions:YMPm141akjEC&hl=en&sa=X&redir_esc=y\" target=\"_blank\">Survival: A Thematic Guide to Canadian Literature</a> by Maragret Atwood. House of Anansi, 1972.</li>",
-    "<li>“Margaret Atwood's \"The Handmaid's Tale\": A Contextual Dystopia,” David Ketterer. Science Fiction Studies, 1989.</li>"
-  ]
-},
-"review": {
-  "reviewer": "",
-  "teaser": "",
-  "template": "",
-  "title": ""
-},
-"year": "1985"
-},
-{
-  "author": "Frank Hoyle",
-  "cover_image": "the_black_cloud_coverart.jpg",
-  "created_at": "6-22-2017",
-  "has_podcast": true,
-  "has_review": false,
-  "liner": "A discussion on good science in sci-fi, popular and unique conceptions of aliens, and Fred Hoyle's polemical critique on democracy in \"The Black Cloud\"",
-  "podcast": {
-  "episode": "22",
-  "hosts": "Jacob Welcker & Shawn Moksvold",
-  "soundcloud": "329531119",
-  "title": "Science in Sci-Fi, Aliens, and a Critique of Democracy in \"The Black Cloud\"",
-  "further_reading": [
-    "<li> <a href=\"https://www.theatlantic.com/video/index/506846/were-probably-imagining-aliens-wrong/\" target=\"_blank\">We're Probably Imagining Aliens Wrong</a> by Aeon Video. The Atlantic, 2016</li>",
-    "<li>A <a href=\"http://scienceblogs.com/universe/2007/08/31/book-review-the-black-cloud/\" target=\"_blank\">book review</a> from \"Science Blogs\" by Claire L. Evans. Science Blogs, 2007.</li>",
-    "<li>Another informative <a href=\"http://www.waivingentropy.com/2014/12/19/review-the-black-cloud//\" target=\"_blank\">book review</a> from \"Waiving Entropy\" by Daniel Bastian. Waiving Entropy, 2014.</li>",
-    "<li>A great <a href=\"http://www.physicsoftheuniverse.com/scientists_hoyle.html\" target=\"_blank\">biography</a> of Fred Hoyle and his career from \"Physics of the Universe,\" 2009.</li>",
-    "<li>A <a href=\"https://thebackmezzanine.wordpress.com/2017/03/01/imagining-ourselves-in-hoyles-cloud/\" target=\"_blank\">review</a> of Fred Hoyle's \"The Black Cloud\" written by our guest Shawn Moksvold from his blog \"The Back Mezzanine,\" 2017.</li>",
-    "<li>An <a href=\"https://www.youtube.com/watch?v=ebqAH5mLZNk\" target=\"_blank\">interview</a> with Fred Hoyle on The Big Bang and the abuse of science.</li>",
-    "<li>The Guardian's <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">review</a> of \"The Black Cloud\" by Nicholas Lezard, 2010.</li>"
-  ]
-},
-"review": {
-  "reviewer": "",
-  "teaser": "",
-  "template": "",
-  "title": ""
-},
-"year": "1957"
-},
-{
-  "author": "Neil Gaiman",
-  "cover_image": "american_gods.jpg",
-  "created_at": "7-31-2017",
-  "has_podcast": true,
-  "has_review": false,
-  "liner": "A discussion on belief, grifters and the american soul in Neil Gaiman's beloved \"American Gods\"",
-  "podcast": {
-  "episode": "23",
-  "hosts": "Alex Johnson & Jacob Welcker",
-  "soundcloud": "335535301",
-  "title": "Belief, Con Artists & The American Soul in Neil Gaiman's \"American Gods\"",
-  "further_reading": [
-    "<li> <a href=\"https://www.vox.com/culture/2017/4/27/12622944/american-gods-gaiman-explained\" target=\"_blank\">Why Neil Gaiman’s American Gods is so iconic</a> by Alex Abad-Santos. Vox, 2017</li>",
-    "<li>An interesting thesis titled <a href=\"http://scholarworks.uno.edu/cgi/viewcontent.cgi?article=1315&context=td\" target=\"_blank\">\"Neil Gaiman's American Gods: An Outsider's Critiwue of American Culture\"</a> by Mark Hill. University of New Orleans, 2005.</li>",
-    "<li>Neil Gaiman on the <a href=\"https://www.youtube.com/watch?v=Iqopv_pg_q0/\" target=\"_blank\">origins</a> of \"American Gods.\"</li>",
-    "<li>The Guardian seems to agree with our choice for a summer read with this article, titled <a href=\"https://www.theguardian.com/books/booksblog/2014/jul/29/book-beach-american-gods-neil-gaiman\" target=\"_blank\">\"A Book for the Beach: American Gods by Neil Gaiman,\"</a> by David Barnett. \"The Guardian,\" 2014.</li>",
-    "<li> <a href=\"https://www.degruyter.com/view/j/rjes.2016.13.issue-1/rjes-2016-0006/rjes-2016-0006.xml\" target=\"_blank\">“Only the Gods are Real”: The Mythopoeic Dimension of Neil Gaiman’s American Gods,</a> by Irina Rață. Romanian Journal of English Studies, 2016..</li>",
-    "<li>An interesting <a href=\"http://www.juliangough.com/journal/american-gods-and-london-literary-novelists.html\" target=\"_blank\">post</a> by Julian Gough on how arbitrarily the word \"literary\" is thrown around, as well as when it is withheld. Julian Gough, 2007. </li>",
-    "<li>A great <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">interview</a> with Gaiman, the actors and writers of the T.V. series \"American Gods,\" 2017.</li>"
-  ]
-},
-"review": {
-  "reviewer": "",
-  "teaser": "",
-  "template": "",
-  "title": ""
-},
-"year": "1957"
-}
+  {
+    "cover_image": "the_black_cloud_coverart.jpg",
+    "created_at": "6-22-2017",
+    "episode": "22",
+    "further_reading": [
+      "<li> <a href=\"https://www.theatlantic.com/video/index/506846/were-probably-imagining-aliens-wrong/\" target=\"_blank\">We're Probably Imagining Aliens Wrong</a> by Aeon Video. The Atlantic, 2016</li>",
+      "<li>A <a href=\"http://scienceblogs.com/universe/2007/08/31/book-review-the-black-cloud/\" target=\"_blank\">book review</a> from \"Science Blogs\" by Claire L. Evans. Science Blogs, 2007.</li>",
+      "<li>Another informative <a href=\"http://www.waivingentropy.com/2014/12/19/review-the-black-cloud//\" target=\"_blank\">book review</a> from \"Waiving Entropy\" by Daniel Bastian. Waiving Entropy, 2014.</li>",
+      "<li>A great <a href=\"http://www.physicsoftheuniverse.com/scientists_hoyle.html\" target=\"_blank\">biography</a> of Fred Hoyle and his career from \"Physics of the Universe,\" 2009.</li>",
+      "<li>A <a href=\"https://thebackmezzanine.wordpress.com/2017/03/01/imagining-ourselves-in-hoyles-cloud/\" target=\"_blank\">review</a> of Fred Hoyle's \"The Black Cloud\" written by our guest Shawn Moksvold from his blog \"The Back Mezzanine,\" 2017.</li>",
+      "<li>An <a href=\"https://www.youtube.com/watch?v=ebqAH5mLZNk\" target=\"_blank\">interview</a> with Fred Hoyle on The Big Bang and the abuse of science.</li>",
+      "<li>The Guardian's <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">review</a> of \"The Black Cloud\" by Nicholas Lezard, 2010.</li>"
+    ],
+    "hosts": "Jacob Welcker & Shawn Moksvold",
+    "liner": "A discussion on good science in sci-fi, popular and unique conceptions of aliens, and Fred Hoyle's polemical critique on democracy in \"The Black Cloud\"",
+    "soundcloud": "329531119",
+    "title": "Science in Sci-Fi, Aliens, and a Critique of Democracy in \"The Black Cloud\""
+  },
+  {
+    "cover_image": "american_gods.jpg",
+    "created_at": "7-31-2017",
+    "episode": "23",
+    "further_reading": [
+      "<li> <a href=\"https://www.vox.com/culture/2017/4/27/12622944/american-gods-gaiman-explained\" target=\"_blank\">Why Neil Gaiman’s American Gods is so iconic</a> by Alex Abad-Santos. Vox, 2017</li>",
+      "<li>An interesting thesis titled <a href=\"http://scholarworks.uno.edu/cgi/viewcontent.cgi?article=1315&context=td\" target=\"_blank\">\"Neil Gaiman's American Gods: An Outsider's Critiwue of American Culture\"</a> by Mark Hill. University of New Orleans, 2005.</li>",
+      "<li>Neil Gaiman on the <a href=\"https://www.youtube.com/watch?v=Iqopv_pg_q0/\" target=\"_blank\">origins</a> of \"American Gods.\"</li>",
+      "<li>The Guardian seems to agree with our choice for a summer read with this article, titled <a href=\"https://www.theguardian.com/books/booksblog/2014/jul/29/book-beach-american-gods-neil-gaiman\" target=\"_blank\">\"A Book for the Beach: American Gods by Neil Gaiman,\"</a> by David Barnett. \"The Guardian,\" 2014.</li>",
+      "<li> <a href=\"https://www.degruyter.com/view/j/rjes.2016.13.issue-1/rjes-2016-0006/rjes-2016-0006.xml\" target=\"_blank\">“Only the Gods are Real”: The Mythopoeic Dimension of Neil Gaiman’s American Gods,</a> by Irina Rață. Romanian Journal of English Studies, 2016..</li>",
+      "<li>An interesting <a href=\"http://www.juliangough.com/journal/american-gods-and-london-literary-novelists.html\" target=\"_blank\">post</a> by Julian Gough on how arbitrarily the word \"literary\" is thrown around, as well as when it is withheld. Julian Gough, 2007. </li>",
+      "<li>A great <a href=\"https://www.theguardian.com/books/2010/oct/23/black-cloud-fred-hoyle-review\" target=\"_blank\">interview</a> with Gaiman, the actors and writers of the T.V. series \"American Gods,\" 2017.</li>"
+    ],
+    "hosts": "Alex Johnson & Jacob Welcker",
+    "liner": "A discussion on belief, grifters and the american soul in Neil Gaiman's beloved \"American Gods\"",
+    "soundcloud": "335535301",
+    "title": "Belief, Con Artists & The American Soul in Neil Gaiman's \"American Gods\""
+  }
 ]

@@ -1,0 +1,37 @@
+[
+  {
+    "created_at": "12-01-2016",
+    "episode": "http://thecasualacademic.com/episodes/258329009",
+    "image": "review_image_borges.jpg",
+    "reviewer": "Jacob Welcker",
+    "teaser": "Perhaps due to the plethora of authors citing him as inspiration, or perhaps because of the infinite number of ways the world is currently baffling (i.e. Donald Trump), Jorge Luis Borges has become a permanent blinking dot on the public’s radar.  There have been pieces on Borges and Borgesian concepts",
+    "template": "a_primer_to_borges.html",
+    "title": "A Primer to Borges"
+  },
+  {
+    "created_at": "01-05-2017",
+    "episode": "http://www.thecasualacademic.com/episodes/251522402",
+    "image": "review_image_death_in_venice.jpg",
+    "reviewer": "A.S. Johnson",
+    "teaser": "As Socrates elevated the objective contemplation of beauty in his courting of dear Phaedrus ‘neath the willow tree, German philosopher Arthur Schopenhauer believed that the only way to escape this futile nightmare we call life is the release of",
+    "template": "looking_beyond_the_beautiful.html",
+    "title": "Looking Beyond The Beautiful: Running the Gamut of Thought in Thomas Mann's \"Death in Venice\""
+  },
+  {
+    "created_at": "02-05-2017",
+    "image": "chabon_article_image.jpg",
+    "reviewer": "Zak Breckenridge",
+    "teaser": "In many ways, it is a novel that leaves nothing to be desired. And yet, while it was affecting, it was not shattering. It did not wreck anything within me or within the novel form. Because other novels have had an explosive impact on me, and these are the novels I continue to value, I have tried to figure out what could be missing from a novel so obviously perfect.",
+    "template": "michael_chabons_great_american_novel.html",
+    "title": "Michael Chabon's Great American Novel"
+  },
+  {
+    "created_at": "03-02-2017",
+    "episode": "http://thecasualacademic.com/episodes/268803127",
+    "image": "leguin_clay_article.jpg",
+    "reviewer": "Clay Oppenhuizen",
+    "teaser": "Her first popular title within the Hainish Cycle was The Left Hand of Darkness, which, among other things, explored a society that challenged gender norms of the mid-twentieth century. Back in June of 2016, we discussed Le Guin and The Left Hand of Darkness on The Casual Academic’s eighth episode.",
+    "template": "ursula_leguin_subversion_in_narrative.html",
+    "title": "Ursula LeGuin’s Anarchism: Subversion Within Narrative"
+  }
+]

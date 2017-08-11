@@ -227,27 +227,27 @@ body {
 	margin: 25px;
 }
 
-.book-cover {
+#bookshelf img {
 	height: 320px;
-  cursor: pointer;
-  z-index: 1;
-  border-bottom: 4px solid rgb(123, 123, 123);
-  border-bottom-left-radius: 4px;
-  border-bottom-right-radius: 4px;
-  margin-bottom: 20px;
+	cursor: pointer;
+	z-index: 1;
+	border-bottom: 4px solid rgb(123, 123, 123);
+	border-bottom-left-radius: 4px;
+	border-bottom-right-radius: 4px;
+	margin-bottom: 20px;
 }
 
-.selected .book-cover {
+#bookshelf img.selected {
 	-webkit-box-shadow: 7px 7px 11px 2px rgba(0, 24, 109, 0.75);
 	-moz-box-shadow: 7px 7px 11px 2px rgba(0, 24, 109, 0.75);
 	box-shadow: 7px 7px 11px 2px rgba(0, 24, 109, 0.75);
 }
 
-.book-info {
+#bookshelf-selected {
 	background: white;
 }
 
-.book-option {
+#bookshelf-selected div {
 	padding: 40px 20px;
 	font-size: 32px;
 	line-height: 40px;
@@ -289,8 +289,24 @@ body {
 }
 
 #featured-review {
-	background: rgb(216, 216, 216);
-	padding: 80px 40px;
+	background: rgb(243, 243, 243);
+	padding: 40px;
+}
+
+#featured-buttons {
+	margin-bottom: 30px;
+}
+
+#featured-buttons button {
+	border: 2px solid white;
+	background: #353535;
+	color: white;
+	padding: 20px;
+	width: 100px;
+	margin: 0 20px;
+	font-size: 20px;
+	cursor: pointer;
+	outline: none;
 }
 
 #featured-review img {
@@ -344,20 +360,35 @@ body {
 }
 
 #upcoming {
-	background: #d8d8d8;
+	background: rgb(243, 243, 243);
+	padding: 20px 0;
+	border: 1px solid black;
 }
 
 #upcoming img {
 	height: 300px;
-	margin: 3% 8%;
 	text-align: left;
+	margin-top: 3%;
 }
 
 #upcoming-banner {
 	font-size: 30px;
-	font-weight: 700;
+  font-weight: 700;
+	margin-top: 3%;
+  display: inline-block;
+  width: 40%;
+  vertical-align: top;
+  text-align: left;
+  line-height: 60px;
+}
+
+#upcoming-banner div:first-child {
 	text-decoration: underline;
-	padding-top: 25px;
+}
+
+#upcoming-cover {
+	display: inline-block;
+	width: 40%;
 }
 
 #brazil-month {
@@ -372,7 +403,7 @@ body {
 /* Reviews Page */
 /* ************************************************************************** */
 #page-reviews {
-  background: #d27f5b;
+  background: #e4f0ff;
 }
 
 #reviews-list {
@@ -524,7 +555,7 @@ body {
   z-index: -1;
   width: 100%;
   height: 100%;
-  /*opacity: 0.3;*/
+  opacity: 0.6;
 }
 
 #page-episodes {
@@ -534,7 +565,7 @@ body {
 
 #listen-links {
 	background-color: #353535;
-	padding: 24px;
+	padding: 10px;
 	border-bottom: 3px solid #ff5500;
 	text-align: center;
 	position: fixed;
@@ -547,9 +578,10 @@ body {
 	transition: color 0.7s ease;
 	text-decoration: none;
 	margin: 0 20px;
-	font-size: 26px;
+	font-size: 22px;
 	letter-spacing: 3px;
 	color: #e0e0d8;
+	cursor: pointer;
 }
 
 #listen-links a:hover {
@@ -631,16 +663,12 @@ body {
 
 /* Single Podcast Page */
 /* ************************************************************************** */
-#single-episode {
-
-}
-
-#single-episode-facebook .facebookShare {
+#single-episode .facebookShare {
 	font-size: initial;
 	float: right;
 }
 
-#single-episode-info {
+#single-episode .info {
   width: 50%;
 	padding: 3% 3% 0 6%;
   margin-right: 8%;
@@ -649,16 +677,16 @@ body {
   font-size: 44px;
 }
 
-#single-episode-number {
+#single-episode .number {
   margin-bottom: 30px;
 }
 
-#single-episode-number span {
+#single-episode .number span {
 	padding-right: 20px;
 	cursor: pointer;
 }
 
-#single-episode-hosts {
+#single-episode .hosts {
   margin-top: 30px;
   font-size: 24px;
 }
@@ -669,18 +697,18 @@ body {
 	margin-bottom: 100px;
 }
 
-#single-episode-further-reading div {
+#single-episode .further-reading div {
 	margin-top: 60px;
   margin-bottom: 12px;
   font-size: 24px;
   text-decoration: underline;
 }
 
-#single-episode-further-reading ul {
+#single-episode .further-reading ul {
 	margin-top: 0;
 }
 
-#single-episode-further-reading li {
+#single-episode .further-reading li {
 	font-size: 15px;
 	padding: 10px;
 }

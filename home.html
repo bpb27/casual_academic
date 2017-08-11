@@ -7,40 +7,43 @@
     <div class="tagline">In-depth literary discussion, without the pretense. Just good books.</div>
   </div>
   <div id="bookshelf">
-    <div ng-repeat="item in data" ng-click="choose(item)" ng-class="{selected: item.cover_image === book.cover_image}">
-      <img ng-src="/images/{{item.cover_image}}"  class="book-cover shadow-light">
+    <div ng-repeat=" item in episodes | limitTo:'6' " ng-click="choose(item)">
+      <img ng-src="/images/{{item.cover_image}}"  class="shadow-light" />
     </div>
   </div>
-  <div class="book-info">
-    <div ng-show="book.has_podcast" class="book-option red-hov" ng-click="listen(book)"><u>Listen:</u> {{book.podcast.title}}</div>
-    <div ng-show="book.has_review" class="book-option red-hov" ng-click="read(book)"><u>Read:</u> {{book.review.title}}</div>
+  <div id="bookshelf-selected">
+    <div class="red-hov" ng-click="listen(book)"><u>Listen:</u> {{episode.title}}</div>
   </div>
   <div id="featured-review">
-    <img ng-src="/images/{{featured.review.image}}" class="shadow"/>
-    <div id="featured-info" ng-click="read(featured)">
+    <div id="featured-buttons">
+      <button ng-click="changeReview(-1)">&larr;</button>
+      <button ng-click="changeReview(1)">&rarr;</button>
+    </div>
+    <img ng-src="/images/{{review.image}}" class="shadow"/>
+    <div id="featured-info" ng-click="read(review)">
       <div id="featured-header" class="reading-text">FEATURED ARTICLE:</div>
-      <div id="featured-title">{{featured.review.title}}</div>
-      <div id="featured-author">by {{featured.review.reviewer}}</div>
-      <div id="featured-teaser" class="reading-text">{{featured.review.teaser}}...</div>
+      <div id="featured-title">{{review.title}}</div>
+      <div id="featured-author">by {{review.reviewer}}</div>
+      <div id="featured-teaser" class="reading-text">{{review.teaser}}...</div>
     </div>
   </div>
   <div id="latest-asides">
     <img src="/images/the_casual_asides_homeimage_2.jpg" class="shadow">
     <div id="latest-aside-titles">
       <p>Not familiar with those books? Start with these short asides:</p>
-      <p ng-repeat="aside in asides" ng-click="play(aside.soundcloud)" class="pointer red-hov shadow-light">{{aside.title}}</p>
+      <p ng-repeat="aside in asides | limitTo:'4' " ng-click="listen(aside)" class="pointer red-hov shadow-light">{{aside.title}}</p>
     </div>
   </div>
   <div id="upcoming">
-    <div id="upcoming-banner">Upcoming:</div>
-    <div id="upcoming-banner">Aside #17 - Intro to Adolfo Bioy Casares and "The Invention of Morel""</div>
-    <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
-    <div id="brazil-month">Reading Schedule:</div>
-    <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
-    <a href="https://en.wikipedia.org/wiki/The_Enigma_of_Arrival" target="_blank"><img src="./images/the_enigma_of_arrival.jpg" class="shadow"/></a>
+    <div id="upcoming-banner">
+      <div>Upcoming:</div>
+      <div>Aside #17 - Intro to Adolfo Bioy Casares and "The Invention of Morel"</div>
+    </div>
+    <div id ="upcoming-cover">
+      <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
     </div>
   </div>
-  <!-- <div id="social-media"></div>
-    <div class="powr-instagram-feed" id="06695464_1488048303366"></div> -->
-    <!-- </div>
-  </div> -->
+    <!-- <div id="brazil-month">Reading Schedule:</div>
+    <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
+    <a href="https://en.wikipedia.org/wiki/The_Enigma_of_Arrival" target="_blank"><img src="./images/the_enigma_of_arrival.jpg" class="shadow"/></a> -->
+</div>

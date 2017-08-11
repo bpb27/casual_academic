@@ -1,4 +1,4 @@
-<img id="page-episodes-image" src="./images/podcast_page.jpg" />
+<img id="page-episodes-image" src="./images/bookpage.jpg" />
 <div id="page-episodes" class="page" ng-controller="episodesCtrl">
   <div id="listen-links">
     <a href="https://itunes.apple.com/us/podcast/the-casual-academic/id1094830669?mt=2" target="_blank">iTunes</a>
@@ -12,11 +12,11 @@
         <div class="episode-info">
           <div class="episode-topline white-highlight shadow-lighter" ng-click="play(item)">
             <span class="play-button">&#9658;</span>
-            <span class="episode-number">{{item.term}} {{item.podcast.episode}}</span>
-            <span ng-if="!item.play_on_page" class="more-info">(plus sources and further reading)</span>
+            <span class="episode-number">{{item.type}} {{item.episode}}</span>
+            <span ng-if="item.type === 'Episode'" class="more-info">(plus sources and further reading)</span>
           </div>
-          <div class="episode-title white-highlight shadow-lighter">{{item.podcast.title}}</div>
-          <div class="episode-hosts white-highlight shadow-lighter">with {{item.podcast.hosts}} ({{item.created_at_date | date : "mediumDate"}})</div>
+          <div class="episode-title white-highlight shadow-lighter">{{item.title}}</div>
+          <div class="episode-hosts white-highlight shadow-lighter">with {{item.hosts}} ({{item.created_at | date : "mediumDate"}})</div>
         </div>
     </div>
   </div>
