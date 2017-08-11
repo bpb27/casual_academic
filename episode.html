@@ -1,6 +1,6 @@
 <div id="single-episode" class="page" ng-controller="singleEpisodeCtrl">
   <div class="info">
-    <div class="facebook"><a facebook-feed-share class="facebookShare" data-url="{{location.href}}" data-shares='shares', data-description="{{episode.liner}}" data-picture="http://www.thecasualacademic.com/images/{{episode.cover_image}}" data-name="{{episode.title}}">{{ shares }}</a></div>
+    <div class="facebook"><a facebook-feed-share class="facebookShare" data-url="{{url}}" data-shares='shares', data-description="{{episode.liner}}" data-picture="http://www.thecasualacademic.com/images/{{episode.cover_image}}" data-name="{{episode.title}}">{{ shares }}</a></div>
     <div class="number">
       <span class="play-button red-hov" ng-click="play(episode.soundcloud)">&#9658;</span>
       <u>Episode {{episode.episode}}</u>
