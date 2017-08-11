@@ -7,8 +7,8 @@
     <div class="tagline">In-depth literary discussion, without the pretense. Just good books.</div>
   </div>
   <div id="bookshelf">
-    <div ng-repeat=" item in episodes | limitTo:'6' " ng-click="choose(item)">
-      <img ng-src="/images/{{item.cover_image}}"  class="shadow-light" />
+    <div ng-repeat="item in episodes | limitTo:'6'" ng-click="choose(item)">
+      <img ng-src="/images/{{item.cover_image}}"  ng-class="{selected: item.cover_image === episode.cover_image}" class="shadow-light" />
     </div>
   </div>
   <div id="bookshelf-selected">
@@ -36,14 +36,11 @@
   </div>
   <div id="upcoming">
     <div id="upcoming-banner">
-      <div>Upcoming:</div>
+      <div>Coming Up Next:</div>
       <div>Aside #17 - Intro to Adolfo Bioy Casares and "The Invention of Morel"</div>
     </div>
     <div id ="upcoming-cover">
       <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
     </div>
   </div>
-    <!-- <div id="brazil-month">Reading Schedule:</div>
-    <a href="https://en.wikipedia.org/wiki/The_Invention_of_Morel" target="_blank"><img src="./images/the_invention_of_morel.jpg" class="shadow"/></a>
-    <a href="https://en.wikipedia.org/wiki/The_Enigma_of_Arrival" target="_blank"><img src="./images/the_enigma_of_arrival.jpg" class="shadow"/></a> -->
 </div>

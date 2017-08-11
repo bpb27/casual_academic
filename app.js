@@ -1,4 +1,4 @@
-var app = angular.module('myApp', ['ngRoute', 'ngAnimate', 'djds4rce.angular-socialshare']);
+var app = angular.module('myApp', ['ngRoute', 'djds4rce.angular-socialshare']);
 
 app.config(function($routeProvider, $locationProvider) {
   $locationProvider.html5Mode(true).hashPrefix('!');
@@ -27,7 +27,7 @@ app.run(function($FB) {
   $FB.init('1785189578409909');
 });
 
-app.controller('homeCtrl', ['$scope','$location','$timeout','$http','$rootScope', function($scope, $location, $timeout, $http, $rootScope) {
+app.controller('homeCtrl', ['$scope', '$location', '$timeout', '$http', '$rootScope', function($scope, $location, $timeout, $http, $rootScope) {
   window.scrollTo(0, 0);
 
   $scope.asides = [];
@@ -86,10 +86,15 @@ app.controller('homeCtrl', ['$scope','$location','$timeout','$http','$rootScope'
 
 }]);
 
-app.controller('episodesCtrl', ['$scope','$rootScope','$sce','$http','$location', function($scope, $rootScope, $sce, $http, $location) {
+app.controller('episodesCtrl', ['$scope', '$rootScope', '$sce', '$http', '$location', function($scope, $rootScope, $sce, $http, $location) {
   window.scrollTo(0, 0);
 
   $scope.episodes = [];
+
+  $scope.play = function(item) {
+    $rootScope.$broadcast('podcast:play', item.soundcloud);
+    if (item.type === 'Episode') $location.path('/episodes/' + item.soundcloud);
+  }
 
   $http.get('./data/entries.json').then(function(entries){
     $http.get('./data/asides.json').then(function(asides){
@@ -102,14 +107,9 @@ app.controller('episodesCtrl', ['$scope','$rootScope','$sce','$http','$location'
     });
   });
 
-  $scope.play = function(item) {
-    $rootScope.$broadcast('podcast:play', item.soundcloud);
-    if (item.type === 'Episode') $location.path('/episodes/' + item.soundcloud);
-  }
-
 }]);
 
-app.controller('singleEpisodeCtrl', ['$scope','$http','$rootScope','$sce','$routeParams', function($scope, $http, $rootScope, $sce, $routeParams) {
+app.controller('singleEpisodeCtrl', ['$scope', '$http', '$rootScope', '$sce', '$routeParams', function($scope, $http, $rootScope, $sce, $routeParams) {
   window.scrollTo(0, 0);
 
   $scope.episode = {};
@@ -126,9 +126,10 @@ app.controller('singleEpisodeCtrl', ['$scope','$http','$rootScope','$sce','$rout
     $scope.episode = episode;
     $scope.furtherReading = $sce.trustAsHtml(episode.further_reading.join(''));
   });
+
 }]);
 
-app.controller('reviewsCtrl', ['$scope','$location','$http', function($scope, $location, $http) {
+app.controller('reviewsCtrl', ['$scope', '$location', '$http', function($scope, $location, $http) {
   window.scrollTo(0, 0);
 
   $scope.reviews = [];
@@ -143,48 +144,46 @@ app.controller('reviewsCtrl', ['$scope','$location','$http', function($scope, $l
 
 }]);
 
-app.controller('reviewCtrl', ['$scope','$sce','$routeParams','$http', function($scope, $sce, $routeParams, $http) {
-    window.scrollTo(0, 0);
+app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', '$http', function($scope, $sce, $routeParams, $http) {
+  window.scrollTo(0, 0);
 
-    $scope.review = {};
-    $scope.template = '/reviews/' + $routeParams.template + '.html';
+  $scope.review = {};
+  $scope.template = '/reviews/' + $routeParams.template + '.html';
 
-    $http.get('./data/reviews.json').then(function(reviews) {
-      $scope.review = reviews.data.filter(function(review){
-        return review.template.split('.')[0] === $routeParams.template;
-      })[0];
-    });
+  $http.get('./data/reviews.json').then(function(reviews) {
+    $scope.review = reviews.data.filter(function(review){
+      return review.template.split('.')[0] === $routeParams.template;
+    })[0];
+  });
 
+}]);
+
+app.controller('playerCtrl', ['$scope', '$sce', function($scope, $sce) {
+
+  $scope.minimized = false;
+
+  $scope.close = function () {
+    $scope.embed = '';
   }
-]);
 
-app.controller('playerCtrl', ['$scope','$sce', function($scope, $sce) {
+  $scope.minimize = function () {
+    $scope.minimized = !$scope.minimized;
+  }
 
+  $scope.getEmbed = function (id) {
+    return $sce.trustAsHtml('<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
+  }
+
+  $scope.$on('podcast:play', function (event, id) {
+    $scope.embed = $scope.getEmbed(id);
     $scope.minimized = false;
+  });
 
-    $scope.close = function() {
-      $scope.embed = '';
-    }
+}]);
 
-    $scope.minimize = function() {
-      $scope.minimized = !$scope.minimized;
-    }
-
-    $scope.getEmbed = function(id) {
-      return $sce.trustAsHtml('<iframe width="100%" height="80" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/' + id + '&amp;auto_play=true&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true;"></iframe>');
-    }
-
-    $scope.$on('podcast:play', function(event, id) {
-      $scope.embed = $scope.getEmbed(id);
-      $scope.minimized = false;
-    });
-
-  }
-]);
-
-app.directive("scrollpercent", function($window) {
+app.directive("scrollpercent", function ($window) {
   return function(scope, element, attrs) {
-    angular.element($window).bind("scroll", function() {
+    angular.element($window).bind("scroll", function () {
       if (document.getElementById('review-header') && document.getElementById('review-text')) {
         var p = Math.round(100 * (scrollY / (document.getElementById('review-header').scrollHeight + document.getElementById('review-text').scrollHeight - screen.availHeight + 30)));
         if (p < 0)
