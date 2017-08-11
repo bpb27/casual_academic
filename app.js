@@ -114,7 +114,7 @@ app.controller('singleEpisodeCtrl', ['$scope', '$http', '$rootScope', '$sce', '$
 
   $scope.episode = {};
   $scope.furtherReading = '';
-  $scope.url = 'thecasualacademic.com' + window.location.pathname;
+  $scope.url = 'http://www.thecasualacademic.com' + window.location.pathname;
 
   $scope.play = function (id) {
     $rootScope.$broadcast('podcast:play', id);
@@ -150,7 +150,7 @@ app.controller('reviewCtrl', ['$scope', '$sce', '$routeParams', '$http', functio
 
   $scope.review = {};
   $scope.template = '/reviews/' + $routeParams.template + '.html';
-  $scope.url = 'thecasualacademic.com' + window.location.pathname;
+  $scope.url = 'http://www.thecasualacademic.com' + window.location.pathname;
 
   $http.get('./data/reviews.json').then(function(reviews) {
     $scope.review = reviews.data.filter(function(review){
